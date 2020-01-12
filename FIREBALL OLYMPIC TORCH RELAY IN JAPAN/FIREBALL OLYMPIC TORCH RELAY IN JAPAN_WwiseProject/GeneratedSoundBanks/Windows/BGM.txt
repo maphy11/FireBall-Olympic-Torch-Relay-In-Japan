@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	412724365	BGM			\Default Work Unit\BGM	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	945086080	Beginning	Y:\FireBall-Olympic-Torch-Relay-In-Japan\FIREBALL OLYMPIC TORCH RELAY IN JAPAN\FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject\.cache\Windows\SFX\Beginning_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Beginning		4915268
+

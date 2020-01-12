@@ -7,6 +7,10 @@ namespace Player
 {
     public class PlayerMoverBase : MonoBehaviour
     {
+
+        //jason
+        public AK.Wwise.Event JumpEvent;
+
         //Inspecter data
 
         // [SerializeField] private float runForce = 1.0f;
@@ -148,8 +152,10 @@ namespace Player
                 {
                     this.rig.AddForce(transform.up * jampForce);
                     coreData.isGround = false;
-                    audio.clip = jampSound;
-                    audio.Play();
+                    //jason
+                    JumpEvent.Post(gameObject);
+                    //audio.clip = jampSound;
+                    //audio.Play();
                     coreData.jampTrigger = true;
                 }
             }

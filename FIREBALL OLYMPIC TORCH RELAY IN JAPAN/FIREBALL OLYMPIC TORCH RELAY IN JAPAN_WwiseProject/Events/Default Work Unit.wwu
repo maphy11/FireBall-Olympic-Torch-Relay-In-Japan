@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Jump" ID="{B76E2D6B-CEF7-41B5-BC9B-15E123308879}">
+					<ChildrenList>
+						<Action Name="" ID="{70D77DFB-AD2B-4888-BCF3-B3CD4FF3F555}" ShortID="668306155">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SE_Jump" ID="{F202B394-06BD-44B8-BFFE-068F6B09B017}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BGM" ID="{FB69C6AA-88D0-4406-BE54-8530D0FF4ECC}">
+					<ChildrenList>
+						<Action Name="" ID="{B0B1545C-1D5C-43C2-A55A-385162580231}" ShortID="275435128">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beginning" ID="{268CA487-52F5-481B-93D4-C6DBEE492A33}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
