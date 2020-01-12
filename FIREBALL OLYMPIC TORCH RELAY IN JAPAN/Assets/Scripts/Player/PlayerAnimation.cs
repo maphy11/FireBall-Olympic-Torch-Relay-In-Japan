@@ -1,0 +1,32 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+namespace Player
+{
+    [RequireComponent(typeof(Animator))]
+    public class PlayerAnimation : MonoBehaviour
+    {
+        private PlayerCore coreData;
+        private Animator animator;
+        // Start is called before the first frame update
+        void Start()
+        {
+            coreData = GetComponent<PlayerCore>();
+            animator = GetComponent<Animator>();
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            animator.SetFloat("Speed", coreData.speed);
+            animator.SetBool("IsGround", coreData.isGround);
+            if (coreData.isDead)
+            {
+                animator.SetBool("IsDead", coreData.isDead);
+            }
+        }
+    }
+
+}

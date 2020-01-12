@@ -1,0 +1,73 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace InputSystem
+{
+    public interface IinputObserver
+    {
+        Vector2 OnMoveVirtical();
+        Vector2 OnMoveHorizontal();
+    }
+    public class InputSearcher : MonoBehaviour, IinputObserver
+    {
+
+        private static InputSearcher mInstance;
+        [HideInInspector]
+        protected bool isUp { private get; set; }
+        [HideInInspector]
+        protected bool isDown { private get; set; }
+        [HideInInspector]
+        protected bool isLeft { private get; set; }
+        [HideInInspector]
+        protected bool isRight { private get; set; }
+
+        protected bool doFire { private get; set; }
+
+        public static InputSearcher Instance
+        {
+            get
+            {
+                if (mInstance == null)
+                {
+                    GameObject obj = new GameObject("InputSearcher");
+                    mInstance = obj.AddComponent<InputSearcher>();
+                }
+                return mInstance;
+            }
+        }
+
+        public Vector2 OnMoveVirtical()
+        {
+            if (isUp)
+            {
+                return Vector2.up;
+            }
+            else if (isDown)
+            {
+                return Vector2.down;
+            }
+            else
+            {
+                return Vector2.zero;
+            }
+        }
+        public Vector2 OnMoveHorizontal()
+        {
+            if (isLeft)
+            {
+                return Vector2.left;
+            }
+
+            else if (isRight)
+            {
+                return Vector2.right;
+            }
+            else
+            {
+                return Vector2.zero;
+            }
+        }
+
+    }
+}

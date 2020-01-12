@@ -1,0 +1,1540 @@
+fileFormatVersion: 2
+guid: 26c823130f03140aaabc436eef1b8f8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1448671636771815839
+    second: spritemap fox test 01_0
+  - first:
+      213: 9215595691271918450
+    second: spritemap fox test 01_1
+  - first:
+      213: 2151293051942393346
+    second: spritemap fox test 01_2
+  - first:
+      213: 328696931828910962
+    second: spritemap fox test 01_3
+  - first:
+      213: 3596401784716009481
+    second: spritemap fox test 01_4
+  - first:
+      213: -3761919651059491533
+    second: spritemap fox test 01_5
+  - first:
+      213: -3590795644270219078
+    second: spritemap fox test 01_6
+  - first:
+      213: 1539351404494712874
+    second: spritemap fox test 01_6
+  - first:
+      213: 3783391621422203800
+    second: spritemap fox test 01_7
+  - first:
+      213: 1900179203509157707
+    second: spritemap fox test 01_8
+  - first:
+      213: 5986113086265764046
+    second: spritemap fox test 01_9
+  - first:
+      213: -1860307678858305398
+    second: spritemap fox test 01_10
+  - first:
+      213: 5775228009494200799
+    second: spritemap fox test 01_11
+  - first:
+      213: -9038758633159996426
+    second: spritemap fox test 01_12
+  - first:
+      213: -168580656762191287
+    second: spritemap fox test 01_13
+  - first:
+      213: -3116548850769413728
+    second: spritemap fox test 01_14
+  - first:
+      213: -6291846211734126475
+    second: spritemap fox test 01_15
+  - first:
+      213: -5297267181575736300
+    second: spritemap fox test 01_16
+  - first:
+      213: 8752082019324721247
+    second: spritemap fox test 01_17
+  - first:
+      213: 3360858534217488733
+    second: spritemap fox test 01_18
+  - first:
+      213: -5145229697588764847
+    second: spritemap fox test 01_19
+  - first:
+      213: -3461510270148184018
+    second: spritemap fox test 01_20
+  - first:
+      213: -7152875666247975262
+    second: spritemap fox test 01_21
+  - first:
+      213: -6404759630594464300
+    second: spritemap fox test 01_22
+  - first:
+      213: -8330543939107021714
+    second: spritemap fox test 01_11
+  - first:
+      213: 7275145144546252267
+    second: spritemap fox test 01_12
+  - first:
+      213: -8282115131362380602
+    second: spritemap fox test 01_13
+  - first:
+      213: -5683066828143393489
+    second: spritemap fox test 01_14
+  - first:
+      213: -3903662873834421618
+    second: spritemap fox test 01_15
+  - first:
+      213: 7990447922947032182
+    second: spritemap fox test 01_16
+  - first:
+      213: -3944162371585339896
+    second: spritemap fox test 01_17
+  - first:
+      213: 3103826846272504750
+    second: spritemap fox test 01_18
+  - first:
+      213: 6419242710866457647
+    second: spritemap fox test 01_31
+  - first:
+      213: 1063731406314773191
+    second: spritemap fox test 01_32
+  - first:
+      213: 8335620519573674334
+    second: spritemap fox test 01_32
+  - first:
+      213: 3349243341148478643
+    second: spritemap fox test 01_34
+  - first:
+      213: -6229722983969830876
+    second: spritemap fox test 01_34
+  - first:
+      213: -348533008594474038
+    second: spritemap fox test 01_36
+  - first:
+      213: 1618655723929957359
+    second: spritemap fox test 01_37
+  - first:
+      213: 180590877679240967
+    second: spritemap fox test 01_37
+  - first:
+      213: 6677931088806421207
+    second: spritemap fox test 01_19
+  - first:
+      213: 7404007333815604857
+    second: spritemap fox test 01_20
+  - first:
+      213: 187948533155877658
+    second: spritemap fox test 01_21
+  - first:
+      213: 3098761668043986054
+    second: spritemap fox test 01_22
+  - first:
+      213: 1704423891045391154
+    second: spritemap fox test 01_23
+  - first:
+      213: -4276654181928599107
+    second: spritemap fox test 01_24
+  - first:
+      213: 9208215941512644875
+    second: spritemap fox test 01_25
+  - first:
+      213: -6857725470280033853
+    second: spritemap fox test 01_32
+  - first:
+      213: -7810228995584301763
+    second: spritemap fox test 01_26
+  - first:
+      213: 7650309446413318318
+    second: spritemap fox test 01_48
+  - first:
+      213: 2918989532518655498
+    second: spritemap fox test 01_27
+  - first:
+      213: -3470759486902717710
+    second: spritemap fox test 01_28
+  - first:
+      213: 71672632826203382
+    second: spritemap fox test 01_52
+  - first:
+      213: -7952994879135434065
+    second: spritemap fox test 01_53
+  - first:
+      213: 1185505481056622763
+    second: spritemap fox test 01_54
+  - first:
+      213: -2702246982606348597
+    second: spritemap fox test 01_55
+  - first:
+      213: 7697016917251030711
+    second: spritemap fox test 01_56
+  - first:
+      213: -2475089223421819467
+    second: spritemap fox test 01_57
+  - first:
+      213: 7176813540387798599
+    second: spritemap fox test 01_58
+  - first:
+      213: 4283893909234553573
+    second: spritemap fox test 01_59
+  - first:
+      213: 5514653498837560940
+    second: spritemap fox test 01_29
+  - first:
+      213: 6154214976364010042
+    second: spritemap fox test 01_30
+  - first:
+      213: -7370251466073877457
+    second: spritemap fox test 01_62
+  - first:
+      213: 651875771423996770
+    second: spritemap fox test 01_31
+  - first:
+      213: -1575979415951920415
+    second: spritemap fox test 01_32
+  - first:
+      213: 6338477068238577112
+    second: spritemap fox test 01_65
+  - first:
+      213: 6689868045696008382
+    second: spritemap fox test 01_66
+  - first:
+      213: -4274153815537537450
+    second: spritemap fox test 01_67
+  - first:
+      213: -3749314108049017752
+    second: spritemap fox test 01_68
+  - first:
+      213: -979161014946071309
+    second: spritemap fox test 01_69
+  - first:
+      213: 1360046667237865527
+    second: spritemap fox test 01_34
+  - first:
+      213: 5384930386139665923
+    second: spritemap fox test 01_71
+  - first:
+      213: -6128115935091442614
+    second: spritemap fox test 01_72
+  - first:
+      213: -6501052024262686912
+    second: spritemap fox test 01_34
+  - first:
+      213: 7314434890131890736
+    second: spritemap fox test 01_74
+  - first:
+      213: 219954211030742929
+    second: spritemap fox test 01_36
+  - first:
+      213: 6665919550079979254
+    second: spritemap fox test 01_37
+  - first:
+      213: -1323576699321137564
+    second: spritemap fox test 01_77
+  - first:
+      213: -8873903828815457171
+    second: spritemap fox test 01_78
+  - first:
+      213: -4281339671300238369
+    second: spritemap fox test 01_79
+  - first:
+      213: 5924658272930188504
+    second: spritemap fox test 01_80
+  - first:
+      213: 1559406422999616959
+    second: spritemap fox test 01_81
+  - first:
+      213: -8702740037059617716
+    second: spritemap fox test 01_37
+  - first:
+      213: -2724908083621365834
+    second: spritemap fox test 01_83
+  - first:
+      213: 632074148856624578
+    second: spritemap fox test 01_84
+  - first:
+      213: 5165484511019437556
+    second: spritemap fox test 01_85
+  - first:
+      213: 3635972506056883154
+    second: spritemap fox test 01_86
+  - first:
+      213: -3812625644404406427
+    second: spritemap fox test 01_87
+  - first:
+      213: -1667165109460119502
+    second: spritemap fox test 01_88
+  - first:
+      213: 4066282077602233429
+    second: spritemap fox test 01_89
+  - first:
+      213: -6581374112429045451
+    second: spritemap fox test 01_90
+  - first:
+      213: 1128870780691034114
+    second: spritemap fox test 01_91
+  - first:
+      213: -3282481810859833800
+    second: spritemap fox test 01_92
+  - first:
+      213: -2957341828078998020
+    second: spritemap fox test 01_39
+  - first:
+      213: -1261822285468903525
+    second: spritemap fox test 01_40
+  - first:
+      213: -4712902252542071261
+    second: spritemap fox test 01_95
+  - first:
+      213: 8298054817028342898
+    second: spritemap fox test 01_41
+  - first:
+      213: 1225140537466430809
+    second: spritemap fox test 01_97
+  - first:
+      213: 109971424385943082
+    second: spritemap fox test 01_42
+  - first:
+      213: -9037701940648055166
+    second: spritemap fox test 01_43
+  - first:
+      213: 3992270006987659291
+    second: spritemap fox test 01_100
+  - first:
+      213: 139503390031261279
+    second: spritemap fox test 01_101
+  - first:
+      213: 3439439388788928892
+    second: spritemap fox test 01_44
+  - first:
+      213: 8653717491437486261
+    second: spritemap fox test 01_45
+  - first:
+      213: 1794046432504688455
+    second: spritemap fox test 01_104
+  - first:
+      213: -3146697539133888059
+    second: spritemap fox test 01_46
+  - first:
+      213: -3493255095911220163
+    second: spritemap fox test 01_48
+  - first:
+      213: -8428616112391369562
+    second: spritemap fox test 01_107
+  - first:
+      213: 1310786885329902587
+    second: spritemap fox test 01_108
+  - first:
+      213: -6491722148519919858
+    second: spritemap fox test 01_46
+  - first:
+      213: -8866660843149749870
+    second: spritemap fox test 01_110
+  - first:
+      213: 7657265959687565767
+    second: spritemap fox test 01_111
+  - first:
+      213: 6668617417353500444
+    second: spritemap fox test 01_112
+  - first:
+      213: -5181967840157919314
+    second: spritemap fox test 01_49
+  - first:
+      213: -3571890988252236940
+    second: spritemap fox test 01_114
+  - first:
+      213: -1213106811232514426
+    second: spritemap fox test 01_115
+  - first:
+      213: -657657920802081275
+    second: spritemap fox test 01_116
+  - first:
+      213: 1832594649526859639
+    second: spritemap fox test 01_117
+  - first:
+      213: 1872599423519500801
+    second: spritemap fox test 01_118
+  - first:
+      213: 7547643334437144768
+    second: spritemap fox test 01_119
+  - first:
+      213: 5082315078475922176
+    second: spritemap fox test 01_120
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritemap fox test 01_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 11328
+        width: 736
+        height: 569
+      alignment: 9
+      pivot: {x: 0.5207855, y: 0.21321501}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dfb14de10ea4122add01367f3ce330
+      internalID: -1448671636771815839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_1
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 11328
+        width: 730
+        height: 569
+      alignment: 9
+      pivot: {x: 0.5209561, y: 0.2042526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495e0f8c5631b4806b96b1876faa8e84
+      internalID: 9215595691271918450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_2
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 11328
+        width: 688
+        height: 569
+      alignment: 9
+      pivot: {x: 0.5074119, y: 0.2042526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecdca4be7ebb43638e459e58b84fdc0
+      internalID: 2151293051942393346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_3
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 11352
+        width: 902
+        height: 569
+      alignment: 9
+      pivot: {x: 0.44911915, y: 0.15048158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef54b9a6a38334ae1b25807d178572a6
+      internalID: 328696931828910962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_4
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 11328
+        width: 717
+        height: 569
+      alignment: 9
+      pivot: {x: 0.51989216, y: 0.2368104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e8789425c884074bca6883d4058b29
+      internalID: 3596401784716009481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 10393
+        width: 902
+        height: 463
+      alignment: 9
+      pivot: {x: 0.5869666, y: 0.27048883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82bb37d324ca4ca8a55263c98cb4996
+      internalID: -3761919651059491533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_6
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 10381
+        width: 902
+        height: 411
+      alignment: 9
+      pivot: {x: 0.58696645, y: 0.30914262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0da3de1690a54407a46c4dfc8429ed5
+      internalID: 1539351404494712874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_7
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 10403
+        width: 870
+        height: 439
+      alignment: 9
+      pivot: {x: 0.5901653, y: 0.25633764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dcb167da04a479dbe7a6fc304bdaa7
+      internalID: 3783391621422203800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_8
+      rect:
+        serializedVersion: 2
+        x: 2931
+        y: 10381
+        width: 856
+        height: 475
+      alignment: 9
+      pivot: {x: 0.59164, y: 0.28981704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4d71c9cf92949c4be1ff35a4b8bf43
+      internalID: 1900179203509157707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_9
+      rect:
+        serializedVersion: 2
+        x: 3819
+        y: 10381
+        width: 902
+        height: 482
+      alignment: 9
+      pivot: {x: 0.63440293, y: 0.2618768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b91e7533765647909fb173a8d4dde18
+      internalID: 5986113086265764046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 9434
+        width: 844
+        height: 569
+      alignment: 9
+      pivot: {x: 0.58449364, y: 0.22427642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3021207922aa94731a54953306435bdd
+      internalID: -1860307678858305398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_11
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 8498
+        width: 773
+        height: 508
+      alignment: 9
+      pivot: {x: 0.5562628, y: 0.23086284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b87ad73222f54854beb78a4deeccd2b
+      internalID: -8330543939107021714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_12
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 8498
+        width: 732
+        height: 581
+      alignment: 9
+      pivot: {x: 0.53683925, y: 0.20027263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad5a008c63c54723ae10121e2030065
+      internalID: 7275145144546252267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_13
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 8498
+        width: 683
+        height: 597
+      alignment: 9
+      pivot: {x: 0.4975611, y: 0.21379685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bea6af2d03434e568dc00d058c0f904
+      internalID: -8282115131362380602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_14
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 8498
+        width: 663
+        height: 587
+      alignment: 9
+      pivot: {x: 0.44775426, y: 0.21715456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fd542c1cad244369b1492e2bc9c428
+      internalID: -5683066828143393489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_15
+      rect:
+        serializedVersion: 2
+        x: 4139
+        y: 8498
+        width: 582
+        height: 576
+      alignment: 9
+      pivot: {x: 0.43070602, y: 0.20178223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05767c9654b404948ba6d24b58bef2dd
+      internalID: -3903662873834421618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_16
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 7557
+        width: 564
+        height: 557
+      alignment: 9
+      pivot: {x: 0.39678112, y: 0.22649938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11440ef8496d5484182d573090346a9a
+      internalID: 7990447922947032182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_17
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 7557
+        width: 600
+        height: 575
+      alignment: 9
+      pivot: {x: 0.4476345, y: 0.2217765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051fd3a2cea9f46569d151e1ced6cd32
+      internalID: -3944162371585339896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_18
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 7557
+        width: 587
+        height: 536
+      alignment: 9
+      pivot: {x: 0.42757964, y: 0.23083223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7412a1cc5e56144f0897dee808edaad5
+      internalID: 3103826846272504750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_19
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 6598
+        width: 572
+        height: 497
+      alignment: 9
+      pivot: {x: 0.47526786, y: 0.20112176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f434dcdafa8a1459991e27b139347bc1
+      internalID: 6677931088806421207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_20
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 6572
+        width: 521
+        height: 383
+      alignment: 9
+      pivot: {x: 0.43211672, y: 0.35225222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9acd79c9f1d640628d412e1e629a498
+      internalID: 7404007333815604857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_21
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 6604
+        width: 535
+        height: 413
+      alignment: 9
+      pivot: {x: 0.43389264, y: 0.22596781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73a12df8be584d40876f63c3896c56c
+      internalID: 187948533155877658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_22
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 6604
+        width: 539
+        height: 443
+      alignment: 9
+      pivot: {x: 0.47375375, y: 0.2604931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c6d2ae3f7f8461aabd7bf6b9ea0c42
+      internalID: 3098761668043986054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_23
+      rect:
+        serializedVersion: 2
+        x: 4132
+        y: 6604
+        width: 589
+        height: 461
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25450045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685dff695a1984bdda1255948bed067f
+      internalID: 1704423891045391154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_24
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 5668
+        width: 642
+        height: 468
+      alignment: 9
+      pivot: {x: 0.5550892, y: 0.22794388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e359a1e2d800f4bbb984103b06e7546b
+      internalID: -4276654181928599107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_25
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 5663
+        width: 708
+        height: 466
+      alignment: 9
+      pivot: {x: 0.5899167, y: 0.21159762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c97440b8aae424bb6e8472694e212a
+      internalID: 9208215941512644875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_33
+      rect:
+        serializedVersion: 2
+        x: 3794
+        y: 4926
+        width: 927
+        height: 452
+      alignment: 9
+      pivot: {x: 0.64373064, y: 0.23625359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bca8d06d0c647bfb8648fd046c3a82
+      internalID: -6857725470280033853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_26
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 5659
+        width: 813
+        height: 477
+      alignment: 9
+      pivot: {x: 0.6479075, y: 0.26273525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440c4fed65fdb43648eaaa35c5684101
+      internalID: -7810228995584301763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_27
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 5675
+        width: 871
+        height: 455
+      alignment: 9
+      pivot: {x: 0.638058, y: 0.22017084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed30d880b7084621991849edd1876de
+      internalID: 2918989532518655498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_28
+      rect:
+        serializedVersion: 2
+        x: 3881
+        y: 5663
+        width: 840
+        height: 499
+      alignment: 9
+      pivot: {x: 0.61789083, y: 0.30154645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033f056fc7f474e58ab8e9892ca76e21
+      internalID: -3470759486902717710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_29
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4739
+        width: 922
+        height: 502
+      alignment: 9
+      pivot: {x: 0.6521159, y: 0.22061558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c13026121a740589c67645f3e4e81d
+      internalID: 5514653498837560940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_30
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 4736
+        width: 947
+        height: 465
+      alignment: 9
+      pivot: {x: 0.6555052, y: 0.28887033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb33a077f9b342a4b26cbe6cb6fdc2b
+      internalID: 6154214976364010042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_31
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 4816
+        width: 947
+        height: 412
+      alignment: 9
+      pivot: {x: 0.6406954, y: 0.26170927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943d3f6e13a5a4300b07cabcbc32785d
+      internalID: 651875771423996770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_32
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 4847
+        width: 937
+        height: 423
+      alignment: 9
+      pivot: {x: 0.62722826, y: 0.25132748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ccef3bafb6a4cf6a9d9832e36deefa
+      internalID: -1575979415951920415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_35
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 4236
+        width: 923
+        height: 419
+      alignment: 9
+      pivot: {x: 0.63675576, y: 0.282427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8d431b5f6174a8cabbeaea09e76749
+      internalID: 1360046667237865527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_34
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 4125
+        width: 895
+        height: 410
+      alignment: 9
+      pivot: {x: 0.63319916, y: 0.277651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e511177fa43314b21ad13ca84671eff5
+      internalID: -6501052024262686912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_36
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 4068
+        width: 806
+        height: 395
+      alignment: 9
+      pivot: {x: 0.6131059, y: 0.2692074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37ee11f3211c4675a1dfabef23061e4
+      internalID: 219954211030742929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_38
+      rect:
+        serializedVersion: 2
+        x: 4002
+        y: 3769
+        width: 719
+        height: 427
+      alignment: 9
+      pivot: {x: 0.54876566, y: 0.22081175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a27d215b89e468ab6748a134ea4aaa
+      internalID: 6665919550079979254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_37
+      rect:
+        serializedVersion: 2
+        x: 2994
+        y: 3882
+        width: 788
+        height: 410
+      alignment: 9
+      pivot: {x: 0.5978905, y: 0.29475573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ce5937527854676b02b2856b8a1c24
+      internalID: -8702740037059617716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_39
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2391
+        width: 814
+        height: 414
+      alignment: 9
+      pivot: {x: 0.61448705, y: 0.13983655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8987bf6daaa54c4ca4392b1148b92d7
+      internalID: -2957341828078998020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_40
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2355
+        width: 849
+        height: 430
+      alignment: 9
+      pivot: {x: 0.6170851, y: 0.28327352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0a766c683cb4a07a2ce9961006bac2
+      internalID: -1261822285468903525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_41
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 2378
+        width: 790
+        height: 401
+      alignment: 9
+      pivot: {x: 0.5997849, y: 0.161436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461ac49f8c7d4486681855fe8c855858
+      internalID: 8298054817028342898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_42
+      rect:
+        serializedVersion: 2
+        x: 2911
+        y: 2371
+        width: 865
+        height: 408
+      alignment: 9
+      pivot: {x: 0.63228303, y: 0.2696282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a9b9160355a4f7cb7be7c8f7a80f1c
+      internalID: 109971424385943082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_43
+      rect:
+        serializedVersion: 2
+        x: 3848
+        y: 2371
+        width: 873
+        height: 414
+      alignment: 9
+      pivot: {x: 0.6310708, y: 0.18412803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb5b733d2596488badfa068965d0715
+      internalID: -9037701940648055166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_44
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1453
+        width: 876
+        height: 397
+      alignment: 9
+      pivot: {x: 0.63317496, y: 0.20614293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a0c0ce1a1b4440790b86c6852f40a3
+      internalID: 3439439388788928892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_45
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1401
+        width: 842
+        height: 402
+      alignment: 9
+      pivot: {x: 0.64694947, y: 0.20979787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d71483ad388749c2b0bb5658f9e0f12
+      internalID: 8653717491437486261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_47
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 1412
+        width: 941
+        height: 414
+      alignment: 9
+      pivot: {x: 0.6543111, y: 0.18057472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960ccbc4d7d6a4aebb74f4aa930d47b6
+      internalID: -3146697539133888059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_48
+      rect:
+        serializedVersion: 2
+        x: 3814
+        y: 1418
+        width: 907
+        height: 407
+      alignment: 9
+      pivot: {x: 0.6548255, y: 0.28383687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07b57407d4754d4fb5d1a2af2eaef55
+      internalID: -3493255095911220163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_46
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1422
+        width: 935
+        height: 393
+      alignment: 9
+      pivot: {x: 0.667082, y: 0.277395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75aabb0921c444974aa9db7fb3369d00
+      internalID: -6491722148519919858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox test 01_49
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 477
+        width: 816
+        height: 413
+      alignment: 9
+      pivot: {x: 0.6051463, y: 0.1785794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3d0018d144640d59803bc663f6657e
+      internalID: -5181967840157919314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
