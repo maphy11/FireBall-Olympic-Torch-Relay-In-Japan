@@ -16,6 +16,16 @@ public class RockCore : MonoBehaviour
 
     }
 
+    void OnCollisionStay2D(Collision2D col)
+    {
+        if (col.transform.tag == "Player")
+        {
+            Rigidbody2D rig = transform.GetComponent<Rigidbody2D>();
+            
+
+        }
+    }
+
     void OnCollisionExit2D(Collision2D col)
     {
         if (col.transform.tag == "Player")
