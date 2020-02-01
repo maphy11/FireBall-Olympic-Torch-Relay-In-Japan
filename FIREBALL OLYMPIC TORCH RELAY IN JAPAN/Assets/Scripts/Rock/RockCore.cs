@@ -20,8 +20,10 @@ public class RockCore : MonoBehaviour
     {
         if (col.transform.tag == "Player")
         {
-            Debug.Log("Ok");
-            transform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            Rigidbody2D rig = transform.GetComponent<Rigidbody2D>();
+            rig.velocity = Vector2.zero;
+            rig.angularVelocity = 0;
+
         }
     }
 }
