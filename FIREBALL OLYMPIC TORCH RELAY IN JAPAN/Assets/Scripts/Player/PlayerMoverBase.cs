@@ -8,16 +8,14 @@ namespace Player
     public class PlayerMoverBase : MonoBehaviour
     {
         //Inspecter data
-
-        // [SerializeField] private float runForce = 1.0f;
         [SerializeField] private float runMaxSpeed = 1.0f;
         [SerializeField] private float reachMaxSpeedTime = 1.0f;
         [SerializeField] private float reachRunStopTime = 1.0f;
         // [SerializeField] private float jampMaxHeight = 5.0f;
         // [SerializeField] private float jampInputReceptionTime = 0.5f;
         [SerializeField] private float jampForce = 1.0f;
-        [SerializeField] private AudioClip jampSound;
-        [SerializeField] private AudioClip walkSound;
+        // [SerializeField] private AudioClip jampSound;
+        // [SerializeField] private AudioClip walkSound;
 
         //Component instance
         protected Rigidbody2D rig;
@@ -107,7 +105,14 @@ namespace Player
         {
             ChangeSpeed(input);
 
-            //if player character move opposite direction,character reverse
+            // if player character move opposite direction,character reverse
+
+            // Because if player character move opposite direction, 
+            // charactor scale vector face the opposite runVel.
+            // so, the value of Dot(scale,runVel) = -1
+            // Conclusion, When you check the value of Dot(scale, runVel),
+            // you can judge whether player charactor have to reverse.
+
             scale.x = (Vector3.Dot(scale, runVel) >= 0) ? scale.x : scale.x * (-1);
             transform.localScale = scale;
             transform.position = transform.position + runVel * Time.deltaTime;
@@ -148,7 +153,7 @@ namespace Player
                 {
                     this.rig.AddForce(transform.up * jampForce);
                     coreData.isGround = false;
-                    audio.clip = jampSound;
+                    // audio.clip = jampSound;
                     audio.Play();
                     coreData.jampTrigger = true;
                 }

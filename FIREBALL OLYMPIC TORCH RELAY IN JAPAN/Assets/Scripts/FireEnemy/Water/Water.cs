@@ -30,7 +30,7 @@ namespace FireEnemy
         // }
         public void ExtinguishFire(FireCore fire)
         {
-
+            
         }
 
 

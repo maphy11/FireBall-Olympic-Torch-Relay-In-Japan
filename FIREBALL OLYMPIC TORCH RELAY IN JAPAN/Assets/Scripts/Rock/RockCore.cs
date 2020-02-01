@@ -16,23 +16,13 @@ public class RockCore : MonoBehaviour
 
     }
 
-    void OnCollisionStay2D(Collision2D col)
-    {
-        if (col.transform.tag == "Player")
-        {
-            Rigidbody2D rig = transform.GetComponent<Rigidbody2D>();
-            
-
-        }
-    }
-
     void OnCollisionExit2D(Collision2D col)
     {
         if (col.transform.tag == "Player")
         {
             Rigidbody2D rig = transform.GetComponent<Rigidbody2D>();
             rig.velocity = Vector2.zero;
-            rig.angularVelocity = 0;
+            // rig.angularVelocity = 0;
 
         }
     }
