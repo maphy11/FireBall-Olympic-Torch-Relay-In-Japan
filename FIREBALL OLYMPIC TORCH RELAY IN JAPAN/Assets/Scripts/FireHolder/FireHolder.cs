@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Fire;
-namespace FlameAttachers
-{
 
-    public class PlayerFlameAttacher : FlameAttacher
+namespace FireHolders
+{
+    public class FireHolder : MonoBehaviour, IPlayerFlame
     {
+        private FireCore fire;
         // Start is called before the first frame update
         void Start()
         {
-            GameObject fire = (GameObject)Resources.Load("Prefabs/Fire");
-            PassFire(fire);
+            fire = GetComponent<FireCore>();
         }
 
         // Update is called once per frame
@@ -19,5 +19,11 @@ namespace FlameAttachers
         {
 
         }
+
+        public bool HasFire()
+        {
+            return (fire != null);
+        }
     }
+
 }

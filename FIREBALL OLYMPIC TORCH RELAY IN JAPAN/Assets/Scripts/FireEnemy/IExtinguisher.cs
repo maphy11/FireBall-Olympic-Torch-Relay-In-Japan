@@ -5,8 +5,8 @@ using Fire;
 
 namespace FireEnemy
 {
-    interface IExtinguisher
+    interface IExtinguishable
     {
-        void ExtinguishFire(FireCore fire);
+        void ExtinguishFire();
     }
 }

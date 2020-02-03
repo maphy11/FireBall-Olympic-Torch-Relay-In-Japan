@@ -5,7 +5,7 @@ using Fire;
 
 namespace FireEnemy
 {
-    public class Wind : MonoBehaviour, IExtinguisher
+    public class Wind : MonoBehaviour
     {
         [SerializeField]
         private float windPower = 1.0f;
@@ -21,21 +21,6 @@ namespace FireEnemy
         void Update()
         {
 
-        }
-
-        public void ExtinguishFire(FireCore fire)
-        {
-
-        }
-        void OnTriggerStay2D(Collider2D col)
-        {
-
-            Rigidbody2D rig = col.GetComponent<Rigidbody2D>();
-            if (rig != null)
-            {
-                Vector2 windDir = new Vector2(-transform.localScale.x * windPower, 0);
-                rig.AddForce(windDir);
-            }
         }
     }
 }

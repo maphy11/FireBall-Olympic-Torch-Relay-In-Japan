@@ -1,25 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Fire;
+using FireHolders;
 
 namespace Player
 {
     public class PlayerFire : MonoBehaviour
     {
-        FireCore fire;
+        IPlayerFlame flameAttacher;
         PlayerCore coreData;
         // Start is called before the first frame update
         void Start()
         {
             coreData = GetComponent<PlayerCore>();
-            fire = GetComponent<FireCore>();
+            flameAttacher = GetComponent(typeof(IPlayerFlame)) as IPlayerFlame;
         }
 
         // Update is called once per frame
         void Update()
         {
-            if (fire == null)
+            if (!flameAttacher.HasFire())
             {
                 coreData.isDead = true;
             }

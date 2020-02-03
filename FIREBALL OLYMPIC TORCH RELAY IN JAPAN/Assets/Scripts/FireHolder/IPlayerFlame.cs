@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FlameAttachers
+namespace FireHolders
 {
     interface IPlayerFlame
     {

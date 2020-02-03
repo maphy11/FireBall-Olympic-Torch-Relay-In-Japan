@@ -5,7 +5,8 @@ using Fire;
 
 namespace FireEnemy
 {
-    public class Water : MonoBehaviour, IExtinguisher
+    // ToDo:Implement the behavior of the water if collide stone
+    public class Water : MonoBehaviour
     {
         // Start is called before the first frame update
         void Start()
@@ -19,19 +20,16 @@ namespace FireEnemy
 
         }
 
-        // public void PutOutFire(GameObject target)
-        // {
-        //     Destroy(target.gameObject);
-        // }
-
-        // public float ReduceFire(float fireGage)
-        // {
-        //     return 0;
-        // }
-        public void ExtinguishFire(FireCore fire)
+        void OnParticleCollision(GameObject col)
         {
-            
+            IExtinguishable fire = col.GetComponent(typeof(IExtinguishable)) as IExtinguishable;
+            if (fire != null)
+            {
+                // Debug.Log("Touch Water");
+                fire.ExtinguishFire();
+            }
         }
+
 
 
     }

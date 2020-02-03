@@ -25,7 +25,7 @@ namespace Ice
             }
         }
 
-        public void TouchFire()
+        public void TouchFire(FireCore fire)
         {
             isMelting = true;
         }
