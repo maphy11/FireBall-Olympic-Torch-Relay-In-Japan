@@ -37,7 +37,11 @@ namespace Player
         }
         void FixedUpdate()
         {
-            UpdateMethod();
+            if (!coreData.isGameOver)
+            {
+                UpdateMethod();
+            }
+
         }
         void OnCollisionEnter2D(Collision2D col)
         {
