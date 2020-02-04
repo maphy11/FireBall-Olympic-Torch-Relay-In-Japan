@@ -39,7 +39,15 @@ namespace Player
         }
         void FixedUpdate()
         {
+<<<<<<< Updated upstream
             UpdateMethod();
+=======
+            if (!coreData.isGameOver && !coreData.isPause)
+            {
+                UpdateMethod();
+            }
+
+>>>>>>> Stashed changes
         }
         void OnCollisionEnter2D(Collision2D col)
         {

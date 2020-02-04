@@ -31,6 +31,7 @@ namespace Player
             isGround = true;
             jampTrigger = false;
             isDead = false;
+            isPause = false;
         }
     }
 }
