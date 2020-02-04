@@ -25,6 +25,7 @@ namespace Player
         // public bool isDead { get; set; }
         public bool isDead { get; set; }
         public bool isGameOver { get { return isDead; } }
+        public bool isPause { get; set; }
         void Start()
         {
             speed = 0;

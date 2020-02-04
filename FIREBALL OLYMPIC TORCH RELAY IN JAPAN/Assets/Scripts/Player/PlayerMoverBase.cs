@@ -60,7 +60,7 @@ namespace Player
         {
             if (col.gameObject.tag == "Ground")
             {
-                if (!coreData.isGround)
+                if (!(coreData.isGround && coreData.isPause))
                 {
                     coreData.isGround = true;
                     coreData.jampTrigger = false;

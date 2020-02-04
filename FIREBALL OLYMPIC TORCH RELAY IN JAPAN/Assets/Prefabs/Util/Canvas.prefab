@@ -233,6 +233,8 @@ GameObject:
   - component: {fileID: 2561042076719664725}
   - component: {fileID: 2561042076719664722}
   - component: {fileID: 2561042076719664723}
+  - component: {fileID: 6502461736397419223}
+  - component: {fileID: 1364337448188700200}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -322,6 +324,33 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &6502461736397419223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561042076719664720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33cd1f44f63894645a643f3984a26070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coreData: {fileID: 0}
+  GameOverView: {fileID: 2561042076182917952}
+--- !u!114 &1364337448188700200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561042076719664720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 930647b11b3bb4d53ab1e54884add094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 2561042076574199570}
 --- !u!1 &2561042077100068588
 GameObject:
   m_ObjectHideFlags: 0
