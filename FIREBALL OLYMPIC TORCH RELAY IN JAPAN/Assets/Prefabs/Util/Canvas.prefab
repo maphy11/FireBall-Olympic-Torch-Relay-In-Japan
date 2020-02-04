@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 8263042024886352025}
   - component: {fileID: 8263042024886352024}
   m_Layer: 5
-  m_Name: Canvas 1
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -540,7 +540,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33cd1f44f63894645a643f3984a26070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coreData: {fileID: 0}
+  coreData: {fileID: 9162044962824182208, guid: 82cbda4804eb24657b5c6cc6454b0899,
+    type: 3}
   GameOverView: {fileID: 8263042025093255979}
 --- !u!114 &8263042024886352024
 MonoBehaviour:
@@ -555,7 +556,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 8263042024387990703}
-  coreData: {fileID: 0}
+  coreData: {fileID: 9162044962824182208, guid: 82cbda4804eb24657b5c6cc6454b0899,
+    type: 3}
 --- !u!1 &8263042025093255979
 GameObject:
   m_ObjectHideFlags: 0
