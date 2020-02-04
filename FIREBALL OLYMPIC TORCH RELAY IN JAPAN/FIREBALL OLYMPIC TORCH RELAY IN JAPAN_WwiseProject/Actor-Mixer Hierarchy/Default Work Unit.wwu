@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E701B181-7167-4538-B1C5-0584FF093421}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E701B181-7167-4538-B1C5-0584FF093421}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SE_Jump" ID="{F202B394-06BD-44B8-BFFE-068F6B09B017}" ShortID="856438642">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SE" ID="{A2412608-CE22-4B5C-BA9A-FFFACBB7B97D}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SE_Jump" ID="{3022F8F2-6BEB-4A28-824E-B5B1E2B817DF}" ShortID="125627618">
+							<Language>SFX</Language>
+							<AudioFile>SE_Jump.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SE_Jump" ID="{3022F8F2-6BEB-4A28-824E-B5B1E2B817DF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Beginning" ID="{268CA487-52F5-481B-93D4-C6DBEE492A33}" ShortID="1020277991">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="BGM" ID="{7E3B4DE2-DB6A-4489-9CE5-F5E196527F8D}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Beginning" ID="{0C6C991A-4C94-4162-A3C3-3812F1088FF7}" ShortID="945086080">
+							<Language>SFX</Language>
+							<AudioFile>Beginning.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Beginning" ID="{0C6C991A-4C94-4162-A3C3-3812F1088FF7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

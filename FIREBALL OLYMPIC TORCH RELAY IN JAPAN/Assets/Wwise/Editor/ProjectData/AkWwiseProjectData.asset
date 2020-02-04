@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5deb3edbb25407e94ae9bfff623d3f, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c8d9cc172152b54c8bde67d2b4a5ce49
+    GuidInternal: 
+    m_lastTime: -8586227863204775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: a1f1c5065dac234cb1ac69dbb03edbcf
+    GuidInternal: 
+    m_lastTime: -8586227847154775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: cdd1b5f763833842ba1ba378f40b8b3b
+    GuidInternal: 
+    m_lastTime: -8586227847154775808
+    List:
+    - name: BGM
+      guid: 1f9c478d97b9de469960180f6cd0dc73
+      id: 412724365
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BGM
+        ObjectType: 7
+      Path: Default Work Unit/BGM
+    - name: SE
+      guid: 5133c70b3bcfac49a610d52420d8b96e
+      id: 1584861537
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SE
+        ObjectType: 7
+      Path: Default Work Unit/SE
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 249fbc4a6a445d4488bf8ab89a6df3c5
+    GuidInternal: 
+    m_lastTime: -8586227847154775808
+    List:
+    - name: BGM
+      guid: aac669fbd0880644be548530d0ff4ecc
+      id: 412724365
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BGM
+        ObjectType: 3
+      Path: Default Work Unit/BGM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Jump
+      guid: 6b2d6eb7f7ceb541bc9b15e123308879
+      id: 3833651337
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Jump
+        ObjectType: 3
+      Path: Default Work Unit/Jump
+      maxAttenuation: 0
+      maxDuration: 0.5
+      minDuration: 0.5
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: fe552895fa43254e9cb7a3f9e9e2d464
+    GuidInternal: 
+    m_lastTime: -8586227863204775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 590257c28313bf4da840583d51539632
+    GuidInternal: 
+    m_lastTime: -8586227863204775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f70624f5fadc34478c992f6938e96d63
+    GuidInternal: 
+    m_lastTime: -8586227863204775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 9bd56c724a28c649b2523bb1e20f19c2
+    GuidInternal: 
+    m_lastTime: -8586227863204775808
+    List: []
+  ExpandedItems:
+  - /FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject
+  - /FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject/Events
+  - /FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject/Events/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

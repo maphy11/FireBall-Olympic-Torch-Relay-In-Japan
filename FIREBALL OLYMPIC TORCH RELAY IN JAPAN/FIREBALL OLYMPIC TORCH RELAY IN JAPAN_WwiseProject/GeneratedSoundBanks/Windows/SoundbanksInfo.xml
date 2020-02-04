@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>/Users/jasonc184/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/FireBall-Olympic-Torch-Relay-In-Japan/FIREBALL OLYMPIC TORCH RELAY IN JAPAN/FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/jasonc184/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/FireBall-Olympic-Torch-Relay-In-Japan/FIREBALL OLYMPIC TORCH RELAY IN JAPAN/FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/jasonc184/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/FireBall-Olympic-Torch-Relay-In-Japan/FIREBALL OLYMPIC TORCH RELAY IN JAPAN/FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/jasonc184/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/FireBall-Olympic-Torch-Relay-In-Japan/FIREBALL OLYMPIC TORCH RELAY IN JAPAN/FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="412724365" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\BGM</ObjectPath>
+			<ShortName>BGM</ShortName>
+			<Path>BGM.bnk</Path>
+			<IncludedEvents>
+				<Event Id="412724365" Name="BGM" ObjectPath="\Events\Default Work Unit\BGM" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="945086080" Language="SFX">
+					<ShortName>Beginning.wav</ShortName>
+					<Path>SFX/Beginning_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1584861537" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SE</ObjectPath>
+			<ShortName>SE</ShortName>
+			<Path>SE.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Jump" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="125627618" Language="SFX">
+					<ShortName>SE_Jump.wav</ShortName>
+					<Path>SFX/SE_Jump_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

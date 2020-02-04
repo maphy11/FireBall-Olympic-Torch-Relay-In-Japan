@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F7B5D1CD-8363-4238-BA1B-A378F40B8B3B}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{F7B5D1CD-8363-4238-BA1B-A378F40B8B3B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="BGM" ID="{8D479C1F-B997-46DE-9960-180F6CD0DC73}">
+					<ObjectInclusionList>
+						<ObjectRef Name="BGM" ID="{FB69C6AA-88D0-4406-BE54-8530D0FF4ECC}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Beginning" ID="{268CA487-52F5-481B-93D4-C6DBEE492A33}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SE" ID="{0BC73351-CF3B-49AC-A610-D52420D8B96E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Jump" ID="{B76E2D6B-CEF7-41B5-BC9B-15E123308879}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SE_Jump" ID="{F202B394-06BD-44B8-BFFE-068F6B09B017}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
