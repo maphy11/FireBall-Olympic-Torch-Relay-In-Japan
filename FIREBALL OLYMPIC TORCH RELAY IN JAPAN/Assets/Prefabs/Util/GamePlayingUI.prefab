@@ -116,7 +116,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8263042024075273775}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8263042024886352024}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8263042024201445118
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,8 +163,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 700}
+  m_AnchoredPosition: {x: 0, y: -185}
+  m_SizeDelta: {x: 700, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8263042024201445090
 CanvasRenderer:
@@ -181,7 +192,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 89e6ffc080da9420586893d4f620329d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f8919b2f3ae4923a83e922b19cfe90, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -233,7 +244,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8263042024201445089}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6460007482600159260}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8263042024243423159
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,8 +291,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 700}
+  m_AnchoredPosition: {x: 0, y: 70}
+  m_SizeDelta: {x: 700, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8263042024243423163
 CanvasRenderer:
@@ -298,7 +320,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: af555c089d7904ea381a10d618932089, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 51425ddb83409404f8a8fc5efbb9c5f6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -350,7 +372,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8263042024243423162}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8190228713476262714}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8263042024387990703
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,6 +395,9 @@ GameObject:
   - component: {fileID: 8263042024387990738}
   - component: {fileID: 8263042024387990737}
   - component: {fileID: 8263042024387990736}
+  - component: {fileID: 1701604134596764225}
+  - component: {fileID: 8190228713476262714}
+  - component: {fileID: 6460007482600159260}
   m_Layer: 5
   m_Name: PausePanel
   m_TagString: Untagged
@@ -425,6 +461,44 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1701604134596764225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8263042024387990703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e15ab78d13a9403999d6121103c808b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8190228713476262714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8263042024387990703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fd9a75c48da44e28e4459b598938d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pausePanel: {fileID: 0}
+  coreData: {fileID: 0}
+--- !u!114 &6460007482600159260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8263042024387990703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a447eac6cad41cfabec5f26086dc5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8263042024886352023
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,7 +514,7 @@ GameObject:
   - component: {fileID: 8263042024886352025}
   - component: {fileID: 8263042024886352024}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: GamePlayingUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -540,8 +614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33cd1f44f63894645a643f3984a26070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coreData: {fileID: 9162044962824182208, guid: 82cbda4804eb24657b5c6cc6454b0899,
-    type: 3}
+  coreData: {fileID: 0}
   GameOverView: {fileID: 8263042025093255979}
 --- !u!114 &8263042024886352024
 MonoBehaviour:
@@ -556,8 +629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 8263042024387990703}
-  coreData: {fileID: 9162044962824182208, guid: 82cbda4804eb24657b5c6cc6454b0899,
-    type: 3}
+  coreData: {fileID: 0}
 --- !u!1 &8263042025093255979
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,8 +885,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 700}
+  m_AnchoredPosition: {x: 0, y: -57.5}
+  m_SizeDelta: {x: 700, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8263042026191842964
 CanvasRenderer:
@@ -842,7 +914,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8df5c63b373834ba88dfcbef59ee9bb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 27c65acb887d448e28a0678d196c8dbf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -894,4 +966,15 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8263042026191842963}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1701604134596764225}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
