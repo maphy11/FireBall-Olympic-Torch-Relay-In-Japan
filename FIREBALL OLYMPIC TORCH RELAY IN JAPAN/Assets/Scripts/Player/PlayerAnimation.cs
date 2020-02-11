@@ -22,10 +22,7 @@ namespace Player
         {
             animator.SetFloat("Speed", coreData.speed);
             animator.SetBool("IsGround", coreData.isGround);
-            if (coreData.isDead)
-            {
-                animator.SetBool("IsDead", coreData.isDead);
-            }
+            animator.SetBool("IsDead", coreData.state == PlayerState.Dead);
         }
     }
 

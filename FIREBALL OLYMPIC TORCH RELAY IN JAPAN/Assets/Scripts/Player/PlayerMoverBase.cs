@@ -15,23 +15,13 @@ namespace Player
         [SerializeField] private float runMaxSpeed = 1.0f;
         [SerializeField] private float reachMaxSpeedTime = 1.0f;
         [SerializeField] private float reachRunStopTime = 1.0f;
-        // [SerializeField] private float jampMaxHeight = 5.0f;
-        // [SerializeField] private float jampInputReceptionTime = 0.5f;
         [SerializeField] private float jampForce = 1.0f;
-        // [SerializeField] private AudioClip jampSound;
-        // [SerializeField] private AudioClip walkSound;
 
-        //Component instance
+        //Component instances
         protected Rigidbody2D rig;
-        private AudioSource audio;
         protected IinputObserver inputObserver;
         private PlayerCore coreData;
-
-        // private float jampInputTime = 0;
-
-        // private float jampVel = 0.0f;
-
-        // private float jampingTime = 0.0f;
+        // other data
         private Vector3 runVel;
 
         private Vector3 scale;
@@ -41,7 +31,7 @@ namespace Player
         }
         void FixedUpdate()
         {
-            if (!coreData.isGameOver && !coreData.isPause)
+            if (PossibleToMove())
             {
                 UpdateMethod();
             }
@@ -53,7 +43,6 @@ namespace Player
                 if (!coreData.isGround)
                 {
                     coreData.isGround = true;
-                    coreData.jampTrigger = false;
                     rig.velocity = Vector2.zero;
                 }
             }
@@ -63,14 +52,18 @@ namespace Player
         {
             if (col.gameObject.tag == "Ground")
             {
-                if (!(coreData.isGround && coreData.isPause))
+                if (!coreData.isGround)
                 {
                     coreData.isGround = true;
-                    coreData.jampTrigger = false;
                     rig.velocity = Vector2.zero;
                 }
             }
         }
+        // The Setup
+        // UpdateMethod
+        // MoveVertical
+        // MoveHorizontal
+        // They need to inherit children class
         protected virtual void Setup()
         {
             PlayerCore pc = GetComponent<PlayerCore>();
@@ -86,21 +79,20 @@ namespace Player
             rig = GetComponent<Rigidbody2D>();
             scale = transform.localScale;
             runVel = Vector3.zero;
-            audio = GetComponent<AudioSource>();
         }
 
         protected virtual void UpdateMethod()
         {
-            Vector2 inputVirticle = inputObserver.OnMoveVirtical();
+            Vector2 inputVertical = inputObserver.OnMoveVertical();
             Vector2 inputHorizontal = inputObserver.OnMoveHorizontal();
             MoveHorizontal(inputHorizontal);
-            MoveVirticle(inputVirticle);
+            MoveVertical(inputVertical);
             coreData.speed = runVel.magnitude;
         }
 
-        protected virtual void MoveVirticle(Vector2 input)
+        protected virtual void MoveVertical(Vector2 input)
         {
-            Jamp(input);
+            Jump(input);
         }
 
         protected virtual void MoveHorizontal(Vector2 input)
@@ -152,7 +144,7 @@ namespace Player
                 IncreaseRunSpeed(input);
             }
         }
-        private void Jamp(Vector2 input)
+        private void Jump(Vector2 input)
         {
             if (input == Vector2.up)
             {
@@ -162,39 +154,10 @@ namespace Player
                     coreData.isGround = false;
                     //jason
                     JumpEvent.Post(gameObject);
-                    //audio.clip = jampSound;
-                    //audio.Play();
-                    coreData.jampTrigger = true;
                 }
             }
         }
-
-        // protected virtual void Jamp(Vector2 input, float inputTime)
-        // {
-        //     if (input == Vector2.up)
-        //     {
-        //         if (coreData.isGround)
-        //         {
-        //             jampingTime += Time.deltaTime;
-        //             float Ypos = transform.position.y + (3 * (jampMaxHeight * Mathf.Pow(inputTime, -3) / jampInputReceptionTime) * Mathf.Pow((jampingTime - inputTime), 3) + rig.gravityScale * 9.8f * jampingTime) * Time.deltaTime;
-        //             transform.position = new Vector3(transform.position.x, Ypos, transform.position.z);
-
-        //             if (jampInputTime + Time.deltaTime < jampInputReceptionTime)
-        //             {
-        //                 jampInputTime = jampInputTime + Time.deltaTime;
-        //             }
-        //             else
-        //             {
-        //                 jampInputTime = jampInputReceptionTime;
-        //             }
-        //         }
-        //         else
-        //         {
-        //             jampingTime = 0;
-        //             jampInputTime = 0;
-        //         }
-        //     }
-        // }
+        private bool PossibleToMove() { return !(coreData.state == PlayerState.Dead || coreData.state == PlayerState.Pause); }
     }
 
 }
