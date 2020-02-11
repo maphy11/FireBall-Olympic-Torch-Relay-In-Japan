@@ -157,7 +157,7 @@ namespace Player
                 }
             }
         }
-        private bool PossibleToMove() { return !(coreData.state == PlayerState.Dead || coreData.state == PlayerState.Pause); }
+        private bool PossibleToMove() { return coreData.state == PlayerState.Move; }
     }
 
 }

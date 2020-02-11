@@ -33,7 +33,7 @@ namespace Player
         {
             speed = 0;
             isGround = true;
-            state = PlayerState.Wait;
+            state = PlayerState.Move;
             flameAttacher = GetComponent(typeof(IPlayerFlame)) as IPlayerFlame;
         }
 

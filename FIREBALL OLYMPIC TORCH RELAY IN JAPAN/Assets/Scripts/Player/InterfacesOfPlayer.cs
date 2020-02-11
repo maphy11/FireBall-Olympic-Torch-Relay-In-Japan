@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Player
 {
-    interface IPlayerState
+    public interface IPlayerState
     {
         void StateToWait();
         void StateToMove();
