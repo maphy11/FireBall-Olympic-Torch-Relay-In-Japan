@@ -8,7 +8,7 @@ namespace Player
         private bool climbing;
         [SerializeField] private float climbSpeed = 20.0f;
 
-        protected override void MoveVirticle(Vector2 input)
+        protected override void MoveVertical(Vector2 input)
         {
             if (climbing)
             {
@@ -16,7 +16,7 @@ namespace Player
             }
             else
             {
-                base.MoveVirticle(input);
+                base.MoveVertical(input);
             }
         }
 
@@ -47,8 +47,6 @@ namespace Player
             {
                 climbing = true;
                 rig.gravityScale = 0;
-                // float Xspeed = rig.velocity.x;
-                // rig.velocity = new Vector2(Xspeed, 0);
                 rig.velocity = Vector2.zero;
             }
         }
