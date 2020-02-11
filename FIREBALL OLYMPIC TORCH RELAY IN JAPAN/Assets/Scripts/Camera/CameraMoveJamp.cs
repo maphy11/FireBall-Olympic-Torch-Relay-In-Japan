@@ -11,6 +11,7 @@ namespace CameraScript
         {
             initCameraPosY = 0;
         }
+
         void Update()
         {
             // float playerPosX = player.position.x;

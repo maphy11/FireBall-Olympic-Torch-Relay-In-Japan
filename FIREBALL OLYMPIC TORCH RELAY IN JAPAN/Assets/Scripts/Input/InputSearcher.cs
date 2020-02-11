@@ -6,7 +6,7 @@ namespace InputSystem
 {
     public interface IinputObserver
     {
-        Vector2 OnMoveVirtical();
+        Vector2 OnMoveVertical();
         Vector2 OnMoveHorizontal();
     }
     public class InputSearcher : MonoBehaviour, IinputObserver
@@ -37,7 +37,7 @@ namespace InputSystem
             }
         }
 
-        public Vector2 OnMoveVirtical()
+        public Vector2 OnMoveVertical()
         {
             if (isUp)
             {
