@@ -117,7 +117,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8263042024886352024}
+      - m_Target: {fileID: 0}
         m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8190228713476262714}
+      - m_Target: {fileID: 0}
         m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
@@ -396,7 +396,6 @@ GameObject:
   - component: {fileID: 8263042024387990737}
   - component: {fileID: 8263042024387990736}
   - component: {fileID: 1701604134596764225}
-  - component: {fileID: 8190228713476262714}
   - component: {fileID: 6460007482600159260}
   m_Layer: 5
   m_Name: PausePanel
@@ -473,20 +472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15ab78d13a9403999d6121103c808b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8190228713476262714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8263042024387990703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4fd9a75c48da44e28e4459b598938d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pausePanel: {fileID: 0}
-  coreData: {fileID: 0}
 --- !u!114 &6460007482600159260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,7 +497,7 @@ GameObject:
   - component: {fileID: 8263042024886352027}
   - component: {fileID: 8263042024886352026}
   - component: {fileID: 8263042024886352025}
-  - component: {fileID: 8263042024886352024}
+  - component: {fileID: 5491579943150678395}
   m_Layer: 5
   m_Name: GamePlayingUI
   m_TagString: Untagged
@@ -616,7 +601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coreData: {fileID: 0}
   GameOverView: {fileID: 8263042025093255979}
---- !u!114 &8263042024886352024
+--- !u!114 &5491579943150678395
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -625,10 +610,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8263042024886352023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 930647b11b3bb4d53ab1e54884add094, type: 3}
+  m_Script: {fileID: 11500000, guid: 23e5e707c9a184de184c5cbd44d3e2b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 8263042024387990703}
+  pausePanel: {fileID: 8263042024387990703}
   coreData: {fileID: 0}
 --- !u!1 &8263042025093255979
 GameObject:
