@@ -66,16 +66,15 @@ namespace Player
         // They need to inherit children class
         protected virtual void Setup()
         {
-            PlayerCore pc = GetComponent<PlayerCore>();
-            if (pc.platform == Platform.PC)
+            coreData = GetComponent<PlayerCore>();
+            if (coreData.platform == Platform.PC)
             {
                 inputObserver = gameObject.AddComponent<InputKeyboard>();
             }
-            else if (pc.platform == Platform.TabletSmartphone)
+            else if (coreData.platform == Platform.TabletSmartphone)
             {
                 inputObserver = gameObject.AddComponent<InputTouchPanel>();
             }
-            coreData = GetComponent<PlayerCore>();
             rig = GetComponent<Rigidbody2D>();
             scale = transform.localScale;
             runVel = Vector3.zero;
@@ -157,7 +156,7 @@ namespace Player
                 }
             }
         }
-        private bool PossibleToMove() { return !(coreData.state == PlayerState.Dead || coreData.state == PlayerState.Pause); }
+        private bool PossibleToMove() { return coreData.state == PlayerState.Move; }
     }
 
 }

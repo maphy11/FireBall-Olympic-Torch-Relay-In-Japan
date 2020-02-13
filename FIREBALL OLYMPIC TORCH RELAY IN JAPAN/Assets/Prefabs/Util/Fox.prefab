@@ -1,5 +1,55 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6417011107952473263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8851560498350503840}
+  - component: {fileID: 3332783621641341041}
+  m_Layer: 0
+  m_Name: GoastAnimation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8851560498350503840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6417011107952473263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9162044962824182210}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &3332783621641341041
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6417011107952473263}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 427713d3a55ea44adb26881337105ca2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &9162044962824182212
 GameObject:
   m_ObjectHideFlags: 0
@@ -15,7 +65,6 @@ GameObject:
   - component: {fileID: 1624396936974325140}
   - component: {fileID: 8308496752699591907}
   - component: {fileID: 9162044962824182208}
-  - component: {fileID: 7046246449938044893}
   - component: {fileID: 2292565134463459251}
   - component: {fileID: 1537546928522330726}
   - component: {fileID: 7953846107143237677}
@@ -37,7 +86,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.65, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 8851560498350503840}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -256,18 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _platform: 0
---- !u!114 &7046246449938044893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9162044962824182212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52bcd1ea26ed74bd083ac13505c56a4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  guiPanel: {fileID: 0}
 --- !u!114 &2292565134463459251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,6 +319,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6982e9881d224472b0d5975d12ae9ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  JumpEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   runMaxSpeed: 10
   reachMaxSpeedTime: 2
   reachRunStopTime: 1
@@ -296,6 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c1741bbd12c5414286d2a422efa2e75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goast: {fileID: 6417011107952473263}
 --- !u!114 &7953846107143237677
 MonoBehaviour:
   m_ObjectHideFlags: 0

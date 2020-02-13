@@ -2,34 +2,55 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Fire;
-
+using Player;
 namespace Ice
 {
-    public abstract class IceCore : MonoBehaviour, IFireSever
+    public class IceCore : MonoBehaviour, IFireSever
     {
-
-        [SerializeField] protected float needTimeMelting;
-        public float meltingTime { get; protected set; }
+        [SerializeField] protected PlayerCore coreData;
+        [SerializeField] private float coolTime;
+        protected IPlayerState state;
+        static private bool isInCoolTime;
         public bool isMelting { get; protected set; }
         void Start()
         {
             isMelting = false;
+            isInCoolTime = false;
+            state = coreData.GetComponent(typeof(IPlayerState)) as IPlayerState;
         }
 
         // Update is called once per frame
-        protected virtual void Update()
+        void Update()
         {
-            if (isMelting)
-            {
-                meltIce();
-            }
+
         }
 
         public void TouchFire(FireCore fire)
         {
-            isMelting = true;
+            if (!isInCoolTime)
+            {
+                isMelting = true;
+            }
         }
 
-        protected virtual void meltIce() { }
+        private void StartMelt()
+        {
+            state.ToWait();
+            isInCoolTime = true;
+        }
+
+        private void FinishMelt()
+        {
+            StartCoroutine("EnterCoolTime");
+            state.ToMove();
+
+        }
+
+        IEnumerator EnterCoolTime()
+        {
+            yield return new WaitForSeconds(coolTime);
+            isInCoolTime = false;
+            Destroy(this.gameObject);
+        }
     }
 }

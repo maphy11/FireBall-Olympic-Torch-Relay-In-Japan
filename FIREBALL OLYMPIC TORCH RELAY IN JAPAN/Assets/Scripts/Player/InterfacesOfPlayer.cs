@@ -4,11 +4,16 @@ using UnityEngine;
 
 namespace Player
 {
-    interface IPlayerState
+    public interface IPlayerState
     {
-        void StateToWait();
-        void StateToMove();
-        void StateToPause();
-        void StateToDead();
+        void ToWait();
+        void ToMove();
+        void ToPause();
+        void ToDead();
+        void ToGameClear();
+    }
+    interface IPlayerGUIImage
+    {
+        void ActiveGameClearPanel();
     }
 }

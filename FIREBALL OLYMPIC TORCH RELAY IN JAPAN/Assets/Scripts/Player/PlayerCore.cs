@@ -16,38 +16,63 @@ namespace Player
         Wait,
         Move,
         Pause,
-        Dead
+        Dead,
+        GameClear
     };
     public class PlayerCore : MonoBehaviour, IPlayerState
     {
 
         [SerializeField] private Platform _platform = Platform.TabletSmartphone;
+        [SerializeField] private GameObject guiPanel;
         public Platform platform { get { return _platform; } }
         public PlayerState state { get; private set; }
         private IPlayerFlame flameAttacher;
+        private IPlayerGUIImage guiImage;
         public float speed { get; set; }
         public bool isGround { get; set; }
-        public bool isGameOver { get { return state == PlayerState.Dead; } }
+        public bool isGameOver { get; private set; }
 
         void Start()
         {
             speed = 0;
             isGround = true;
-            state = PlayerState.Wait;
+            state = PlayerState.Move;
             flameAttacher = GetComponent(typeof(IPlayerFlame)) as IPlayerFlame;
+            guiImage = guiPanel.GetComponent(typeof(IPlayerGUIImage)) as IPlayerGUIImage;
+            isGameOver = false;
         }
 
         void Update()
         {
             if (!flameAttacher.HasFire())
             {
-                StateToDead();
+                ToDead();
+            }
+
+            if (state == PlayerState.GameClear)
+            {
+                StartCoroutine("OnGoal");
             }
         }
-        public void StateToWait() { state = PlayerState.Wait; }
-        public void StateToMove() { state = PlayerState.Move; }
-        public void StateToPause() { state = PlayerState.Pause; }
-        public void StateToDead() { state = PlayerState.Dead; }
+        private void OnGameOver()
+        {
+            StartCoroutine("GameOver");
+        }
+        IEnumerator GameOver()
+        {
+            yield return new WaitForSeconds(1);
+            isGameOver = true;
+        }
+        IEnumerator OnGoal()
+        {
+            yield return new WaitForSeconds(1);
+            guiImage.ActiveGameClearPanel();
+        }
+        public void ToWait() { state = PlayerState.Wait; }
+        public void ToMove() { state = PlayerState.Move; }
+        public void ToPause() { state = PlayerState.Pause; }
+        public void ToDead() { state = PlayerState.Dead; }
+        public void ToGameClear() { state = PlayerState.GameClear; }
 
     }
 }
