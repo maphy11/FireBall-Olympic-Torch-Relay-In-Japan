@@ -30,15 +30,16 @@ namespace Player
         private IPlayerGUIImage guiImage;
         public float speed { get; set; }
         public bool isGround { get; set; }
-        public bool isGameOver { get { return state == PlayerState.Dead; } }
+        public bool isGameOver { get; private set; }
 
         void Start()
         {
             speed = 0;
             isGround = true;
-            state = PlayerState.Wait;
+            state = PlayerState.Move;
             flameAttacher = GetComponent(typeof(IPlayerFlame)) as IPlayerFlame;
             guiImage = guiPanel.GetComponent(typeof(IPlayerGUIImage)) as IPlayerGUIImage;
+            isGameOver = false;
         }
 
         void Update()
@@ -52,6 +53,10 @@ namespace Player
             {
                 StartCoroutine("OnGoal");
             }
+        }
+        private void OnGameOver()
+        {
+            isGameOver = true;
         }
         IEnumerator OnGoal()
         {

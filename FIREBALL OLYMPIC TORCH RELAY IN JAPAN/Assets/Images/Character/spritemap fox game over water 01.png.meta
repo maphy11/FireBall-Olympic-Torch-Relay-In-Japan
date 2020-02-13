@@ -1,0 +1,301 @@
+fileFormatVersion: 2
+guid: 8ddf2d0a0316b466bad7b935860aeed5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4237128148780879784
+    second: spritemap fox game over water 01_0
+  - first:
+      213: -4005712519960329651
+    second: spritemap fox game over water 01_1
+  - first:
+      213: -1254692588170808403
+    second: spritemap fox game over water 01_2
+  - first:
+      213: -4682729853303745870
+    second: spritemap fox game over water 01_3
+  - first:
+      213: -1439551411921472252
+    second: spritemap fox game over water 01_4
+  - first:
+      213: 8216166217936434301
+    second: spritemap fox game over water 01_5
+  - first:
+      213: -8962343828517071024
+    second: spritemap fox game over water 01_6
+  - first:
+      213: 7082250551492159640
+    second: spritemap fox game over water 01_7
+  - first:
+      213: 8521499902654754926
+    second: spritemap fox game over water 01_8
+  - first:
+      213: 8213675256059301561
+    second: spritemap fox game over water 01_9
+  - first:
+      213: -1905957833464535899
+    second: spritemap fox game over water 01_10
+  - first:
+      213: -4786222224889528483
+    second: spritemap fox game over water 01_11
+  - first:
+      213: -6318196097884612726
+    second: spritemap fox game over water 01_12
+  - first:
+      213: 9012770950324368772
+    second: spritemap fox game over water 01_13
+  - first:
+      213: 1744987056556093962
+    second: spritemap fox game over water 01_14
+  - first:
+      213: 150220928902122134
+    second: spritemap fox game over water 01_15
+  - first:
+      213: -3202631385579647006
+    second: spritemap fox game over water 01_16
+  - first:
+      213: -396453632912978168
+    second: spritemap fox game over water 01_17
+  - first:
+      213: -6450513980549586490
+    second: spritemap fox game over water 01_18
+  - first:
+      213: -6812852701503882680
+    second: spritemap fox game over water 01_19
+  - first:
+      213: -4896914805175921128
+    second: spritemap fox game over water 01_20
+  - first:
+      213: -9078648637596960101
+    second: spritemap fox game over water 01_21
+  - first:
+      213: 7185365259461157400
+    second: spritemap fox game over water 01_22
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritemap fox game over water 01_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 591
+        width: 1031
+        height: 661
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e2ac772b0b3486d878bb9ea071464a
+      internalID: -4005712519960329651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox game over water 01_2
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 637
+        width: 716
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1257bf6c081b04e6fa48e0a9bf8790c4
+      internalID: -1254692588170808403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox game over water 01_3
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 649
+        width: 735
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc75d36b81fe24f7f922757b13fb4edb
+      internalID: -4682729853303745870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox game over water 01_5
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 603
+        width: 713
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4301077f2774882b165d8279c2dc60
+      internalID: 8216166217936434301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritemap fox game over water 01_8
+      rect:
+        serializedVersion: 2
+        x: 4047
+        y: 600
+        width: 697
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4a617728e3a407aaf3f935de489dce
+      internalID: 8521499902654754926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
