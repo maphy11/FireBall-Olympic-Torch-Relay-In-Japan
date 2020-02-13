@@ -29,6 +29,15 @@ namespace FireEnemy
                 Destroy(this.gameObject);
             }
         }
+        void OnTriggerEnter2D(Collider2D col)
+        {
+            IExtinguishable fire = col.GetComponent(typeof(IExtinguishable)) as IExtinguishable;
+            if (fire != null)
+            {
+                fire.ExtinguishFire();
+            }
+            Destroy(this.gameObject);
+        }
 
 
 
