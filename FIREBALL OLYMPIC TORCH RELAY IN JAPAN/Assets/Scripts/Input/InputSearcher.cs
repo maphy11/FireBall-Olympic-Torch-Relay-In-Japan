@@ -9,7 +9,11 @@ namespace InputSystem
         Vector2 OnMoveVertical();
         Vector2 OnMoveHorizontal();
     }
-    public class InputSearcher : MonoBehaviour, IinputObserver
+    public interface IinputTap
+    {
+        bool OnTap();
+    }
+    public class InputSearcher : MonoBehaviour, IinputObserver, IinputTap
     {
 
         private static InputSearcher mInstance;
@@ -22,7 +26,7 @@ namespace InputSystem
         [HideInInspector]
         protected bool isRight { private get; set; }
 
-        protected bool doFire { private get; set; }
+        protected bool isTap { private get; set; }
 
         public static InputSearcher Instance
         {
@@ -67,6 +71,11 @@ namespace InputSystem
             {
                 return Vector2.zero;
             }
+        }
+
+        public bool OnTap()
+        {
+            return isTap;
         }
 
     }

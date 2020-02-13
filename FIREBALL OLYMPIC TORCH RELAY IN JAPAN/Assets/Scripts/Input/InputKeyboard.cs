@@ -13,7 +13,7 @@ namespace InputSystem
             isDown = (Input.GetKey(KeyCode.DownArrow));
             isLeft = (Input.GetKey(KeyCode.LeftArrow));
             isRight = (Input.GetKey(KeyCode.RightArrow));
-            doFire = (Input.GetKey(KeyCode.Space));
+            isTap = (Input.GetMouseButtonDown(0));
         }
         // float Up(bool inputUp)
         // {

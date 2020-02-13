@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GUI;
 
 
 namespace Player
@@ -23,14 +24,7 @@ namespace Player
             animator.SetFloat("Speed", coreData.speed);
             animator.SetBool("IsGround", coreData.isGround);
             animator.SetBool("IsDead", coreData.state == PlayerState.Dead);
-        }
-
-        IEnumerator OnGoal()
-        {
             animator.SetBool("IsGameClear", coreData.state == PlayerState.GameClear);
-            yield return new WaitForSeconds(5);
-            
         }
     }
-
 }

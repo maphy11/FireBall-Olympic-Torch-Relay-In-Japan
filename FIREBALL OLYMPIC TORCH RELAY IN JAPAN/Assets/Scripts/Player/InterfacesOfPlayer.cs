@@ -12,4 +12,8 @@ namespace Player
         void ToDead();
         void ToGameClear();
     }
+    interface IPlayerGUIImage
+    {
+        void ActiveGameClearPanel();
+    }
 }
