@@ -35,14 +35,14 @@ namespace Ice
 
         private void StartMelt()
         {
-            state.StateToWait();
+            state.ToWait();
             isInCoolTime = true;
         }
 
         private void FinishMelt()
         {
             StartCoroutine("EnterCoolTime");
-            state.StateToMove();
+            state.ToMove();
 
         }
 
