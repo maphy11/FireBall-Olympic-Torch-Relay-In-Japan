@@ -16,7 +16,8 @@ namespace Player
         Wait,
         Move,
         Pause,
-        Dead
+        Dead,
+        GameClear
     };
     public class PlayerCore : MonoBehaviour, IPlayerState
     {
@@ -41,13 +42,14 @@ namespace Player
         {
             if (!flameAttacher.HasFire())
             {
-                StateToDead();
+                ToDead();
             }
         }
-        public void StateToWait() { state = PlayerState.Wait; }
-        public void StateToMove() { state = PlayerState.Move; }
-        public void StateToPause() { state = PlayerState.Pause; }
-        public void StateToDead() { state = PlayerState.Dead; }
+        public void ToWait() { state = PlayerState.Wait; }
+        public void ToMove() { state = PlayerState.Move; }
+        public void ToPause() { state = PlayerState.Pause; }
+        public void ToDead() { state = PlayerState.Dead; }
+        public void ToGameClear() { state = PlayerState.GameClear; }
 
     }
 }

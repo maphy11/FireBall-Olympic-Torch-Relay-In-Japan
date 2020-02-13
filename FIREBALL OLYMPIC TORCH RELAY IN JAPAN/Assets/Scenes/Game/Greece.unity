@@ -680,6 +680,7 @@ GameObject:
   - component: {fileID: 891605994}
   - component: {fileID: 891605993}
   - component: {fileID: 891605992}
+  - component: {fileID: 891605995}
   m_Layer: 0
   m_Name: torch01
   m_TagString: Untagged
@@ -711,7 +712,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 2.183323}
@@ -737,7 +738,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 4.8084397}
@@ -802,6 +803,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &891605995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891605990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2071bb88fc1bf4bf6af600bd9931b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchFire: {fileID: 2052830856}
+  player: {fileID: 1963454159}
 --- !u!1001 &960383237
 PrefabInstance:
   m_ObjectHideFlags: 0
