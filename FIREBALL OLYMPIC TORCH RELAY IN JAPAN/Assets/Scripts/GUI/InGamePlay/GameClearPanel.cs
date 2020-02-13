@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using InputSystem;
 
 public class GameClearPanel : MonoBehaviour
 {
-    [SerializeField] private GameObject menuPanel;
     [SerializeField] private GameObject player;
     private IinputTap input;
     // Start is called before the first frame update
@@ -25,8 +25,6 @@ public class GameClearPanel : MonoBehaviour
     IEnumerator DesplayMenuGUI()
     {
         yield return new WaitUntil(() => input.OnTap());
-        menuPanel.SetActive(true);
-        this.gameObject.SetActive(false);
-
+        SceneManager.LoadScene("Menu");
     }
 }

@@ -56,11 +56,16 @@ namespace Player
         }
         private void OnGameOver()
         {
+            StartCoroutine("GameOver");
+        }
+        IEnumerator GameOver()
+        {
+            yield return new WaitForSeconds(1);
             isGameOver = true;
         }
         IEnumerator OnGoal()
         {
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(1);
             guiImage.ActiveGameClearPanel();
         }
         public void ToWait() { state = PlayerState.Wait; }
