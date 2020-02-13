@@ -5320,6 +5320,21 @@ PrefabInstance:
       propertyPath: coreData
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4783489592496134957, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: targetScene
+      value: Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 751856902}
+    - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: targetSceneName
+      value: Africa
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20573aa75a59848f2805b42599e8743d, type: 3}
 --- !u!1001 &594532967
@@ -5409,6 +5424,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e5e707c9a184de184c5cbd44d3e2b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &751856902 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9162044962824182212, guid: 82cbda4804eb24657b5c6cc6454b0899,
+    type: 3}
+  m_PrefabInstance: {fileID: 1529316136}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &815086291 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 431649582068856811, guid: 2310f406b40914244a34912015153769,
@@ -6078,7 +6099,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1529316136}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 751856902}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7db61116fc8a04871911e785fb159cfd, type: 3}
