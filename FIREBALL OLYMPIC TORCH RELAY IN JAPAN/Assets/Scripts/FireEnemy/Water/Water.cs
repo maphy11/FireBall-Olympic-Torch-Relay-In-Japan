@@ -26,6 +26,7 @@ namespace FireEnemy
             {
                 // Debug.Log("Touch Water");
                 fire.ExtinguishFire();
+                Destroy(this.gameObject);
             }
         }
 

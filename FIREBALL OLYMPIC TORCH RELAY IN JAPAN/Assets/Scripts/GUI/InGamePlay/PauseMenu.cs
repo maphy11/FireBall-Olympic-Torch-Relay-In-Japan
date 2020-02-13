@@ -17,7 +17,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (!pausePanel.active)
         {
-            state.StateToPause();
+            state.ToPause();
             pausePanel.SetActive(true);
         }
     }
@@ -25,7 +25,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (pausePanel.active)
         {
-            state.StateToMove();
+            state.ToMove();
             pausePanel.SetActive(false);
         }
     }

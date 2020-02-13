@@ -18,7 +18,7 @@ namespace InputSystem
         // Update is called once per frame
         void Update()
         {
-            if (Input.touchCount > 0)
+            if (isTap = (Input.touchCount > 0))
             {
                 Touch touch = Input.GetTouch(0);
                 Flick(touch);
@@ -29,7 +29,7 @@ namespace InputSystem
                     isUp = ((touchEndPos.Value - touchStartPos.Value).y > Screen.height / 5);
                     isDown = ((touchEndPos.Value - touchStartPos.Value).y < -Screen.height / 5);
                 }
-                doFire = (Mathf.Abs(touch.position.x - (float)Screen.width / 2) > 9 && Mathf.Abs(touch.position.y - (float)Screen.height * 19 / 25.0f) > 16);
+
 
             }
 

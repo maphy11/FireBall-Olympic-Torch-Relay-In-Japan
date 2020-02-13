@@ -20,6 +20,7 @@ namespace GUI
         {
             if (coreData.isGameOver && !GameOverView.active)
             {
+                Debug.Log("GameOverObserver is working");
                 GameOverView.SetActive(true);
             }
         }
