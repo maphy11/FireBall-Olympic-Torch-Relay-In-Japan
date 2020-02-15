@@ -35,6 +35,14 @@ namespace Player
             {
                 UpdateMethod();
             }
+            if (coreData.state == PlayerState.ReachStadium)
+            {
+                Walk(Vector2.right);
+            }
+            if (coreData.state == PlayerState.StadiumJump)
+            {
+                StartCoroutine("StadiumLastAnimationMove");
+            }
         }
         void OnCollisionEnter2D(Collision2D col)
         {
@@ -154,6 +162,25 @@ namespace Player
                     //jason
                     JumpEvent.Post(gameObject);
                 }
+            }
+        }
+
+        private IEnumerator StadiumLastAnimationMove()
+        {
+            for (int i = 0; i < 51; i++)
+            {
+                transform.position = transform.position + new Vector3(0.0015f, 0, 0);
+                yield return null;
+            }
+            for (int i = 0; i < 39; i++)
+            {
+                yield return null;
+            }
+            Jump(Vector2.up);
+            for (int i = 0; i < 90; i++)
+            {
+                transform.position = transform.position + new Vector3(0.01f, 0, 0);
+                yield return null;
             }
         }
         private bool PossibleToMove() { return coreData.state == PlayerState.Move; }

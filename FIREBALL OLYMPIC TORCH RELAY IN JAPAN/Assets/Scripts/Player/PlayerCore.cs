@@ -17,7 +17,9 @@ namespace Player
         Move,
         Pause,
         Dead,
-        GameClear
+        GameClear,
+        ReachStadium,
+        StadiumJump
     };
     public class PlayerCore : MonoBehaviour, IPlayerState
     {
@@ -54,6 +56,18 @@ namespace Player
                 StartCoroutine("OnGoal");
             }
         }
+
+        void OnTriggerEnter2D(Collider2D col)
+        {
+            if (col.gameObject.tag == "StadiumTrigger")
+            {
+                ToReachStadium();
+            }
+            if (col.gameObject.tag == "StadiumJumpTrigger")
+            {
+                ToStadiumJump();
+            }
+        }
         private void OnGameOver()
         {
             StartCoroutine("GameOver");
@@ -73,6 +87,10 @@ namespace Player
         public void ToPause() { state = PlayerState.Pause; }
         public void ToDead() { state = PlayerState.Dead; }
         public void ToGameClear() { state = PlayerState.GameClear; }
+        public void ToReachStadium() { state = PlayerState.ReachStadium; }
+        public void ToStadiumJump() { state = PlayerState.StadiumJump; }
 
     }
+
+
 }

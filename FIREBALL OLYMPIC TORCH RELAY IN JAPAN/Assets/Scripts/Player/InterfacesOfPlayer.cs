@@ -11,6 +11,7 @@ namespace Player
         void ToPause();
         void ToDead();
         void ToGameClear();
+        void ToReachStadium();
     }
     interface IPlayerGUIImage
     {

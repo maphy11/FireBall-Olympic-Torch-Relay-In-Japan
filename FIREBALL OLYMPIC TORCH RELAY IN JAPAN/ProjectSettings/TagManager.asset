@@ -10,6 +10,8 @@ TagManager:
   - Ladder
   - Water
   - fox
+  - StadiumTrigger
+  - StadiumJumpTrigger
   layers:
   - Default
   - TransparentFX
