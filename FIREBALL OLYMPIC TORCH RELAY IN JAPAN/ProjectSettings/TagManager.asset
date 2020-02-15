@@ -12,6 +12,8 @@ TagManager:
   - fox
   - StadiumTrigger
   - StadiumJumpTrigger
+  - Particle
+  - Rock
   layers:
   - Default
   - TransparentFX
@@ -24,7 +26,7 @@ TagManager:
   - Ground
   - Player
   - Ice
-  - 
+  - Particle
   - 
   - 
   - 
