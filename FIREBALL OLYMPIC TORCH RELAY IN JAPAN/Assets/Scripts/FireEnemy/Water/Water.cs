@@ -42,7 +42,10 @@ namespace FireEnemy
                 fire.ExtinguishFire();
             }
             // Destroy(this.gameObject);
-            // if(col.gameObject.tag == "")
+            if (col.gameObject.tag == "Ground")
+            {
+                Destroy(this.gameObject);
+            }
         }
 
 
