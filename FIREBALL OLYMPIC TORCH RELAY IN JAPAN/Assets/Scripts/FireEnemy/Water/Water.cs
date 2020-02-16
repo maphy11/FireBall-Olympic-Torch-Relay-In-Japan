@@ -7,10 +7,12 @@ namespace FireEnemy
     // ToDo:Implement the behavior of the water if collide stone
     public class Water : MonoBehaviour
     {
+        private bool canExtinguish;
         private ParticleSystem particle;
         // Start is called before the first frame update
         void Start()
         {
+            canExtinguish = true;
             particle = GetComponent<ParticleSystem>();
         }
 
@@ -23,7 +25,7 @@ namespace FireEnemy
         void OnParticleCollision(GameObject col)
         {
             IExtinguishable fire = col.GetComponent(typeof(IExtinguishable)) as IExtinguishable;
-            if (fire != null)
+            if (fire != null && canExtinguish)
             {
                 // Debug.Log("Touch Water");
                 fire.ExtinguishFire();
@@ -31,6 +33,7 @@ namespace FireEnemy
             }
             if (col.gameObject.tag == "Rock")
             {
+                canExtinguish = false;
                 particle.startLifetime = 0.2f;
             }
         }
