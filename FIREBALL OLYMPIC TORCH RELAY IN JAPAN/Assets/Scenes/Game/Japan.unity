@@ -1018,6 +1018,11 @@ PrefabInstance:
       propertyPath: guiPanel
       value: 
       objectReference: {fileID: 941021874}
+    - target: {fileID: 9162044962824182208, guid: 82cbda4804eb24657b5c6cc6454b0899,
+        type: 3}
+      propertyPath: _platform
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82cbda4804eb24657b5c6cc6454b0899, type: 3}
 --- !u!114 &880201673 stripped
