@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Jump" ID="{B76E2D6B-CEF7-41B5-BC9B-15E123308879}">
+				<Event Name="Fox_Jump" ID="{B76E2D6B-CEF7-41B5-BC9B-15E123308879}">
 					<ChildrenList>
 						<Action Name="" ID="{70D77DFB-AD2B-4888-BCF3-B3CD4FF3F555}" ShortID="668306155">
 							<ReferenceList>
@@ -14,12 +14,166 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="BGM" ID="{FB69C6AA-88D0-4406-BE54-8530D0FF4ECC}">
+				<Event Name="BGM_Start" ID="{FB69C6AA-88D0-4406-BE54-8530D0FF4ECC}">
 					<ChildrenList>
 						<Action Name="" ID="{B0B1545C-1D5C-43C2-A55A-385162580231}" ShortID="275435128">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Beginning" ID="{268CA487-52F5-481B-93D4-C6DBEE492A33}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fox_Footsteps" ID="{12595E33-76D9-43A5-B7B0-A406D46E7495}">
+					<ChildrenList>
+						<Action Name="" ID="{D25C863A-5E79-455E-A8DA-29815A949317}" ShortID="199650633">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Move" ID="{5734448E-58BD-4EAF-816E-2640C7DBB1F6}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fox_Melt" ID="{01A91CA9-41A3-4B76-8029-7F5035B6C354}">
+					<ChildrenList>
+						<Action Name="" ID="{A25FA5DB-1ADE-49A8-8488-BEC5F85705A5}" ShortID="46110118">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Harz20_SE_Ice" ID="{9484C3D9-1948-4AA9-81E6-34660B6A0127}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BGM_Greece" ID="{AD920AF0-DF01-4812-B497-4D0EE5417E50}">
+					<ChildrenList>
+						<Action Name="" ID="{8A4DE7CE-8D88-44D7-B1B1-6AC3EE3B8116}" ShortID="885364749">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Greece" ID="{4062CC23-E902-47B7-A8AB-B8575E75C819}" WorkUnitID="{3B7113FC-F530-4C03-84A9-5CE6AECDAC79}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BGM_Araska" ID="{4A034779-A33B-4AF2-9D45-3E63E24A3F78}">
+					<ChildrenList>
+						<Action Name="" ID="{D03631E5-366A-4523-B7D4-C40B857D8293}" ShortID="757824876">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Araska" ID="{36BCE790-6067-4D52-8484-2C355AC79419}" WorkUnitID="{3B7113FC-F530-4C03-84A9-5CE6AECDAC79}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BGM_Africa" ID="{18AF5EE6-1379-457E-923D-983B2B036BAA}">
+					<ChildrenList>
+						<Action Name="" ID="{7055AAD2-EFB9-41EF-8F88-3958AAB316F0}" ShortID="481330582">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Africa" ID="{9459E25F-CF81-418F-9D34-C7D090B8A635}" WorkUnitID="{3B7113FC-F530-4C03-84A9-5CE6AECDAC79}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BGM_Clear" ID="{1EA6D99B-3243-4655-AB63-80F190F7022A}">
+					<ChildrenList>
+						<Action Name="" ID="{1E324846-1620-49A8-BE85-B8D572C56DCE}" ShortID="747480813">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Harz20_Clear" ID="{5A21047D-CC44-414B-A2EC-F6AF71CDBBC7}" WorkUnitID="{3B7113FC-F530-4C03-84A9-5CE6AECDAC79}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stage_Fountain" ID="{8435AA81-0C21-4F99-ADDE-AAD2C07A6623}">
+					<ChildrenList>
+						<Action Name="" ID="{E77C9FD6-4253-436D-94EB-12FAAA7F6F7F}" ShortID="1051509792">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Harz20_SE_Fountain" ID="{78A8A193-F9C5-413B-9415-3CF95E8E6CB1}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stage_WaterDrop" ID="{1B0000DA-ACBD-4581-8438-DE4CF02B5E7E}">
+					<ChildrenList>
+						<Action Name="" ID="{62F8EB99-D210-4B2D-839B-4C6621AC464C}" ShortID="208624086">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Harz20_SE_WaterDrop" ID="{1714398F-6536-42C4-9343-A4DA814DBA8B}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Select" ID="{73118E49-5CD1-4917-B093-5FB61B85A791}">
+					<ChildrenList>
+						<Action Name="" ID="{62F90755-CCE1-4192-A282-C3B3DC94F6A3}" ShortID="570595125">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Harz20_SE_Select" ID="{33478C94-67EF-4F1B-B82D-308D7570089F}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Start" ID="{F5842F59-6C13-4F7E-90CB-EC0856EE436B}">
+					<ChildrenList>
+						<Action Name="" ID="{DD4B9FC1-3908-48AD-A4F7-66E6CCCAEF6F}" ShortID="923103963">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Harz20_SE_Start" ID="{7669D1F2-81AA-484A-B166-F59229372096}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pause" ID="{5C222DD9-4F39-4939-B0DD-A1062A2E166C}">
+					<ChildrenList>
+						<Action Name="" ID="{3FC06349-EB45-428C-80E8-FAD5BB3123E8}" ShortID="396983850">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Harz20_SE_Pause" ID="{C20B700E-F187-405D-A231-B06A7BC387A3}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Return" ID="{7D46F147-9214-4C55-9CA2-EBCF69EB0D81}">
+					<ChildrenList>
+						<Action Name="" ID="{C5108162-8991-43FF-845D-025257DAB890}" ShortID="986479874">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Harz20_SE_Return" ID="{45161296-6F4A-4C4F-9989-F8374A577E0C}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Retry" ID="{8EC63A5E-E9A3-4309-94CD-A96D567498AB}">
+					<ChildrenList>
+						<Action Name="" ID="{43B990E0-F299-4EF7-8F86-C798EF9437F9}" ShortID="649777906">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Harz20_SE_Retry" ID="{2F2C953B-53AC-4175-9E54-F0F23545703A}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Back" ID="{17487908-2C0A-4A25-9028-1BA0E3957890}">
+					<ChildrenList>
+						<Action Name="" ID="{54670DBC-B0BF-4975-A073-A504E698FE4B}" ShortID="310684704">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Harz20_SE_Back" ID="{1BC96E86-87DC-45F6-8A9E-B99B8413F43E}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
