@@ -31,7 +31,7 @@
 				<Event Id="3685664337" Name="Fox_Melt" ObjectPath="\Events\Default Work Unit\Fox_Melt" DurationType="OneShot" DurationMin="0.273937" DurationMax="0.273937"/>
 				<Event Id="3092587493" Name="Pause" ObjectPath="\Events\Default Work Unit\Pause" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000"/>
 				<Event Id="3859834159" Name="Return" ObjectPath="\Events\Default Work Unit\Return" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000"/>
-				<Event Id="671713024" Name="Stage_Fountain" ObjectPath="\Events\Default Work Unit\Stage_Fountain" DurationType="OneShot" DurationMin="5.928083" DurationMax="5.928083"/>
+				<Event Id="671713024" Name="Stage_Fountain" ObjectPath="\Events\Default Work Unit\Stage_Fountain" DurationType="Infinite"/>
 				<Event Id="990763382" Name="Stage_WaterDrop" ObjectPath="\Events\Default Work Unit\Stage_WaterDrop" DurationType="OneShot" DurationMin="1.012708" DurationMax="1.012708"/>
 				<Event Id="2024222415" Name="UI_Back" ObjectPath="\Events\Default Work Unit\UI_Back" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000"/>
 				<Event Id="3293696140" Name="UI_Retry" ObjectPath="\Events\Default Work Unit\UI_Retry" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000"/>
@@ -49,7 +49,7 @@
 				</File>
 				<File Id="24495802" Language="SFX">
 					<ShortName>Harz20_SE_Fountain.wav</ShortName>
-					<Path>SFX/Harz20_SE_Fountain_10C4C929.wem</Path>
+					<Path>SFX/Harz20_SE_Fountain_D79FB2B7.wem</Path>
 				</File>
 				<File Id="40727437" Language="SFX">
 					<ShortName>Harz20_SE_Retry.wav</ShortName>

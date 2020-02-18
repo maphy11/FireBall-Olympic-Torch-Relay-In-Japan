@@ -7,6 +7,7 @@ namespace Ice
 {
     public class IceCore : MonoBehaviour, IFireSever
     {
+        public AK.Wwise.Event MeltEvent;
         public bool isMelting { get; protected set; }
         void Start()
         {
@@ -21,6 +22,7 @@ namespace Ice
 
         public void TouchFire(FireCore fire)
         {
+            MeltEvent.Post(gameObject);
             isMelting = true;
         }
     }

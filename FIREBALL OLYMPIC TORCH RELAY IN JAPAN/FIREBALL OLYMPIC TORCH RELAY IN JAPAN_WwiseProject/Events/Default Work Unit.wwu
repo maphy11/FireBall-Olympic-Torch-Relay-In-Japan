@@ -82,6 +82,12 @@
 				</Event>
 				<Event Name="BGM_Clear" ID="{1EA6D99B-3243-4655-AB63-80F190F7022A}">
 					<ChildrenList>
+						<Action Name="" ID="{E6305B04-F8EA-48C3-BB32-F6DDC51F0105}" ShortID="150340738">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
 						<Action Name="" ID="{1E324846-1620-49A8-BE85-B8D572C56DCE}" ShortID="747480813">
 							<ReferenceList>
 								<Reference Name="Target">

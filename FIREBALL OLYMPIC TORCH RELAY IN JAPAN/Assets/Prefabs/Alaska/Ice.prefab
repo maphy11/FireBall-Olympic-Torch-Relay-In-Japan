@@ -120,6 +120,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de265201030be4d9f959259af4b927aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MeltEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 296817cb9eb674e45886e4c496ba879a,
+      type: 2}
 --- !u!1001 &4381969615338890316
 PrefabInstance:
   m_ObjectHideFlags: 0

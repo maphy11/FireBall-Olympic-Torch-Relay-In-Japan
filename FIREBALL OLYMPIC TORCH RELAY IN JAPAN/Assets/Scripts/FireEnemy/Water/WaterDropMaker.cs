@@ -6,6 +6,7 @@ public class WaterDropMaker : MonoBehaviour
 {
     [SerializeField] private GameObject waterDrop;
     [SerializeField] private float dropInterval;
+    public AK.Wwise.Event WaterDropEvent;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,7 @@ public class WaterDropMaker : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(dropInterval);
+            WaterDropEvent.Post(gameObject);
             Instantiate(waterDrop, this.transform.position, this.transform.rotation);
         }
     }

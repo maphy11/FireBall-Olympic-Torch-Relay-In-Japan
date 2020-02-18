@@ -46,3 +46,8 @@ MonoBehaviour:
   waterDrop: {fileID: 5639281303973917432, guid: 3e5cc55ea08c14e4091942cb90f88eb7,
     type: 3}
   dropInterval: 3
+  WaterDropEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8820d96f46420441ab4f677ca4350001,
+      type: 2}

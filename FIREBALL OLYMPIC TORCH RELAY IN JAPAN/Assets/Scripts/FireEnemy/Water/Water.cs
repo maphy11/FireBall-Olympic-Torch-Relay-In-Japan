@@ -7,10 +7,12 @@ namespace FireEnemy
     // ToDo:Implement the behavior of the water if collide stone
     public class Water : MonoBehaviour
     {
+        public AK.Wwise.Event FountainEvent;
         private ParticleSystem particle;
         // Start is called before the first frame update
         void Start()
         {
+            FountainEvent.Post(gameObject);
             particle = GetComponent<ParticleSystem>();
         }
 

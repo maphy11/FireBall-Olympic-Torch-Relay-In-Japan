@@ -17,6 +17,16 @@
 										<Value>-16</Value>
 									</ValueList>
 								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 						</Bus>
 						<Bus Name="SE" ID="{A2412608-CE22-4B5C-BA9A-FFFACBB7B97D}">

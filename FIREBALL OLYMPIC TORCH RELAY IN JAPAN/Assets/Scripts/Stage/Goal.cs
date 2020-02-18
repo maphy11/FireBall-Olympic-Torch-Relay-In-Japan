@@ -8,7 +8,7 @@ namespace Stage
     public class Goal : MonoBehaviour
     {
         [SerializeField] private GameObject touchFire;
-
+        public AK.Wwise.Event GoalEvent;
         // Start is called before the first frame update
         void Start()
         {
@@ -31,6 +31,7 @@ namespace Stage
             {
                 return;
             }
+            GoalEvent.Post(gameObject);
             touchFire.SetActive(true);
             playerState.ToGameClear();
             // if you want to implement sound, write down under this comment
