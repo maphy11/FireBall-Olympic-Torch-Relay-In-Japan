@@ -847,6 +847,11 @@ PrefabInstance:
       propertyPath: targetSceneName
       value: Japan
       objectReference: {fileID: 0}
+    - target: {fileID: 6097855234539606755, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20573aa75a59848f2805b42599e8743d, type: 3}
 --- !u!114 &811220192 stripped

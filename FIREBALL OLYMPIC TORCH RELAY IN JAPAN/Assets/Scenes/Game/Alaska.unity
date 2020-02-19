@@ -8976,11 +8976,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GamePlayingUI
       objectReference: {fileID: 0}
-    - target: {fileID: 8263042024886352024, guid: 20573aa75a59848f2805b42599e8743d,
-        type: 3}
-      propertyPath: coreData
-      value: 
-      objectReference: {fileID: 69661336}
     - target: {fileID: 8263042024886352029, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9121,6 +9116,11 @@ PrefabInstance:
       propertyPath: coreData
       value: 
       objectReference: {fileID: 69661336}
+    - target: {fileID: 8263042024886352024, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: coreData
+      value: 
+      objectReference: {fileID: 69661336}
     - target: {fileID: 4783489592496134957, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: player
@@ -9172,6 +9172,11 @@ PrefabInstance:
       propertyPath: inputManager
       value: 
       objectReference: {fileID: 209507296}
+    - target: {fileID: 6097855234539606755, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8263042024886352024, guid: 20573aa75a59848f2805b42599e8743d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 20573aa75a59848f2805b42599e8743d, type: 3}
