@@ -160,8 +160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8ca04d91f9b84d5a994006fba32c800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  targetScene: Menu
+  inputManager: {fileID: 0}
+  targetSceneName: 
+  fadeOutSpeed: 0
 --- !u!1 &8263042024075273772
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,6 +303,7 @@ GameObject:
   - component: {fileID: 8263042024201445090}
   - component: {fileID: 8263042024201445089}
   - component: {fileID: 8263042024201445088}
+  - component: {fileID: 205568937549686351}
   m_Layer: 5
   m_Name: BackToMenu
   m_TagString: Untagged
@@ -407,8 +409,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6460007482600159260}
-        m_MethodName: OnClick
+      - m_Target: {fileID: 205568937549686351}
+        m_MethodName: ToDiffrentScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -418,6 +420,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &205568937549686351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8263042024201445118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ca04d91f9b84d5a994006fba32c800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputManager: {fileID: 0}
+  targetSceneName: Menu
+  fadeOutSpeed: 0.5
 --- !u!1 &8263042024243423159
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,8 +574,6 @@ GameObject:
   - component: {fileID: 8263042024387990738}
   - component: {fileID: 8263042024387990737}
   - component: {fileID: 8263042024387990736}
-  - component: {fileID: 1701604134596764225}
-  - component: {fileID: 6460007482600159260}
   m_Layer: 5
   m_Name: PausePanel
   m_TagString: Untagged
@@ -622,30 +637,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1701604134596764225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8263042024387990703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e15ab78d13a9403999d6121103c808b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &6460007482600159260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8263042024387990703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8a447eac6cad41cfabec5f26086dc5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8263042024886352023
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,7 +755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coreData: {fileID: 0}
-  GameOverView: {fileID: 8263042025093255979}
+  gameOverView: {fileID: 0}
 --- !u!114 &5491579943150678395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -879,8 +870,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8ca04d91f9b84d5a994006fba32c800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  targetScene: 
+  inputManager: {fileID: 0}
+  targetSceneName: 
+  fadeOutSpeed: 0
 --- !u!1 &8263042025701341581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1039,6 +1031,7 @@ GameObject:
   - component: {fileID: 8263042026191842964}
   - component: {fileID: 8263042026191842963}
   - component: {fileID: 8263042026191842962}
+  - component: {fileID: 3720590883793544683}
   m_Layer: 5
   m_Name: ReStart
   m_TagString: Untagged
@@ -1144,8 +1137,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1701604134596764225}
-        m_MethodName: OnClick
+      - m_Target: {fileID: 3720590883793544683}
+        m_MethodName: ReloadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1155,3 +1148,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3720590883793544683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8263042026191842960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ca04d91f9b84d5a994006fba32c800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputManager: {fileID: 0}
+  targetSceneName: 
+  fadeOutSpeed: 0.5

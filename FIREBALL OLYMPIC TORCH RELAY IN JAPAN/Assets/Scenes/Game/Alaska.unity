@@ -9086,6 +9086,11 @@ PrefabInstance:
       propertyPath: targetSceneName
       value: Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 4783489592496134957, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: inputManager
+      value: 
+      objectReference: {fileID: 209507296}
     - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: player
@@ -9094,14 +9099,34 @@ PrefabInstance:
     - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: targetSceneName
-      value: Alaska
+      value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: fadeOutSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: inputManager
+      value: 
+      objectReference: {fileID: 209507296}
     - target: {fileID: 2583582029366179300, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 091569b03e12645dc9972676c251f9fa,
         type: 3}
+    - target: {fileID: 3720590883793544683, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: inputManager
+      value: 
+      objectReference: {fileID: 209507296}
+    - target: {fileID: 205568937549686351, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: inputManager
+      value: 
+      objectReference: {fileID: 209507296}
     m_RemovedComponents:
     - {fileID: 8263042024886352024, guid: 20573aa75a59848f2805b42599e8743d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 20573aa75a59848f2805b42599e8743d, type: 3}

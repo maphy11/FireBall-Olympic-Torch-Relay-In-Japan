@@ -5,12 +5,6 @@ using FireHolders;
 
 namespace Player
 {
-    // public enum Platform
-    // {
-    //     PC,
-    //     TabletSmartphone
-    // };
-
     public enum PlayerState
     {
         Wait,

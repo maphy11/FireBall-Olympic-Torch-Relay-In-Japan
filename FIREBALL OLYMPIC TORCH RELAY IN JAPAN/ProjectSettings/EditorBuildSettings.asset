@@ -5,21 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 676a55b44189749b3860ce2c0d582db2
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 03ace0b59458b483ba1b9a2759899df0
@@ -32,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/Africa.unity
     guid: eab850203be13403d8697214bb79353c
+  - enabled: 1
+    path: Assets/Scenes/Game/Japan.unity
+    guid: d8b3aa25035f6423199171a38164d8eb
   m_configObjects: {}
