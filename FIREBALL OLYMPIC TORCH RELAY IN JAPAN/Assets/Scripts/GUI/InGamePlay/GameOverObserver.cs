@@ -8,7 +8,7 @@ namespace GUI
     public class GameOverObserver : MonoBehaviour
     {
         [SerializeField] private PlayerCore coreData;
-        [SerializeField] private GameObject GameOverView;
+        [SerializeField] private GameObject gameOverView;
         // Start is called before the first frame update
         void Start()
         {
@@ -18,10 +18,9 @@ namespace GUI
         // Update is called once per frame
         void Update()
         {
-            if (coreData.isGameOver && !GameOverView.active)
+            if (coreData.isGameOver && !gameOverView.active)
             {
-                Debug.Log("GameOverObserver is working");
-                GameOverView.SetActive(true);
+                gameOverView.SetActive(true);
             }
         }
     }
