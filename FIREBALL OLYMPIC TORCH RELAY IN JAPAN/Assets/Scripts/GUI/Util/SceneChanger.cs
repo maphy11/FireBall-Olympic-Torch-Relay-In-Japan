@@ -10,6 +10,7 @@ namespace GUI
     public class SceneChanger : MonoBehaviour
     {
         [SerializeField] private GameObject inputManager;
+        [SerializeField] private GameObject imageObject;
         [SerializeField] private string targetSceneName;
         [SerializeField] private float fadeOutSpeed;
         private IinputTap input;
@@ -18,7 +19,7 @@ namespace GUI
         void Start()
         {
             input = inputManager.GetComponent(typeof(IinputTap)) as IinputTap;
-            image = GetComponent<Image>();
+            image = imageObject.GetComponent<Image>();
         }
         public void OnTapChange()
         {
