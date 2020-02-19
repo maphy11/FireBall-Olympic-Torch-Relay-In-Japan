@@ -33,7 +33,6 @@ public class PlayerSencerWithHowToPlay : MonoBehaviour
             state.ToPause();
             howToPlayPanel.SetActive(true);
             // the sound process when panel open
-
             StartCoroutine("TapCoroutine", state);
         }
     }
