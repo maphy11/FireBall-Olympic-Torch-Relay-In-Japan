@@ -120,6 +120,81 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &1443731
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7859680127079674028, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: m_Name
+      value: InputManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d5e71569e79984bc498430691cb83827, type: 3}
+--- !u!1 &1443732 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7859680127079674028, guid: d5e71569e79984bc498430691cb83827,
+    type: 3}
+  m_PrefabInstance: {fileID: 1443731}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &154378130
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,8 +284,9 @@ GameObject:
   - component: {fileID: 301139278}
   - component: {fileID: 301139277}
   - component: {fileID: 301139276}
+  - component: {fileID: 301139279}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: ComingSoon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -315,6 +391,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301139274}
   m_CullTransparentMesh: 0
+--- !u!114 &301139279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301139274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ca04d91f9b84d5a994006fba32c800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputManager: {fileID: 1443732}
+  imageObject: {fileID: 1515375615}
+  targetSceneName: 
+  fadeOutSpeed: 2
 --- !u!1 &330894003
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,8 +562,9 @@ GameObject:
   - component: {fileID: 506473976}
   - component: {fileID: 506473975}
   - component: {fileID: 506473974}
+  - component: {fileID: 506473977}
   m_Layer: 5
-  m_Name: Button (5)
+  m_Name: Africa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -539,7 +632,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 506473975}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 506473977}
+        m_MethodName: ToDiffrentScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &506473975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,6 +680,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 506473972}
   m_CullTransparentMesh: 0
+--- !u!114 &506473977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506473972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ca04d91f9b84d5a994006fba32c800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputManager: {fileID: 1443732}
+  imageObject: {fileID: 1515375615}
+  targetSceneName: Africa
+  fadeOutSpeed: 2
 --- !u!1 &634623447
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,6 +946,7 @@ RectTransform:
   - {fileID: 506473973}
   - {fileID: 1626443998}
   - {fileID: 1737742056}
+  - {fileID: 1515375614}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -846,8 +967,9 @@ GameObject:
   - component: {fileID: 1260037695}
   - component: {fileID: 1260037694}
   - component: {fileID: 1260037693}
+  - component: {fileID: 1260037696}
   m_Layer: 5
-  m_Name: Button (6)
+  m_Name: Japan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -915,7 +1037,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1260037694}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1260037696}
+        m_MethodName: ToDiffrentScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1260037694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -952,6 +1085,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1260037691}
   m_CullTransparentMesh: 0
+--- !u!114 &1260037696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260037691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ca04d91f9b84d5a994006fba32c800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputManager: {fileID: 1443732}
+  imageObject: {fileID: 1515375615}
+  targetSceneName: Japan
+  fadeOutSpeed: 2
 --- !u!1 &1280738419
 GameObject:
   m_ObjectHideFlags: 0
@@ -1160,6 +1309,147 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482322388}
   m_CullTransparentMesh: 0
+--- !u!1001 &1515375613
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736050999}
+    m_Modifications:
+    - target: {fileID: 1523306817826554817, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_Name
+      value: FadeOutAlphaController
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554823, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554821, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e04dd9bc02c04440284834522b6ec0be, type: 3}
+--- !u!224 &1515375614 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1515375613}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1515375615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1523306817826554817, guid: e04dd9bc02c04440284834522b6ec0be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1515375613}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1626443997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1172,8 +1462,9 @@ GameObject:
   - component: {fileID: 1626444001}
   - component: {fileID: 1626444000}
   - component: {fileID: 1626443999}
+  - component: {fileID: 1626444002}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Alaska
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1241,7 +1532,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1626444000}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1626444002}
+        m_MethodName: ToDiffrentScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1626444000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1278,6 +1580,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626443997}
   m_CullTransparentMesh: 0
+--- !u!114 &1626444002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626443997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ca04d91f9b84d5a994006fba32c800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputManager: {fileID: 1443732}
+  imageObject: {fileID: 1515375615}
+  targetSceneName: Alaska
+  fadeOutSpeed: 2
 --- !u!1 &1737742055
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,8 +1608,9 @@ GameObject:
   - component: {fileID: 1737742059}
   - component: {fileID: 1737742058}
   - component: {fileID: 1737742057}
+  - component: {fileID: 1737742060}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Greece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1359,7 +1678,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1737742058}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1737742060}
+        m_MethodName: ToDiffrentScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1737742058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1396,6 +1726,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737742055}
   m_CullTransparentMesh: 0
+--- !u!114 &1737742060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737742055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ca04d91f9b84d5a994006fba32c800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputManager: {fileID: 1443732}
+  imageObject: {fileID: 1515375615}
+  targetSceneName: Greece
+  fadeOutSpeed: 2
 --- !u!1 &1751445883
 GameObject:
   m_ObjectHideFlags: 0
