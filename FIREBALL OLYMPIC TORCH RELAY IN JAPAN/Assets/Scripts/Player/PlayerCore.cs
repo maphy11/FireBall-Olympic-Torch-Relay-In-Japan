@@ -24,6 +24,7 @@ namespace Player
         public float speed { get; set; }
         public bool isGround { get; set; }
         public bool isGameOver { get; private set; }
+        bool isStageClear;
         public AK.Wwise.Event FootstepsEvent;
         public AK.Wwise.Event StadiumJumpEvent;
 
@@ -35,6 +36,7 @@ namespace Player
             flameAttacher = GetComponent(typeof(IPlayerFlame)) as IPlayerFlame;
             guiImage = guiPanel.GetComponent(typeof(IPlayerGUIImage)) as IPlayerGUIImage;
             isGameOver = false;
+            isStageClear = false;
         }
 
         void Update()
@@ -44,9 +46,10 @@ namespace Player
                 ToDead();
             }
 
-            if (state == PlayerState.GameClear)
+            if (state == PlayerState.GameClear && !isStageClear)
             {
                 StartCoroutine("OnGoal");
+                isStageClear = true;
             }
         }
 

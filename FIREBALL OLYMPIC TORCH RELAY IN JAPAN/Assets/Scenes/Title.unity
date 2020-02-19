@@ -120,6 +120,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &238322815 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1523306817826554817, guid: e04dd9bc02c04440284834522b6ec0be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1523306817322698162}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &299726684
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,12 +787,12 @@ PrefabInstance:
     - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1523306817826554822, guid: e04dd9bc02c04440284834522b6ec0be,
         type: 3}
@@ -831,7 +837,12 @@ PrefabInstance:
     - target: {fileID: 1523306817826554821, guid: e04dd9bc02c04440284834522b6ec0be,
         type: 3}
       propertyPath: fadeOutSpeed
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554821, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: imageObject
+      value: 
+      objectReference: {fileID: 238322815}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e04dd9bc02c04440284834522b6ec0be, type: 3}

@@ -735,6 +735,11 @@ PrefabInstance:
       propertyPath: coreData
       value: 
       objectReference: {fileID: 1963454159}
+    - target: {fileID: 8263042024886352025, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: gameOverView
+      value: 
+      objectReference: {fileID: 1097629588}
     - target: {fileID: 5491579943150678395, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: coreData
@@ -770,6 +775,21 @@ PrefabInstance:
       propertyPath: targetSceneName
       value: Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 4783489592496134957, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: inputManager
+      value: 
+      objectReference: {fileID: 1775972038}
+    - target: {fileID: 4783489592496134957, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: imageObject
+      value: 
+      objectReference: {fileID: 1097629589}
+    - target: {fileID: 4783489592496134957, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: fadeOutSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: player
@@ -780,12 +800,48 @@ PrefabInstance:
       propertyPath: targetSceneName
       value: Greece
       objectReference: {fileID: 0}
+    - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: inputManager
+      value: 
+      objectReference: {fileID: 1775972038}
+    - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: imageObject
+      value: 
+      objectReference: {fileID: 1097629589}
+    - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: fadeOutSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6296099630580455708, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3720590883793544683, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: inputManager
+      value: 
+      objectReference: {fileID: 1775972038}
+    - target: {fileID: 3720590883793544683, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: targetSceneName
+      value: Greece
+      objectReference: {fileID: 0}
+    - target: {fileID: 205568937549686351, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: inputManager
+      value: 
+      objectReference: {fileID: 1775972038}
     - target: {fileID: 6097855234539606755, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6097855234539606753, guid: 20573aa75a59848f2805b42599e8743d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 20573aa75a59848f2805b42599e8743d, type: 3}
 --- !u!114 &1097629587 stripped
 MonoBehaviour:
@@ -799,6 +855,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e5e707c9a184de184c5cbd44d3e2b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1097629588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8263042025093255979, guid: 20573aa75a59848f2805b42599e8743d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1097629586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1097629589 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6097855234539606757, guid: 20573aa75a59848f2805b42599e8743d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1097629586}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1195302160
 GameObject:
   m_ObjectHideFlags: 0

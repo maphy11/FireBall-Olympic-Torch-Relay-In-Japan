@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Player;
-using InputSystem;
 
 namespace GUI
 {
@@ -14,6 +13,11 @@ namespace GUI
         public void ActiveGameClearPanel()
         {
             gameClearPanel.SetActive(true);
+            StartCoroutine("OnTap");
+        }
+        IEnumerator OnTap()
+        {
+            yield return null;
             gameClearPanel.GetComponent<SceneChanger>().OnTapChange();
         }
     }

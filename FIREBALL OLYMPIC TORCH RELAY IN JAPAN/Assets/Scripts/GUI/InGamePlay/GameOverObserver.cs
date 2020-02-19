@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Player;
-using InputSystem;
 
 namespace GUI
 {
@@ -22,8 +21,14 @@ namespace GUI
             if (coreData.isGameOver && !gameOverView.active)
             {
                 gameOverView.SetActive(true);
-                gameOverView.GetComponent<SceneChanger>().OnTapChange();
+                StartCoroutine("OnTap");
             }
+        }
+
+        IEnumerator OnTap()
+        {
+            yield return null;
+            gameOverView.GetComponent<SceneChanger>().OnTapChange();
         }
     }
 }

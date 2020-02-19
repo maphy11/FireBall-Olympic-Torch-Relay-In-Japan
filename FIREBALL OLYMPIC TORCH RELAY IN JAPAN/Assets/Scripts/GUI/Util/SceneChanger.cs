@@ -54,7 +54,7 @@ namespace GUI
         {
             var fadeOut = StartCoroutine("StartFadeOut");
             yield return fadeOut;
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(0.5f);
             SceneManager.LoadScene(targetSceneName);
         }
 
@@ -62,7 +62,7 @@ namespace GUI
         {
             var fadeOut = StartCoroutine("StartFadeOut");
             yield return fadeOut;
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(0.5f);
             Application.LoadLevel(SceneManager.GetActiveScene().name);
         }
         IEnumerator StartFadeOut()
