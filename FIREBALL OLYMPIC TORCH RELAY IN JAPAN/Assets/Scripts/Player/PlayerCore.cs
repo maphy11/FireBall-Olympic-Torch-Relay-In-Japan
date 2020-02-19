@@ -33,6 +33,8 @@ namespace Player
         public float speed { get; set; }
         public bool isGround { get; set; }
         public bool isGameOver { get; private set; }
+        public AK.Wwise.Event FootstepsEvent;
+        public AK.Wwise.Event StadiumJumpEvent;
 
         void Start()
         {
@@ -89,6 +91,17 @@ namespace Player
         public void ToGameClear() { state = PlayerState.GameClear; }
         public void ToReachStadium() { state = PlayerState.ReachStadium; }
         public void ToStadiumJump() { state = PlayerState.StadiumJump; }
+
+
+        public void FootstepsSound()
+        {
+            FootstepsEvent.Post(gameObject);
+        }
+
+        public void StadiumJumpSound()
+        {
+            StadiumJumpEvent.Post(gameObject);
+        }
 
     }
 

@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  targetScene: Menu
+  targetSceneName: 
 --- !u!1 &8263042024075273772
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,6 +634,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e15ab78d13a9403999d6121103c808b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UIRestartEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 676fc004848cb4818bf65efdaf72bd06,
+      type: 2}
 --- !u!114 &6460007482600159260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -646,6 +651,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8a447eac6cad41cfabec5f26086dc5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UIBackEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 09c93ff6f1baa49638abd43a0e5a3e69,
+      type: 2}
 --- !u!1 &8263042024886352023
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,6 +789,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 8263042024387990703}
   coreData: {fileID: 0}
+  UIPauseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4172a725ba00c4b6aa4df84c054c9859,
+      type: 2}
+  UIReturnEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1de9eb3ea6bcd42d7b6903041a34ace2,
+      type: 2}
 --- !u!114 &2149736377603412415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -880,7 +900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  targetScene: 
+  targetSceneName: 
 --- !u!1 &8263042025701341581
 GameObject:
   m_ObjectHideFlags: 0

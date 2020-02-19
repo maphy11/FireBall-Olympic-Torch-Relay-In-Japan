@@ -85,6 +85,7 @@
 						<Action Name="" ID="{E6305B04-F8EA-48C3-BB32-F6DDC51F0105}" ShortID="150340738">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList/>
 						</Action>
@@ -143,6 +144,13 @@
 				</Event>
 				<Event Name="Pause" ID="{5C222DD9-4F39-4939-B0DD-A1062A2E166C}">
 					<ChildrenList>
+						<Action Name="" ID="{8652294B-F5D4-4D86-AB0C-6259773CCE55}" ShortID="118737967">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="8"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
 						<Action Name="" ID="{3FC06349-EB45-428C-80E8-FAD5BB3123E8}" ShortID="396983850">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -160,6 +168,13 @@
 									<ObjectRef Name="Harz20_SE_Return" ID="{45161296-6F4A-4C4F-9989-F8374A577E0C}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
 								</Reference>
 							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F78FC9EE-BC7A-4DCD-8981-1D90C87C30E3}" ShortID="271329861">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>

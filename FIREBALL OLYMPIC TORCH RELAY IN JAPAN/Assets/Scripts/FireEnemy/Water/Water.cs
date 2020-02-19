@@ -9,10 +9,12 @@ namespace FireEnemy
     {
         private bool canExtinguish;
         private ParticleSystem particle;
+        public AK.Wwise.Event FountainEvent;
         // Start is called before the first frame update
         void Start()
         {
             canExtinguish = true;
+            FountainEvent.Post(gameObject);
             particle = GetComponent<ParticleSystem>();
         }
 

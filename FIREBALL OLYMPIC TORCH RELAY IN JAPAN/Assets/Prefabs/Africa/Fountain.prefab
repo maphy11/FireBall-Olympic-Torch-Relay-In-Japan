@@ -4766,3 +4766,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baab28f426a394237b2b5072b51cd990, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FountainEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b5f83c7583e294018a608ed8e1d866ed,
+      type: 2}
