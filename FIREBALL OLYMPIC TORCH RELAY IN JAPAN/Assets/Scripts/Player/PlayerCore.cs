@@ -5,12 +5,6 @@ using FireHolders;
 
 namespace Player
 {
-    public enum Platform
-    {
-        PC,
-        TabletSmartphone
-    };
-
     public enum PlayerState
     {
         Wait,
@@ -23,10 +17,7 @@ namespace Player
     };
     public class PlayerCore : MonoBehaviour, IPlayerState
     {
-
-        [SerializeField] private Platform _platform = Platform.TabletSmartphone;
         [SerializeField] private GameObject guiPanel;
-        public Platform platform { get { return _platform; } }
         public PlayerState state { get; private set; }
         private IPlayerFlame flameAttacher;
         private IPlayerGUIImage guiImage;
