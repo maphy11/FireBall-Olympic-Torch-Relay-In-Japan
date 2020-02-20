@@ -356,17 +356,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db61116fc8a04871911e785fb159cfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _platform: 0
   guiPanel: {fileID: 0}
   FootstepsEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 492a5c283587c44aeae2e7073cecbb02,
+    WwiseObjectReference: {fileID: 11400000, guid: 56ef5362e8b3c48578cf6fda4d309b55,
       type: 2}
   StadiumJumpEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 92b4c7dd6208c4f0583a4d10c658cf21,
+    WwiseObjectReference: {fileID: 11400000, guid: 41e4988c48e66415db3b733bf0abe1f2,
       type: 2}
 --- !u!114 &2292565134463459251
 MonoBehaviour:
@@ -383,8 +382,9 @@ MonoBehaviour:
   JumpEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 92b4c7dd6208c4f0583a4d10c658cf21,
+    WwiseObjectReference: {fileID: 11400000, guid: 41e4988c48e66415db3b733bf0abe1f2,
       type: 2}
+  inputManager: {fileID: 0}
   runMaxSpeed: 10
   reachMaxSpeedTime: 2
   reachRunStopTime: 1
