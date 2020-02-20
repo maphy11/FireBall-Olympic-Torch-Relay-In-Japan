@@ -283,5 +283,5 @@ MonoBehaviour:
   GoalEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b84a83662ee8e4c77a79de5d2c8632b9,
+    WwiseObjectReference: {fileID: 11400000, guid: 54e282e8d2a1d4a89ae0d45df607289f,
       type: 2}

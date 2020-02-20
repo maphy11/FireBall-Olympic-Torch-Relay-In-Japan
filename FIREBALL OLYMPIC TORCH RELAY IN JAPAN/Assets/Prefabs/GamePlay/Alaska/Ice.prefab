@@ -123,7 +123,7 @@ MonoBehaviour:
   MeltEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 296817cb9eb674e45886e4c496ba879a,
+    WwiseObjectReference: {fileID: 11400000, guid: b65da6689d086444bb5b52699a55413a,
       type: 2}
 --- !u!1001 &4381969615338890316
 PrefabInstance:
@@ -224,20 +224,20 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.20000002
       objectReference: {fileID: 0}
-    - target: {fileID: 7228348219166925967, guid: 2275e55c21efc43b6ae82b3a53128fa1,
+    - target: {fileID: 3000575413875516973, guid: 2275e55c21efc43b6ae82b3a53128fa1,
         type: 3}
-      propertyPath: coreData
-      value: 
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5299864157185083867, guid: 2275e55c21efc43b6ae82b3a53128fa1,
         type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3000575413875516973, guid: 2275e55c21efc43b6ae82b3a53128fa1,
+    - target: {fileID: 7228348219166925967, guid: 2275e55c21efc43b6ae82b3a53128fa1,
         type: 3}
-      propertyPath: m_Enabled
-      value: 1
+      propertyPath: coreData
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2275e55c21efc43b6ae82b3a53128fa1, type: 3}

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E701B181-7167-4538-B1C5-0584FF093421}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E701B181-7167-4538-B1C5-0584FF093421}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="SE" ID="{7C824D93-04CA-46FC-B587-FFCF3A062589}" ShortID="1004110362">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SE" ID="{A2412608-CE22-4B5C-BA9A-FFFACBB7B97D}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Move" ID="{5734448E-58BD-4EAF-816E-2640C7DBB1F6}" ShortID="870003141">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Real" ID="{136F0B03-C1A4-4991-A23C-9660D47A6968}" ShortID="1006409349">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SE_Move_Real_01" ID="{C468458F-A36C-4181-B610-3472F6E9CA8A}" ShortID="69424565">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SE_Move_Real_01" ID="{3B40D82B-5743-4893-A7B1-CAD8EF954E0C}">
+													<Language>SFX</Language>
+													<AudioFile>SE_Move_Real_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="398021556"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SE_Move_Real_01" ID="{3B40D82B-5743-4893-A7B1-CAD8EF954E0C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SE_Move_Real_02" ID="{BE35E6F4-AE38-49AC-8D2A-CA85F168023A}" ShortID="707257160">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SE_Move_Real_02" ID="{5B90DC7B-9B5E-4B10-AF68-DAA392F10A7E}">
+													<Language>SFX</Language>
+													<AudioFile>SE_Move_Real_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="505181645"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SE_Move_Real_02" ID="{5B90DC7B-9B5E-4B10-AF68-DAA392F10A7E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SE_Move_Real_03" ID="{BF5CB3C9-2AC8-4FA2-8010-B650A6F931AA}" ShortID="739815713">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SE_Move_Real_03" ID="{0DF051E5-5936-4AE5-A938-C2E1B9DACC1C}">
+													<Language>SFX</Language>
+													<AudioFile>SE_Move_Real_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="95750219"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SE_Move_Real_03" ID="{0DF051E5-5936-4AE5-A938-C2E1B9DACC1C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SE_Move_Real_04" ID="{87E6C8E4-B62C-4E36-A274-A012358805C1}" ShortID="200244462">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SE_Move_Real_04" ID="{CF5A6166-A035-486F-A8EA-E3FA6BD31602}">
+													<Language>SFX</Language>
+													<AudioFile>SE_Move_Real_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="705410262"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SE_Move_Real_04" ID="{CF5A6166-A035-486F-A8EA-E3FA6BD31602}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SE_Move_Real_05" ID="{CA844CE6-98BB-4B95-9429-27F18C04D566}" ShortID="468387731">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SE_Move_Real_05" ID="{220439DF-6178-4350-87C1-9A205C351C77}">
+													<Language>SFX</Language>
+													<AudioFile>SE_Move_Real_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="41365147"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SE_Move_Real_05" ID="{220439DF-6178-4350-87C1-9A205C351C77}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SE_Move_Real_06" ID="{2A2B517E-A412-4A59-BCB3-3EAF96F16735}" ShortID="605852138">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SE_Move_Real_06" ID="{1CA1E3B7-5819-4524-AEFD-B57E4D4684ED}">
+													<Language>SFX</Language>
+													<AudioFile>SE_Move_Real_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1030803109"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SE_Move_Real_06" ID="{1CA1E3B7-5819-4524-AEFD-B57E4D4684ED}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Pop" ID="{0CEFBBC8-A48B-4313-8DA0-58E637EBD108}" ShortID="621241448">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SE_Move_Pop_01" ID="{62BD2A44-8190-4178-AB49-6AA93125B2FB}" ShortID="941719789">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SE_Move_Pop_01" ID="{2B74583C-89F5-4AF1-98FA-C04CC60E9A36}">
+													<Language>SFX</Language>
+													<AudioFile>SE_Move_Pop_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="5593724"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SE_Move_Pop_01" ID="{2B74583C-89F5-4AF1-98FA-C04CC60E9A36}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SE_Move_Pop_02" ID="{297D81C5-3A54-4341-B85F-598E81F7C018}" ShortID="901306574">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SE_Move_Pop_02" ID="{5C2E9EA5-25BB-49C7-85C0-CCD04C4B62E3}">
+													<Language>SFX</Language>
+													<AudioFile>SE_Move_Pop_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="869248803"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SE_Move_Pop_02" ID="{5C2E9EA5-25BB-49C7-85C0-CCD04C4B62E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SE_Move_Pop_03" ID="{32F3068B-E415-4CC2-B468-A52E75C0044F}" ShortID="321051949">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SE_Move_Pop_03" ID="{D9666941-2194-41DF-8FDC-BF87204AA5C3}">
+													<Language>SFX</Language>
+													<AudioFile>SE_Move_Pop_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="470951513"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SE_Move_Pop_03" ID="{D9666941-2194-41DF-8FDC-BF87204AA5C3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SE_Move_Pop_04" ID="{A92EB2A8-4048-4368-83BB-3969663AA00D}" ShortID="281593296">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SE_Move_Pop_04" ID="{A9A47F5A-773E-4916-B534-5045D31130E6}">
+													<Language>SFX</Language>
+													<AudioFile>SE_Move_Pop_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="72706558"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SE_Move_Pop_04" ID="{A9A47F5A-773E-4916-B534-5045D31130E6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SE_Move_Pop_05" ID="{02B52F31-F894-4C15-AB0B-C762DEDE508D}" ShortID="1027948243">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SE_Move_Pop_05" ID="{505B5627-D842-42BC-B8F5-7BB84E4C10CD}">
+													<Language>SFX</Language>
+													<AudioFile>SE_Move_Pop_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="955590768"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SE_Move_Pop_05" ID="{505B5627-D842-42BC-B8F5-7BB84E4C10CD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SE_Move_Pop_06" ID="{837BEE96-AA4A-45CB-A9B3-BE43BE965933}" ShortID="896694315">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SE_Move_Pop_06" ID="{A1BAB743-0F29-4382-BD1E-0DC3B3A1C09A}">
+													<Language>SFX</Language>
+													<AudioFile>SE_Move_Pop_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="802105297"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SE_Move_Pop_06" ID="{A1BAB743-0F29-4382-BD1E-0DC3B3A1C09A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
+						<Sound Name="Beginning" ID="{268CA487-52F5-481B-93D4-C6DBEE492A33}" ShortID="1020277991">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="BGM" ID="{7E3B4DE2-DB6A-4489-9CE5-F5E196527F8D}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Beginning" ID="{0C6C991A-4C94-4162-A3C3-3812F1088FF7}">
+									<Language>SFX</Language>
+									<AudioFile>Beginning.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="945086080"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Beginning" ID="{0C6C991A-4C94-4162-A3C3-3812F1088FF7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Harz20_SE_Back" ID="{1BC96E86-87DC-45F6-8A9E-B99B8413F43E}" ShortID="165920393">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_SE_Back" ID="{80763C5E-51C7-420B-BD34-F6A7BEE4BF49}">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_SE_Back.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="217521045"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Harz20_SE_Back" ID="{80763C5E-51C7-420B-BD34-F6A7BEE4BF49}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Harz20_SE_Fountain" ID="{78A8A193-F9C5-413B-9415-3CF95E8E6CB1}" ShortID="449603856">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_SE_Fountain" ID="{1D36A07B-F059-41A8-8852-F512EE9795AF}">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_SE_Fountain.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="24495802"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Harz20_SE_Fountain" ID="{1D36A07B-F059-41A8-8852-F512EE9795AF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Harz20_SE_Ice" ID="{9484C3D9-1948-4AA9-81E6-34660B6A0127}" ShortID="248791173">
+							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_SE_Ice" ID="{2537577F-E4D6-43C9-A14A-E9A564B9DA2A}">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_SE_Ice.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="288583490"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Harz20_SE_Ice" ID="{2537577F-E4D6-43C9-A14A-E9A564B9DA2A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Harz20_SE_Pause" ID="{C20B700E-F187-405D-A231-B06A7BC387A3}" ShortID="180969830">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_SE_Pause" ID="{AF7878A6-7E64-424C-AFFB-DF85D50C938E}">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_SE_Pause.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="416535976"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Harz20_SE_Pause" ID="{AF7878A6-7E64-424C-AFFB-DF85D50C938E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Harz20_SE_Retry" ID="{2F2C953B-53AC-4175-9E54-F0F23545703A}" ShortID="50421797">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_SE_Retry" ID="{755F7ECD-65C7-4CFB-89E4-AAE1A8264818}">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_SE_Retry.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="40727437"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Harz20_SE_Retry" ID="{755F7ECD-65C7-4CFB-89E4-AAE1A8264818}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Harz20_SE_Return" ID="{45161296-6F4A-4C4F-9989-F8374A577E0C}" ShortID="671865838">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_SE_Return" ID="{0E3FC92C-32AD-4297-ACB3-4A378E84FC6D}">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_SE_Return.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1013428265"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Harz20_SE_Return" ID="{0E3FC92C-32AD-4297-ACB3-4A378E84FC6D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Harz20_SE_Select" ID="{33478C94-67EF-4F1B-B82D-308D7570089F}" ShortID="926704128">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_SE_Select" ID="{EB32976E-9EA1-432B-AE1C-8973218AE2CA}">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_SE_Select.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="721100404"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Harz20_SE_Select" ID="{EB32976E-9EA1-432B-AE1C-8973218AE2CA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Harz20_SE_Start" ID="{7669D1F2-81AA-484A-B166-F59229372096}" ShortID="1016037714">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_SE_Start" ID="{87632FEB-222E-4304-8F60-1EF7A4710DD8}">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_SE_Start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="613895491"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Harz20_SE_Start" ID="{87632FEB-222E-4304-8F60-1EF7A4710DD8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Harz20_SE_WaterDrop" ID="{1714398F-6536-42C4-9343-A4DA814DBA8B}" ShortID="132475453">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_SE_WaterDrop" ID="{DF961FF3-4E1D-4C32-921D-2D396890082E}">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_SE_WaterDrop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="223837352"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Harz20_SE_WaterDrop" ID="{DF961FF3-4E1D-4C32-921D-2D396890082E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SE_Jump" ID="{F202B394-06BD-44B8-BFFE-068F6B09B017}" ShortID="856438642">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SE" ID="{A2412608-CE22-4B5C-BA9A-FFFACBB7B97D}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SE_Jump" ID="{3022F8F2-6BEB-4A28-824E-B5B1E2B817DF}">
+									<Language>SFX</Language>
+									<AudioFile>SE_Jump.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="125627618"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SE_Jump" ID="{3022F8F2-6BEB-4A28-824E-B5B1E2B817DF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

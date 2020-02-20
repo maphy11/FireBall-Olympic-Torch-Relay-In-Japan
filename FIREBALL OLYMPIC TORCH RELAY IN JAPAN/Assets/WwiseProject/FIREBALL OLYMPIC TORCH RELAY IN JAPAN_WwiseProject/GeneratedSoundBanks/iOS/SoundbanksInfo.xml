@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/jasonc184/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/FireBall-Olympic-Torch-Relay-In-Japan/FIREBALL OLYMPIC TORCH RELAY IN JAPAN/Assets/WwiseProject/FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/jasonc184/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/FireBall-Olympic-Torch-Relay-In-Japan/FIREBALL OLYMPIC TORCH RELAY IN JAPAN/Assets/WwiseProject/FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject/.cache/iOS/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/jasonc184/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/FireBall-Olympic-Torch-Relay-In-Japan/FIREBALL OLYMPIC TORCH RELAY IN JAPAN/Assets/WwiseProject/FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject/GeneratedSoundBanks/iOS/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/jasonc184/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/FireBall-Olympic-Torch-Relay-In-Japan/FIREBALL OLYMPIC TORCH RELAY IN JAPAN/Assets/WwiseProject/FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject/GeneratedSoundBanks/iOS</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1544522210" Name="BGM_Africa" ObjectPath="\Events\Default Work Unit\BGM_Africa" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="14499139" Language="SFX">
+							<ShortName>Harz20_AfricaStage_2.wav</ShortName>
+							<Path>SFX/Harz20_AfricaStage_2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="122922713" Language="SFX">
+							<ShortName>Harz20_AfricaStage_3.wav</ShortName>
+							<Path>SFX/Harz20_AfricaStage_3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="471239341" Language="SFX">
+							<ShortName>Harz20_AfricaStage_4.wav</ShortName>
+							<Path>SFX/Harz20_AfricaStage_4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="559124012" Language="SFX">
+							<ShortName>Harz20_AfricaStage_6.wav</ShortName>
+							<Path>SFX/Harz20_AfricaStage_6_D79FB2B7.wem</Path>
+						</File>
+						<File Id="573157669" Language="SFX">
+							<ShortName>Harz20_AfricaStage_1.wav</ShortName>
+							<Path>SFX/Harz20_AfricaStage_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="928275099" Language="SFX">
+							<ShortName>Harz20_AfricaStage_5.wav</ShortName>
+							<Path>SFX/Harz20_AfricaStage_5_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2120438165" Name="BGM_Araska" ObjectPath="\Events\Default Work Unit\BGM_Araska" DurationType="OneShot" DurationMin="80.000000" DurationMax="80.000000">
+					<IncludedMemoryFiles>
+						<File Id="250969576" Language="SFX">
+							<ShortName>Harz20_AlskaStage_3.wav</ShortName>
+							<Path>SFX/Harz20_AlskaStage_3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="396953424" Language="SFX">
+							<ShortName>Harz20_AlskaStage_5.wav</ShortName>
+							<Path>SFX/Harz20_AlskaStage_5_D79FB2B7.wem</Path>
+						</File>
+						<File Id="476729050" Language="SFX">
+							<ShortName>Harz20_AlskaStage_2.wav</ShortName>
+							<Path>SFX/Harz20_AlskaStage_2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="595065468" Language="SFX">
+							<ShortName>Harz20_AlskaStage_6.wav</ShortName>
+							<Path>SFX/Harz20_AlskaStage_6_D79FB2B7.wem</Path>
+						</File>
+						<File Id="880849281" Language="SFX">
+							<ShortName>Harz20_AlskaStage_4.wav</ShortName>
+							<Path>SFX/Harz20_AlskaStage_4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1019260747" Language="SFX">
+							<ShortName>Harz20_AlskaStage_1.wav</ShortName>
+							<Path>SFX/Harz20_AlskaStage_1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="155738951" Name="BGM_Clear" ObjectPath="\Events\Default Work Unit\BGM_Clear" DurationType="OneShot" DurationMin="4.000000" DurationMax="4.000000">
+					<IncludedMemoryFiles>
+						<File Id="435531289" Language="SFX">
+							<ShortName>Harz20_Clear.wav</ShortName>
+							<Path>SFX/Harz20_Clear_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1937211529" Name="BGM_Greece" ObjectPath="\Events\Default Work Unit\BGM_Greece" DurationType="OneShot" DurationMin="80.000000" DurationMax="80.000000">
+					<IncludedMemoryFiles>
+						<File Id="212146486" Language="SFX">
+							<ShortName>Harz20_GreeceStage_6.wav</ShortName>
+							<Path>SFX/Harz20_GreeceStage_6_D79FB2B7.wem</Path>
+						</File>
+						<File Id="221160213" Language="SFX">
+							<ShortName>Harz20_GreeceStage_1.wav</ShortName>
+							<Path>SFX/Harz20_GreeceStage_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="240510727" Language="SFX">
+							<ShortName>Harz20_GreeceStage_4.wav</ShortName>
+							<Path>SFX/Harz20_GreeceStage_4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="446068027" Language="SFX">
+							<ShortName>Harz20_GreeceStage_3.wav</ShortName>
+							<Path>SFX/Harz20_GreeceStage_3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="713997089" Language="SFX">
+							<ShortName>Harz20_GreeceStage_2.wav</ShortName>
+							<Path>SFX/Harz20_GreeceStage_2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="853186238" Language="SFX">
+							<ShortName>Harz20_GreeceStage_5.wav</ShortName>
+							<Path>SFX/Harz20_GreeceStage_5_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2985635692" Name="BGM_Start" ObjectPath="\Events\Default Work Unit\BGM_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="945086080" Language="SFX">
+							<ShortName>Beginning.wav</ShortName>
+							<Path>SFX/Beginning_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="648125588" Name="Fox_Footsteps" ObjectPath="\Events\Default Work Unit\Fox_Footsteps" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
+					<IncludedMemoryFiles>
+						<File Id="5593724" Language="SFX">
+							<ShortName>SE_Move_Pop_01.wav</ShortName>
+							<Path>SFX/SE_Move_Pop_01_10C4C929.wem</Path>
+						</File>
+						<File Id="41365147" Language="SFX">
+							<ShortName>SE_Move_Real_05.wav</ShortName>
+							<Path>SFX/SE_Move_Real_05_10C4C929.wem</Path>
+						</File>
+						<File Id="72706558" Language="SFX">
+							<ShortName>SE_Move_Pop_04.wav</ShortName>
+							<Path>SFX/SE_Move_Pop_04_10C4C929.wem</Path>
+						</File>
+						<File Id="95750219" Language="SFX">
+							<ShortName>SE_Move_Real_03.wav</ShortName>
+							<Path>SFX/SE_Move_Real_03_10C4C929.wem</Path>
+						</File>
+						<File Id="398021556" Language="SFX">
+							<ShortName>SE_Move_Real_01.wav</ShortName>
+							<Path>SFX/SE_Move_Real_01_10C4C929.wem</Path>
+						</File>
+						<File Id="470951513" Language="SFX">
+							<ShortName>SE_Move_Pop_03.wav</ShortName>
+							<Path>SFX/SE_Move_Pop_03_10C4C929.wem</Path>
+						</File>
+						<File Id="505181645" Language="SFX">
+							<ShortName>SE_Move_Real_02.wav</ShortName>
+							<Path>SFX/SE_Move_Real_02_10C4C929.wem</Path>
+						</File>
+						<File Id="705410262" Language="SFX">
+							<ShortName>SE_Move_Real_04.wav</ShortName>
+							<Path>SFX/SE_Move_Real_04_10C4C929.wem</Path>
+						</File>
+						<File Id="802105297" Language="SFX">
+							<ShortName>SE_Move_Pop_06.wav</ShortName>
+							<Path>SFX/SE_Move_Pop_06_10C4C929.wem</Path>
+						</File>
+						<File Id="869248803" Language="SFX">
+							<ShortName>SE_Move_Pop_02.wav</ShortName>
+							<Path>SFX/SE_Move_Pop_02_10C4C929.wem</Path>
+						</File>
+						<File Id="955590768" Language="SFX">
+							<ShortName>SE_Move_Pop_05.wav</ShortName>
+							<Path>SFX/SE_Move_Pop_05_10C4C929.wem</Path>
+						</File>
+						<File Id="1030803109" Language="SFX">
+							<ShortName>SE_Move_Real_06.wav</ShortName>
+							<Path>SFX/SE_Move_Real_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1783467547" Name="Fox_Jump" ObjectPath="\Events\Default Work Unit\Fox_Jump" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
+					<IncludedMemoryFiles>
+						<File Id="125627618" Language="SFX">
+							<ShortName>SE_Jump.wav</ShortName>
+							<Path>SFX/SE_Jump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3685664337" Name="Fox_Melt" ObjectPath="\Events\Default Work Unit\Fox_Melt" DurationType="OneShot" DurationMin="0.273937" DurationMax="0.273937">
+					<IncludedMemoryFiles>
+						<File Id="288583490" Language="SFX">
+							<ShortName>Harz20_SE_Ice.wav</ShortName>
+							<Path>SFX/Harz20_SE_Ice_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3092587493" Name="Pause" ObjectPath="\Events\Default Work Unit\Pause" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000">
+					<IncludedMemoryFiles>
+						<File Id="416535976" Language="SFX">
+							<ShortName>Harz20_SE_Pause.wav</ShortName>
+							<Path>SFX/Harz20_SE_Pause_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3859834159" Name="Return" ObjectPath="\Events\Default Work Unit\Return" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000">
+					<IncludedMemoryFiles>
+						<File Id="1013428265" Language="SFX">
+							<ShortName>Harz20_SE_Return.wav</ShortName>
+							<Path>SFX/Harz20_SE_Return_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="671713024" Name="Stage_Fountain" ObjectPath="\Events\Default Work Unit\Stage_Fountain" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="24495802" Language="SFX">
+							<ShortName>Harz20_SE_Fountain.wav</ShortName>
+							<Path>SFX/Harz20_SE_Fountain_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="990763382" Name="Stage_WaterDrop" ObjectPath="\Events\Default Work Unit\Stage_WaterDrop" DurationType="OneShot" DurationMin="1.012708" DurationMax="1.012708">
+					<IncludedMemoryFiles>
+						<File Id="223837352" Language="SFX">
+							<ShortName>Harz20_SE_WaterDrop.wav</ShortName>
+							<Path>SFX/Harz20_SE_WaterDrop_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2024222415" Name="UI_Back" ObjectPath="\Events\Default Work Unit\UI_Back" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000">
+					<IncludedMemoryFiles>
+						<File Id="217521045" Language="SFX">
+							<ShortName>Harz20_SE_Back.wav</ShortName>
+							<Path>SFX/Harz20_SE_Back_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3293696140" Name="UI_Retry" ObjectPath="\Events\Default Work Unit\UI_Retry" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000">
+					<IncludedMemoryFiles>
+						<File Id="40727437" Language="SFX">
+							<ShortName>Harz20_SE_Retry.wav</ShortName>
+							<Path>SFX/Harz20_SE_Retry_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2774129122" Name="UI_Select" ObjectPath="\Events\Default Work Unit\UI_Select" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000">
+					<IncludedMemoryFiles>
+						<File Id="721100404" Language="SFX">
+							<ShortName>Harz20_SE_Select.wav</ShortName>
+							<Path>SFX/Harz20_SE_Select_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1219048826" Name="UI_Start" ObjectPath="\Events\Default Work Unit\UI_Start" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000">
+					<IncludedMemoryFiles>
+						<File Id="613895491" Language="SFX">
+							<ShortName>Harz20_SE_Start.wav</ShortName>
+							<Path>SFX/Harz20_SE_Start_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
