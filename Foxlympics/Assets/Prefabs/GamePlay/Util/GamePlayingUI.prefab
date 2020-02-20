@@ -776,12 +776,12 @@ MonoBehaviour:
   UIPauseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4172a725ba00c4b6aa4df84c054c9859,
+    WwiseObjectReference: {fileID: 11400000, guid: 3a07059e0f74d45ec99f737ffaf2d0df,
       type: 2}
   UIReturnEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 1de9eb3ea6bcd42d7b6903041a34ace2,
+    WwiseObjectReference: {fileID: 11400000, guid: c97f3d30c5627441e9dbaff8a2ce4bd3,
       type: 2}
 --- !u!114 &2149736377603412415
 MonoBehaviour:
@@ -1295,14 +1295,14 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1523306817826554823, guid: e04dd9bc02c04440284834522b6ec0be,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1523306817826554821, guid: e04dd9bc02c04440284834522b6ec0be,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554823, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
