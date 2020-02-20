@@ -862,6 +862,7 @@ GameObject:
   - component: {fileID: 736050998}
   - component: {fileID: 736050997}
   - component: {fileID: 736050996}
+  - component: {fileID: 736051000}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -955,6 +956,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &736051000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736050995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362c44bdb10024e31a6f1182ff30ef4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  greece: {fileID: 1737742057}
+  alaska: {fileID: 1626443999}
+  africa: {fileID: 506473974}
+  japan: {fileID: 1260037693}
 --- !u!1 &1260037691
 GameObject:
   m_ObjectHideFlags: 0

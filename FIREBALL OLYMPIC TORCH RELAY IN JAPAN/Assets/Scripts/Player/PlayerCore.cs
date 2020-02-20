@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using FireHolders;
 
 namespace Player
@@ -78,6 +79,8 @@ namespace Player
         {
             yield return new WaitForSeconds(1);
             guiImage.ActiveGameClearPanel();
+            StageClearManger stageClearManager = StageClearManger.GetStageClearManager();
+            stageClearManager.ToCleared(SceneManager.GetActiveScene().name);
         }
         public void ToWait() { state = PlayerState.Wait; }
         public void ToMove() { state = PlayerState.Move; }

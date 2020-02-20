@@ -721,6 +721,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1517032007}
   sceneChanger: {fileID: 238322816}
+  textColorA: {r: 1, g: 1, b: 1, a: 1}
+  textColorB: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
+  timeCycle: 2
 --- !u!1001 &1523306817322698162
 PrefabInstance:
   m_ObjectHideFlags: 0

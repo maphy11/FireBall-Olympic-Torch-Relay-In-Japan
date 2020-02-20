@@ -9086,6 +9086,11 @@ PrefabInstance:
       propertyPath: coreData
       value: 
       objectReference: {fileID: 69661336}
+    - target: {fileID: 8263042024886352025, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: gameOverView
+      value: 
+      objectReference: {fileID: 2126572922}
     - target: {fileID: 5491579943150678395, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: coreData
@@ -9141,6 +9146,11 @@ PrefabInstance:
       propertyPath: imageObject
       value: 
       objectReference: {fileID: 2126572921}
+    - target: {fileID: 4783489592496134957, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: fadeOutSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: player
@@ -9211,6 +9221,12 @@ MonoBehaviour:
 --- !u!1 &2126572921 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6097855234539606757, guid: 20573aa75a59848f2805b42599e8743d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2126572918}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2126572922 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8263042025093255979, guid: 20573aa75a59848f2805b42599e8743d,
     type: 3}
   m_PrefabInstance: {fileID: 2126572918}
   m_PrefabAsset: {fileID: 0}
