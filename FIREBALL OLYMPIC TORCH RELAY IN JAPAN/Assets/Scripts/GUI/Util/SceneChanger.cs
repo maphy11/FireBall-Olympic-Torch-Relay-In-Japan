@@ -9,14 +9,15 @@ namespace GUI
 {
     public class SceneChanger : MonoBehaviour
     {
-        public AK.Wwise.Event UIRestartEvent;
-        public AK.Wwise.Event UIBackEvent;
+        public delegate void OnSceneChangeDelegate();
         [SerializeField] private GameObject inputManager;
         [SerializeField] private GameObject imageObject;
         [SerializeField] private string targetSceneName;
         [SerializeField] private float fadeOutSpeed;
         private IinputTap input;
         private Image image;
+        public event OnSceneChangeDelegate a;
+
         // Start is called before the first frame update
         void Start()
         {
@@ -26,6 +27,7 @@ namespace GUI
         public void OnTapChange()
         {
             StartCoroutine("TapCoroutine");
+
         }
         public IEnumerator TapCoroutine()
         {
@@ -72,6 +74,7 @@ namespace GUI
         }
         IEnumerator StartFadeOut()
         {
+            a?.Invoke();
             while (image.color.a < 1.0f)
             {
                 Color temp = image.color;
