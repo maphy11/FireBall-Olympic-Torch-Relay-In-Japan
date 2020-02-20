@@ -1,0 +1,1420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3B7113FC-F530-4C03-84A9-5CE6AECDAC79}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{3B7113FC-F530-4C03-84A9-5CE6AECDAC79}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Greece" ID="{4062CC23-E902-47B7-A8AB-B8575E75C819}" ShortID="187009566">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="BGM" ID="{7E3B4DE2-DB6A-4489-9CE5-F5E196527F8D}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Harz20_GreeceStage_1" ID="{543A598F-3FE7-4A7A-9051-3FC05F92EAED}" ShortID="419028259">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_GreeceStage_1" ID="{E8963E30-AFD7-459E-9639-1F53DC724EEE}" ShortID="834128920">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_GreeceStage_1" ID="{653DB20A-6221-43B8-835C-3D032F3A89D0}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_GreeceStage_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="221160213"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E9774E03-407A-495B-98DA-0DAA19850B2D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0322FF85-5B6F-4578-933E-C457C6E11161}">
+											<ClipList>
+												<MusicClip Name="Harz20_GreeceStage_1" ID="{725470CC-9E87-40E3-8E07-7927F74ACF35}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_GreeceStage_1" ID="{653DB20A-6221-43B8-835C-3D032F3A89D0}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{055DC59C-1FC8-4109-A88F-D4D5AEB1A0DC}"/>
+								<MusicCue Name="Exit Cue" ID="{4A825602-9428-49B8-BDE2-2FCF53666598}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_GreeceStage_2" ID="{868352D4-9696-4095-A057-FBFF212EDF9F}" ShortID="68213335">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_GreeceStage_2" ID="{9F8FA84D-55B8-438B-8DED-30B581163CA8}" ShortID="333359130">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_GreeceStage_2" ID="{2F2257E6-79F6-4772-A5FA-DDEF0532E729}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_GreeceStage_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="713997089"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A2527A9F-C88C-4A23-B881-4FF9D059786B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{9E1D3CB0-80C6-404E-93A3-013A44C1FCD0}">
+											<ClipList>
+												<MusicClip Name="Harz20_GreeceStage_2" ID="{0134BDE3-6201-44F5-B1CB-BAD5ECC04903}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_GreeceStage_2" ID="{2F2257E6-79F6-4772-A5FA-DDEF0532E729}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{4D75A0D2-5A94-47A9-B341-997515AD7CF8}"/>
+								<MusicCue Name="Exit Cue" ID="{B92A3796-F772-4E8A-9F4C-627C3598AFB3}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_GreeceStage_3" ID="{B9CFA840-C567-4634-B8F1-B9A96899AF67}" ShortID="364129733">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_GreeceStage_3" ID="{456FFF25-AF44-4F0B-B560-48D523A859E0}" ShortID="769163469">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_GreeceStage_3" ID="{208688D6-25D8-4CFF-A6C0-DE38A56C4140}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_GreeceStage_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="446068027"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0A91EDAD-06A0-49CF-B091-2169FD720F24}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{62CDF929-7AEC-4472-A346-7DC6EEBB2398}">
+											<ClipList>
+												<MusicClip Name="Harz20_GreeceStage_3" ID="{7F28476B-1E26-43C0-A8DB-C17775D7C523}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_GreeceStage_3" ID="{208688D6-25D8-4CFF-A6C0-DE38A56C4140}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{193163EC-1EB0-4BCF-84CC-3C318798E953}"/>
+								<MusicCue Name="Exit Cue" ID="{24607513-8768-4C27-A31F-4FE3591B5350}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_GreeceStage_4" ID="{A4204C4E-9A4D-472B-9138-3E477B1A771F}" ShortID="629757890">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_GreeceStage_4" ID="{711D15BC-9722-475C-95CE-89E770811A33}" ShortID="692496775">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_GreeceStage_4" ID="{E94123E6-EFE0-49A6-81F8-E7A1AF472F1E}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_GreeceStage_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="240510727"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0B6FA540-C3A3-4551-9458-AD7475DC8690}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{3A140757-DF1D-4A67-8A23-C2D07E9799E1}">
+											<ClipList>
+												<MusicClip Name="Harz20_GreeceStage_4" ID="{A4B0957D-4EDF-46AD-872A-F7A5466ADEFD}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_GreeceStage_4" ID="{E94123E6-EFE0-49A6-81F8-E7A1AF472F1E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{8D4F5827-DDF3-4949-8092-D25A09505DFB}"/>
+								<MusicCue Name="Exit Cue" ID="{1D5F4057-E661-4807-A4D7-DF8681EAA080}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_GreeceStage_5" ID="{0A109B9F-A6C1-4F20-9F34-D06F2154E7F6}" ShortID="191822466">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_GreeceStage_5" ID="{BB93F4F9-311F-46FE-82C4-950525A49235}" ShortID="383636339">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_GreeceStage_5" ID="{AA1EB5FB-EE0F-46C1-9116-72004FF4B8F2}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_GreeceStage_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="853186238"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7E7A9575-0BD7-4BF4-A9BB-422313C6E51B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{987CD75B-6A99-400B-8C90-4AA469FB8456}">
+											<ClipList>
+												<MusicClip Name="Harz20_GreeceStage_5" ID="{EC5FD51D-25D7-42BE-8FB2-7E95AD6D12AD}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_GreeceStage_5" ID="{AA1EB5FB-EE0F-46C1-9116-72004FF4B8F2}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{0ECA8421-B129-4138-90C8-71AE45C411D3}"/>
+								<MusicCue Name="Exit Cue" ID="{BCD1F84E-89AD-4362-A107-73FD5EF4555B}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_GreeceStage_6" ID="{198401D5-377C-4DCD-B3CB-7895E793C2B8}" ShortID="740299204">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_GreeceStage_6" ID="{F27EC8E5-C599-4FF1-B11F-B53FB3A04810}" ShortID="912452719">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_GreeceStage_6" ID="{00903057-30BC-4030-B445-A0A01E62A128}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_GreeceStage_6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="212146486"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{83DC81E7-13F9-4E8D-B680-0CA7F1214F5E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{DBD8B12C-B683-4D20-9237-5F15367E22DB}">
+											<ClipList>
+												<MusicClip Name="Harz20_GreeceStage_6" ID="{0D3FF981-6728-4AE4-A48D-F439B11A46EF}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_GreeceStage_6" ID="{00903057-30BC-4030-B445-A0A01E62A128}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{4155C9D3-989B-4050-8ACE-119DB4895B2E}"/>
+								<MusicCue Name="Exit Cue" ID="{C0E958FA-00F1-4E5D-9163-38232AA6EFF6}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{DDDC3B9C-7536-48C5-AB44-A19E53C0DF35}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{403EC59B-725A-401B-90C6-79E85DA7D07C}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{F8EA74B3-7566-4FD8-BEA7-1F4E0A62BF9F}" ShortID="904568696">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{38499D57-CB54-4159-A644-761B59E0A76C}" ShortID="273525802">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Harz20_GreeceStage_1" ID="{543A598F-3FE7-4A7A-9051-3FC05F92EAED}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{516E71AA-C720-4C4B-BF16-892B8DD9607A}" ShortID="1045001466">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{A7FF62DF-F8D7-4589-BDD7-039F7B0A9C5F}" ShortID="567984291">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="2"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_GreeceStage_2" ID="{868352D4-9696-4095-A057-FBFF212EDF9F}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{976869CD-D65F-4EB5-8496-C995920619DD}" ShortID="302102078">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_GreeceStage_3" ID="{B9CFA840-C567-4634-B8F1-B9A96899AF67}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A65B9D03-DEDE-40BF-B7E0-77C34FA604BC}" ShortID="1004106778">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_GreeceStage_4" ID="{A4204C4E-9A4D-472B-9138-3E477B1A771F}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{79D090D3-FE49-442B-AF35-ADA73F80E136}" ShortID="787613182">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="2"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_GreeceStage_5" ID="{0A109B9F-A6C1-4F20-9F34-D06F2154E7F6}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{7812F089-7AC0-4812-BCF1-F9CD355417DE}" ShortID="903348966">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_GreeceStage_6" ID="{198401D5-377C-4DCD-B3CB-7895E793C2B8}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Africa" ID="{9459E25F-CF81-418F-9D34-C7D090B8A635}" ShortID="200749545">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="BGM" ID="{7E3B4DE2-DB6A-4489-9CE5-F5E196527F8D}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Harz20_AfricaStage_1" ID="{A7C7E8EC-C7AD-41F0-85CB-61797050C343}" ShortID="826062030">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_AfricaStage_1" ID="{0FFE80A2-91F3-4A31-8F20-8534426DCADE}" ShortID="845667799">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_AfricaStage_1" ID="{6E350367-E4DA-472F-8325-746994711C21}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_AfricaStage_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="573157669"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{AEF01995-9788-407E-B415-C2166A860D5A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{871F6857-C2D4-4A0D-A786-63408C373FDC}">
+											<ClipList>
+												<MusicClip Name="Harz20_AfricaStage_1" ID="{88F49C3D-4427-4E22-93D8-DB4F9940579A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_AfricaStage_1" ID="{6E350367-E4DA-472F-8325-746994711C21}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{7E7AAE48-05D9-4A33-BC85-B39B8EC43373}"/>
+								<MusicCue Name="Exit Cue" ID="{050C00D5-0FC9-4541-A9C2-4DCAC8E24A58}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_AfricaStage_2" ID="{1FAD02B5-E77D-4C8A-A969-C1B01F8A1FB9}" ShortID="917592686">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_AfricaStage_2" ID="{9F3F5017-9485-4090-A28A-7204BB8C2A9E}" ShortID="773453889">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_AfricaStage_2" ID="{5207D599-1089-47B3-9A2A-7C42CCAF1A1E}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_AfricaStage_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="14499139"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6E7D6AD3-D544-4274-B753-3E6855A040BC}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{150D443B-43DE-412A-8094-7F7A003913D3}">
+											<ClipList>
+												<MusicClip Name="Harz20_AfricaStage_2" ID="{5D3AD954-44C3-4F99-B84B-A10A77BA50C1}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_AfricaStage_2" ID="{5207D599-1089-47B3-9A2A-7C42CCAF1A1E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{F3148AFD-10D7-4923-BF64-EDAD79845F0E}"/>
+								<MusicCue Name="Exit Cue" ID="{E29DCDA6-A3ED-4DF0-B823-32B176A0E8A6}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_AfricaStage_3" ID="{9DD6DE3F-9149-4288-8E1A-49EECAEEF72A}" ShortID="163836614">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_AfricaStage_3" ID="{EE2D9AF5-536D-4BEC-8E22-6432B82DCA01}" ShortID="302060875">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_AfricaStage_3" ID="{3FCBAA08-88A0-476A-8E20-48A936571D7A}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_AfricaStage_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="122922713"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{AA777234-DAB8-4C82-8FBC-E415F891B784}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{67F248FE-0B67-4155-BDC4-3406A1096306}">
+											<ClipList>
+												<MusicClip Name="Harz20_AfricaStage_3" ID="{B11A28BE-75AB-4D1C-8960-BB9D0B37F8D5}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_AfricaStage_3" ID="{3FCBAA08-88A0-476A-8E20-48A936571D7A}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{DDE96242-66C6-4E71-9EAC-F45274AEAADC}"/>
+								<MusicCue Name="Exit Cue" ID="{E3177E3B-D24C-4A7B-BC4E-A45F1D0BB30E}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_AfricaStage_4" ID="{90ACE79D-B7DD-407B-9AD6-CF854401FE56}" ShortID="551490558">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_AfricaStage_4" ID="{B8B19A00-5F5B-49F6-9481-A53BC52F12A8}" ShortID="162419870">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_AfricaStage_4" ID="{18E9DFF2-F15B-48B0-8D7A-2140301CE324}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_AfricaStage_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="471239341"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A051BE18-2404-4009-BEFB-A52D98371C15}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{5E76F78A-20F6-4006-8F5F-DDD825542116}">
+											<ClipList>
+												<MusicClip Name="Harz20_AfricaStage_4" ID="{3F46ED21-F989-4B36-BB47-3C6C8D3AB679}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_AfricaStage_4" ID="{18E9DFF2-F15B-48B0-8D7A-2140301CE324}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{858B60B2-F095-458F-BAB4-2C20AF817564}"/>
+								<MusicCue Name="Exit Cue" ID="{72A56ACE-84E3-40B4-91F9-EED4AF94688B}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_AfricaStage_5" ID="{421BA3B1-3179-47C9-906D-CBA95133AA51}" ShortID="852814394">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_AfricaStage_5" ID="{82259975-F076-431E-851E-B1A66812AE60}" ShortID="372080390">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_AfricaStage_5" ID="{AC93BE4C-420E-4E50-83AC-2578B8DC73E5}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_AfricaStage_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="928275099"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2EBA5A55-73C6-4457-A4A7-418E45186237}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2F47DACA-1C80-483B-9208-48CAD79FEBEB}">
+											<ClipList>
+												<MusicClip Name="Harz20_AfricaStage_5" ID="{F6759248-8F10-4202-9B30-5DEF9155E508}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_AfricaStage_5" ID="{AC93BE4C-420E-4E50-83AC-2578B8DC73E5}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{BAC69893-6FCE-4717-843C-CFDAAA148677}"/>
+								<MusicCue Name="Exit Cue" ID="{7BEBDC95-9AA9-44FD-95CC-94259123981B}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_AfricaStage_6" ID="{3A609B52-63EA-41E6-AE72-F86093F0F8BB}" ShortID="158808700">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_AfricaStage_6" ID="{46E9CF93-A0B0-42AC-A01F-95C6F2BAED61}" ShortID="117924818">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_AfricaStage_6" ID="{C6EA8EE9-5582-4549-A780-59B7ACBB3336}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_AfricaStage_6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="559124012"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B6980579-1429-4002-9C8C-A2649F837A98}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{B37B99BC-ABEB-43BF-B260-EFB9B7740CCA}">
+											<ClipList>
+												<MusicClip Name="Harz20_AfricaStage_6" ID="{AAEB1C48-D505-4239-A6A9-B580DA3686BF}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_AfricaStage_6" ID="{C6EA8EE9-5582-4549-A780-59B7ACBB3336}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{7199FBE9-5F6C-4495-AAE2-D522AF1D5865}"/>
+								<MusicCue Name="Exit Cue" ID="{208B04C7-0A63-4F76-9A06-103B9DC9B421}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{B3B95DAD-C13D-4A02-8010-9C82B268C848}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{79CFC396-E945-4BCE-AAB7-C30CA65B3BA6}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{300D5FD0-E0A9-4B33-BE02-D641B6EA3895}" ShortID="105524651">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{9BCC28B7-82A0-4339-AD59-257DC97F736C}" ShortID="348101766">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Harz20_AfricaStage_1" ID="{A7C7E8EC-C7AD-41F0-85CB-61797050C343}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{D78C3F19-C968-48B1-BDBB-2F12FC1F855C}" ShortID="763968933">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{651F06DD-78FE-4862-B3F3-5A62F908DDD8}" ShortID="555143909">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="2"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_AfricaStage_2" ID="{1FAD02B5-E77D-4C8A-A969-C1B01F8A1FB9}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{3192A40C-6252-4B6E-B3A8-F032164DD539}" ShortID="647626727">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_AfricaStage_3" ID="{9DD6DE3F-9149-4288-8E1A-49EECAEEF72A}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{46AB4DD0-ECE3-433E-9062-7B2E21F9E037}" ShortID="643111643">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_AfricaStage_4" ID="{90ACE79D-B7DD-407B-9AD6-CF854401FE56}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{4FD1A201-8EAA-4496-8566-35BF30605A94}" ShortID="574986451">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="2"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_AfricaStage_5" ID="{421BA3B1-3179-47C9-906D-CBA95133AA51}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{48601C55-39A9-41AE-9D5D-A36D9B1FB664}" ShortID="517708846">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_AfricaStage_6" ID="{3A609B52-63EA-41E6-AE72-F86093F0F8BB}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Araska" ID="{36BCE790-6067-4D52-8484-2C355AC79419}" ShortID="1054645123">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="BGM" ID="{7E3B4DE2-DB6A-4489-9CE5-F5E196527F8D}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Harz20_AlskaStage_1" ID="{87A248BF-208F-44F8-AC55-DF21A51A3A22}" ShortID="793385968">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_AlskaStage_1" ID="{C866F1A4-2A4A-4513-96C0-2E0BEDC9E6C9}" ShortID="811530312">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_AlskaStage_1" ID="{2C9453FF-6F1F-4AD8-86CA-2628BD22531D}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_AlskaStage_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1019260747"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F1A18AA6-6C97-4D28-AADA-E7758C7D6FAE}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{39018299-1F09-48B6-98C2-EDB0FFB7AD1B}">
+											<ClipList>
+												<MusicClip Name="Harz20_AlskaStage_1" ID="{E4E1F25C-DCEF-455F-8D8F-D48F9C1AD209}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_AlskaStage_1" ID="{2C9453FF-6F1F-4AD8-86CA-2628BD22531D}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{A85B3FFA-0FC0-4009-BBF5-21C67D8FDC13}"/>
+								<MusicCue Name="Exit Cue" ID="{E2C3232B-CA71-4AC2-A37D-302D055D93D0}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_AlskaStage_2" ID="{D973F6B6-1693-4A2D-B40A-478D79EBF753}" ShortID="320492678">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_AlskaStage_2" ID="{C65F5A39-1A31-42F8-9A53-6AC54ED04F87}" ShortID="149547930">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_AlskaStage_2" ID="{180F7C84-5DEE-4E77-B477-C9EFC01B996C}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_AlskaStage_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="476729050"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A54C05CF-CAC4-4681-A7D1-87833C6388ED}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{CD645CCB-72E2-4CEC-BEFC-CDF4ED72F528}">
+											<ClipList>
+												<MusicClip Name="Harz20_AlskaStage_2" ID="{2EF9BF55-94EC-42DC-9A91-6050E44D5614}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_AlskaStage_2" ID="{180F7C84-5DEE-4E77-B477-C9EFC01B996C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{27AFF038-35E0-4D85-9FFA-84474B533394}"/>
+								<MusicCue Name="Exit Cue" ID="{09F0C175-D7D9-4431-9528-5F5B5A2065B4}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_AlskaStage_3" ID="{743573C0-3C2A-4E85-8A24-1F3BF9E35BB4}" ShortID="203797998">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_AlskaStage_3" ID="{18EDAF55-43E1-42B4-B97E-85C6B58B21B4}" ShortID="354385082">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_AlskaStage_3" ID="{E4D1DD3D-DC57-4F9A-9BA3-397A47168190}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_AlskaStage_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="250969576"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A6F564BB-4155-4078-AE1B-926BE35E80CE}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{1E09651A-FC7A-4147-8676-680D3B3EABB4}">
+											<ClipList>
+												<MusicClip Name="Harz20_AlskaStage_3" ID="{B39E9D09-FFA1-4316-AE6E-93198C7D8916}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_AlskaStage_3" ID="{E4D1DD3D-DC57-4F9A-9BA3-397A47168190}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{3C7188EA-09EE-42D5-8CC3-48B86878E3DB}"/>
+								<MusicCue Name="Exit Cue" ID="{17E02678-C764-4B4E-AADC-80484BFDF97C}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_AlskaStage_4" ID="{893929B0-6A48-433F-9929-B6C39EA99B4A}" ShortID="52161573">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_AlskaStage_4" ID="{2E4915C4-6E6B-4706-9E6D-EE16E7C1FCB4}" ShortID="268261208">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_AlskaStage_4" ID="{1F8B382A-8CEA-4C83-8553-936195BBF58C}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_AlskaStage_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="880849281"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DFBE5976-74B2-4050-B7B3-B39AC99F0D8F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{EE5CDFE7-AF71-4F6E-B780-BE7A34EA6241}">
+											<ClipList>
+												<MusicClip Name="Harz20_AlskaStage_4" ID="{B8A3EDD5-0BE3-4157-9F5C-E63AC22FF083}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_AlskaStage_4" ID="{1F8B382A-8CEA-4C83-8553-936195BBF58C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{BC62D5ED-72F0-43BF-B026-14429B91B785}"/>
+								<MusicCue Name="Exit Cue" ID="{A3437F6D-4EA1-4275-AC69-5595BB8FE859}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_AlskaStage_5" ID="{7C457545-D09E-4F30-9F95-CA62DC31703C}" ShortID="715276">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_AlskaStage_5" ID="{552E9F26-1127-4E11-A9D4-1162E8698A0B}" ShortID="431898402">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_AlskaStage_5" ID="{DACB6503-6A25-4D09-A0A5-163051971BF5}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_AlskaStage_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="396953424"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DEF5EB7D-3EA4-4B5B-8A05-35FA24F50059}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{914A5B43-3552-4923-9905-812020D6E9BE}">
+											<ClipList>
+												<MusicClip Name="Harz20_AlskaStage_5" ID="{8F38218A-31BC-46BC-865C-A1035FA2601F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_AlskaStage_5" ID="{DACB6503-6A25-4D09-A0A5-163051971BF5}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{9FE0FEBD-CCFF-4A88-A51C-8E872F5678E1}"/>
+								<MusicCue Name="Exit Cue" ID="{1155A1D4-DA0F-4116-9ECF-03EF19A545A8}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Harz20_AlskaStage_6" ID="{5689BE05-3A34-423B-B584-5200A8FAC36D}" ShortID="1040857133">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Harz20_AlskaStage_6" ID="{3D95D2E1-653C-4709-852A-5993DDBC84E1}" ShortID="28846967">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Harz20_AlskaStage_6" ID="{8D94D750-A057-4F8B-80BF-1B488E402433}">
+											<Language>SFX</Language>
+											<AudioFile>Harz20_AlskaStage_6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="595065468"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F412D6C3-B80F-45D8-9550-2343538BD5D0}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{81280B6C-4F12-4850-AE32-FE9DB54B8ECB}">
+											<ClipList>
+												<MusicClip Name="Harz20_AlskaStage_6" ID="{7D0AC421-2B17-4E6C-8747-137E0015335B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Harz20_AlskaStage_6" ID="{8D94D750-A057-4F8B-80BF-1B488E402433}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{308191E9-6F88-410D-B968-910FB9EA3795}"/>
+								<MusicCue Name="Exit Cue" ID="{25D0BB9F-FAB6-4854-AC9E-DBAF1F14F558}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{3C7237F4-4BF3-46B4-87B0-2EF0EC034782}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{340C1862-80AD-48B6-AB02-E49D86119538}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{277015C6-3CFC-4387-A998-688A5D5D27DC}" ShortID="624624832">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{B107599C-5F64-4A68-A30A-3ED20487AA04}" ShortID="926977256">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Harz20_AlskaStage_1" ID="{87A248BF-208F-44F8-AC55-DF21A51A3A22}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{86D43540-9164-4BF4-8CE3-D1539763AE01}" ShortID="924716913">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{1BCA3172-95D5-4998-8D89-6E835141126C}" ShortID="345543458">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="2"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_AlskaStage_2" ID="{D973F6B6-1693-4A2D-B40A-478D79EBF753}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{EA49D0AF-3EA1-48C6-87A8-61EC23099115}" ShortID="1050728875">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_AlskaStage_3" ID="{743573C0-3C2A-4E85-8A24-1F3BF9E35BB4}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{07D8AD9A-3D10-46D4-AF8E-D4BA06A28486}" ShortID="250914006">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_AlskaStage_4" ID="{893929B0-6A48-433F-9929-B6C39EA99B4A}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{7715838F-16BD-4BD8-87BD-671D62E62A5C}" ShortID="222143704">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="2"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_AlskaStage_5" ID="{7C457545-D09E-4F30-9F95-CA62DC31703C}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{40FD2890-7BCE-43B9-BC6A-77882B89D26D}" ShortID="651037590">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Harz20_AlskaStage_6" ID="{5689BE05-3A34-423B-B584-5200A8FAC36D}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicSegment Name="Harz20_Clear" ID="{5A21047D-CC44-414B-A2EC-F6AF71CDBBC7}" ShortID="591774011">
+					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="BGM" ID="{7E3B4DE2-DB6A-4489-9CE5-F5E196527F8D}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Harz20_Clear" ID="{94731B1A-B24C-4D32-A1F4-7110D040883F}" ShortID="993839296">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_Clear" ID="{575D4999-D929-46D5-891F-DCBEFC227A42}">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_Clear.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="435531289"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{BC721579-D59B-4A02-A198-28E3A2BC1049}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{5AC16520-20AF-4E24-942E-78DCA76C5AB8}">
+									<ClipList>
+										<MusicClip Name="Harz20_Clear" ID="{C08C7412-7C45-46FA-85EA-043E2AE32781}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="4000"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Harz20_Clear" ID="{575D4999-D929-46D5-891F-DCBEFC227A42}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{1FEB2425-6523-46E3-8BA3-47C8C16130FA}"/>
+						<MusicCue Name="Exit Cue" ID="{67794180-004E-40D2-91C2-42740D95792B}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="4000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

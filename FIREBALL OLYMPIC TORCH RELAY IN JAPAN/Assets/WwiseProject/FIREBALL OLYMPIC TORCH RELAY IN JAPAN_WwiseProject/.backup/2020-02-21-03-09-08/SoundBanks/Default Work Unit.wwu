@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F7B5D1CD-8363-4238-BA1B-A378F40B8B3B}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{F7B5D1CD-8363-4238-BA1B-A378F40B8B3B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{D2DE83BE-C090-4AAD-9685-0374E5BD3659}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Fox_Jump" ID="{B76E2D6B-CEF7-41B5-BC9B-15E123308879}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="UI_Retry" ID="{8EC63A5E-E9A3-4309-94CD-A96D567498AB}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Fox_Footsteps" ID="{12595E33-76D9-43A5-B7B0-A406D46E7495}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BGM_Start" ID="{FB69C6AA-88D0-4406-BE54-8530D0FF4ECC}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BGM_Africa" ID="{18AF5EE6-1379-457E-923D-983B2B036BAA}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stage_WaterDrop" ID="{1B0000DA-ACBD-4581-8438-DE4CF02B5E7E}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BGM_Clear" ID="{1EA6D99B-3243-4655-AB63-80F190F7022A}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BGM_Greece" ID="{AD920AF0-DF01-4812-B497-4D0EE5417E50}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="UI_Select" ID="{73118E49-5CD1-4917-B093-5FB61B85A791}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pause" ID="{5C222DD9-4F39-4939-B0DD-A1062A2E166C}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="UI_Back" ID="{17487908-2C0A-4A25-9028-1BA0E3957890}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BGM_Araska" ID="{4A034779-A33B-4AF2-9D45-3E63E24A3F78}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Fox_Melt" ID="{01A91CA9-41A3-4B76-8029-7F5035B6C354}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Return" ID="{7D46F147-9214-4C55-9CA2-EBCF69EB0D81}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="UI_Start" ID="{F5842F59-6C13-4F7E-90CB-EC0856EE436B}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stage_Fountain" ID="{8435AA81-0C21-4F99-ADDE-AAD2C07A6623}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

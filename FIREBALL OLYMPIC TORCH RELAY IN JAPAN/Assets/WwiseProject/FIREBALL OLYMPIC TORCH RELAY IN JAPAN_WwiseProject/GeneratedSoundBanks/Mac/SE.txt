@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3833651337	Jump			\Default Work Unit\Jump	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	125627618	SE_Jump	Y:\FireBall-Olympic-Torch-Relay-In-Japan\FIREBALL OLYMPIC TORCH RELAY IN JAPAN\FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject\.cache\Mac\SFX\SE_Jump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SE_Jump		96064
+
