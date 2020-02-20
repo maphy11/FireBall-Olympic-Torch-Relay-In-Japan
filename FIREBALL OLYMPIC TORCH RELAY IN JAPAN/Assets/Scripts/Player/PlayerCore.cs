@@ -66,6 +66,7 @@ namespace Player
         }
         private void OnGameOver()
         {
+            // ゲームオーバー時の音はここです
             StartCoroutine("GameOver");
         }
         IEnumerator GameOver()
