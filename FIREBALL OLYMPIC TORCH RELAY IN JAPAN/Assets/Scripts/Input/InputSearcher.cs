@@ -18,15 +18,15 @@ namespace InputSystem
 
         private static InputSearcher mInstance;
         [HideInInspector]
-        protected bool isUp { private get; set; }
+        protected bool isUp { get; set; }
         [HideInInspector]
-        protected bool isDown { private get; set; }
+        protected bool isDown { get; set; }
         [HideInInspector]
-        protected bool isLeft { private get; set; }
+        protected bool isLeft { get; set; }
         [HideInInspector]
-        protected bool isRight { private get; set; }
+        protected bool isRight { get; set; }
 
-        protected bool isTap { private get; set; }
+        protected bool isTap { get; set; }
 
         public static InputSearcher Instance
         {

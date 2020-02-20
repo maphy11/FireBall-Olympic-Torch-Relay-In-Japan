@@ -9,6 +9,8 @@ namespace GUI
 {
     public class SceneChanger : MonoBehaviour
     {
+        public AK.Wwise.Event UIRestartEvent;
+        public AK.Wwise.Event UIBackEvent;
         [SerializeField] private GameObject inputManager;
         [SerializeField] private GameObject imageObject;
         [SerializeField] private string targetSceneName;
@@ -33,6 +35,9 @@ namespace GUI
 
         void LoadScene()
         {
+            // シーンが変わる際の音の実装はこの下に加えてください
+            // シーンのリロード(Re-Start)もここです
+
             if (targetSceneName != null)
             {
                 ToDiffrentScene();
