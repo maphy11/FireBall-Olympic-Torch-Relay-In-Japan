@@ -1262,11 +1262,6 @@ PrefabInstance:
       propertyPath: fadeOutSpeed
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6296099630580455708, guid: 20573aa75a59848f2805b42599e8743d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3720590883793544683, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: inputManager
@@ -1285,6 +1280,11 @@ PrefabInstance:
     - target: {fileID: 6097855234539606755, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6296099630580455708, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -1459,7 +1459,7 @@ MonoBehaviour:
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
+  unloadTriggerList: 
   bankNameInternal: 
   valueGuidInternal: 
 --- !u!4 &1228659042 stripped
@@ -1954,6 +1954,16 @@ PrefabInstance:
       propertyPath: guiPanel
       value: 
       objectReference: {fileID: 202582768}
+    - target: {fileID: 2292565134463459251, guid: 82cbda4804eb24657b5c6cc6454b0899,
+        type: 3}
+      propertyPath: runForce
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2292565134463459251, guid: 82cbda4804eb24657b5c6cc6454b0899,
+        type: 3}
+      propertyPath: inputManager
+      value: 
+      objectReference: {fileID: 1775972038}
     - target: {fileID: 9162044962824182223, guid: 82cbda4804eb24657b5c6cc6454b0899,
         type: 3}
       propertyPath: m_Constraints
@@ -1984,16 +1994,6 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 78419d4497c864556842f7c8887c102d, type: 2}
-    - target: {fileID: 2292565134463459251, guid: 82cbda4804eb24657b5c6cc6454b0899,
-        type: 3}
-      propertyPath: runForce
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2292565134463459251, guid: 82cbda4804eb24657b5c6cc6454b0899,
-        type: 3}
-      propertyPath: inputManager
-      value: 
-      objectReference: {fileID: 1775972038}
     - target: {fileID: 2344909192834418817, guid: 82cbda4804eb24657b5c6cc6454b0899,
         type: 3}
       propertyPath: m_Enabled

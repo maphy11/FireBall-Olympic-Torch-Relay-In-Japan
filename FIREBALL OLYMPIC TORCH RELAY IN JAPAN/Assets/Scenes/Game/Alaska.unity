@@ -528,16 +528,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 492a5c283587c44aeae2e7073cecbb02,
         type: 2}
-    - target: {fileID: 1624396936974325140, guid: 82cbda4804eb24657b5c6cc6454b0899,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 78419d4497c864556842f7c8887c102d, type: 2}
-    - target: {fileID: 8308496752699591907, guid: 82cbda4804eb24657b5c6cc6454b0899,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2292565134463459251, guid: 82cbda4804eb24657b5c6cc6454b0899,
         type: 3}
       propertyPath: jampForce
@@ -559,6 +549,16 @@ PrefabInstance:
       propertyPath: inputManager
       value: 
       objectReference: {fileID: 209507296}
+    - target: {fileID: 1624396936974325140, guid: 82cbda4804eb24657b5c6cc6454b0899,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 78419d4497c864556842f7c8887c102d, type: 2}
+    - target: {fileID: 8308496752699591907, guid: 82cbda4804eb24657b5c6cc6454b0899,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7046246449938044893, guid: 82cbda4804eb24657b5c6cc6454b0899, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 82cbda4804eb24657b5c6cc6454b0899, type: 3}
@@ -6044,7 +6044,7 @@ MonoBehaviour:
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
+  unloadTriggerList: 
   bankNameInternal: 
   valueGuidInternal: 
 --- !u!114 &1500454957
@@ -8315,6 +8315,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 2848392936899693958, guid: df28077a5c2eb4a9c9b8d1a283e91444,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6861946040567370911, guid: df28077a5c2eb4a9c9b8d1a283e91444,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -8359,11 +8364,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2848392936899693958, guid: df28077a5c2eb4a9c9b8d1a283e91444,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1914306030322794375, guid: df28077a5c2eb4a9c9b8d1a283e91444,
         type: 3}
@@ -9116,16 +9116,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnClickCloseButton
       objectReference: {fileID: 0}
-    - target: {fileID: 8263042024886352024, guid: 20573aa75a59848f2805b42599e8743d,
-        type: 3}
-      propertyPath: coreData
-      value: 
-      objectReference: {fileID: 69661336}
-    - target: {fileID: 8263042024886352024, guid: 20573aa75a59848f2805b42599e8743d,
-        type: 3}
-      propertyPath: coreData
-      value: 
-      objectReference: {fileID: 69661336}
     - target: {fileID: 4783489592496134957, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: player
@@ -9159,7 +9149,7 @@ PrefabInstance:
     - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: targetSceneName
-      value: 
+      value: Alaska
       objectReference: {fileID: 0}
     - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
@@ -9176,17 +9166,16 @@ PrefabInstance:
       propertyPath: imageObject
       value: 
       objectReference: {fileID: 2126572921}
-    - target: {fileID: 2583582029366179300, guid: 20573aa75a59848f2805b42599e8743d,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 091569b03e12645dc9972676c251f9fa,
-        type: 3}
     - target: {fileID: 3720590883793544683, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: inputManager
       value: 
       objectReference: {fileID: 209507296}
+    - target: {fileID: 3720590883793544683, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: targetSceneName
+      value: Alaska
+      objectReference: {fileID: 0}
     - target: {fileID: 205568937549686351, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: inputManager
@@ -9197,6 +9186,22 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2583582029366179300, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 091569b03e12645dc9972676c251f9fa,
+        type: 3}
+    - target: {fileID: 8263042024886352024, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: coreData
+      value: 
+      objectReference: {fileID: 69661336}
+    - target: {fileID: 8263042024886352024, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: coreData
+      value: 
+      objectReference: {fileID: 69661336}
     m_RemovedComponents:
     - {fileID: 8263042024886352024, guid: 20573aa75a59848f2805b42599e8743d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 20573aa75a59848f2805b42599e8743d, type: 3}
