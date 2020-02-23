@@ -11,8 +11,9 @@ namespace GUI
         [SerializeField] private SceneChanger sceneChanger;
         private float elapsedTime;
         [SerializeField] private Color textColorA;
-        [SerializeField] private Color textColorB;
+        // [SerializeField] private Color textColorB;
         [SerializeField] private float timeCycle;
+        [SerializeField] private float alphaMin;
 
         // Start is called before the first frame update
         void Start()
@@ -27,11 +28,8 @@ namespace GUI
         {
             elapsedTime += Time.deltaTime;
 
-            float CompositionRatio = 2 * (Mathf.Sin(2 * Mathf.PI * elapsedTime / timeCycle) + 1);
-            float r = textColorA.r * CompositionRatio + textColorB.r * (1 - CompositionRatio);
-            float g = textColorA.g * CompositionRatio + textColorB.g * (1 - CompositionRatio);
-            float b = textColorA.b * CompositionRatio + textColorB.b * (1 - CompositionRatio);
-            text.color = new Color(r, g, b, 1);
+            float compositionRatio = ((1 - alphaMin) * Mathf.Cos(2 * Mathf.PI * elapsedTime / timeCycle) + 1 + alphaMin) / 2;
+            text.color = new Color(textColorA.r, textColorA.g, textColorA.b, compositionRatio);
         }
 
         private void FontSmaller()
