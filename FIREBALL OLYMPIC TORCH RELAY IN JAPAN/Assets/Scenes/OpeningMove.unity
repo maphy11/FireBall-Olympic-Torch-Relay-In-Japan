@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 128658214}
   - component: {fileID: 128658213}
   - component: {fileID: 128658217}
+  - component: {fileID: 128658218}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -238,6 +239,20 @@ MonoBehaviour:
   imageObject: {fileID: 2005567100}
   targetSceneName: Title
   fadeOutSpeed: 2
+--- !u!114 &128658218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128658212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d4d804b7d7794f0294c53ad3e59849d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 427729524}
+  sceneChanger: {fileID: 128658217}
 --- !u!1 &262198132
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,7 +452,7 @@ GameObject:
   - component: {fileID: 427729522}
   - component: {fileID: 427729524}
   m_Layer: 5
-  m_Name: RawImage
+  m_Name: Video
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

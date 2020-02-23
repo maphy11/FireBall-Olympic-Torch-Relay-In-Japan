@@ -35,7 +35,7 @@ namespace GUI
             LoadScene();
         }
 
-        void LoadScene()
+        public void LoadScene()
         {
             // シーンが変わる際の音の実装はこの下に加えてください
             // シーンのリロード(Re-Start)もここです
