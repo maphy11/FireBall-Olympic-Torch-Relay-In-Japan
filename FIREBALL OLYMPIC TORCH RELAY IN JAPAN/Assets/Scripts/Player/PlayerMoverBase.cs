@@ -150,13 +150,19 @@ namespace Player
         {
             if (input == Vector2.up)
             {
-                if (coreData.isGround)
+
+                if (!coreData.isGround)
                 {
-                    this.rig.AddForce(transform.up * jampForce);
-                    coreData.isGround = false;
-                    //jason
-                    JumpEvent.Post(gameObject);
+                    return;
                 }
+                if (coreData.speed != 0)
+                {
+                    rig.velocity = 0.5f * runVel;
+                }
+                this.rig.AddForce(transform.up * jampForce);
+                coreData.isGround = false;
+                //jason
+                JumpEvent.Post(gameObject);
             }
         }
 
