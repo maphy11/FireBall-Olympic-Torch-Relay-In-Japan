@@ -143,6 +143,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de265201030be4d9f959259af4b927aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MeltEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &3000575413875516973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,11 +187,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5299864157185083876}
     m_Modifications:
-    - target: {fileID: 5785404701869401835, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
-        type: 3}
-      propertyPath: m_Name
-      value: TopCollider
-      objectReference: {fileID: 0}
     - target: {fileID: 5785404701869401832, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -253,6 +252,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5785404701869401835, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
+        type: 3}
+      propertyPath: m_Name
+      value: TopCollider
+      objectReference: {fileID: 0}
     - target: {fileID: 5785404701869401833, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
         type: 3}
       propertyPath: m_Offset.y
@@ -261,12 +265,12 @@ PrefabInstance:
     - target: {fileID: 5785404701869401833, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
         type: 3}
       propertyPath: m_Size.x
-      value: 10
+      value: 16.05342
       objectReference: {fileID: 0}
     - target: {fileID: 5785404701869401833, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0
+      value: -0.5642929
       objectReference: {fileID: 0}
     - target: {fileID: 5785404701869401833, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
         type: 3}

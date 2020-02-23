@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5785404701869401833}
   m_Layer: 0
   m_Name: TopCollider
-  m_TagString: Ground
+  m_TagString: TopCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

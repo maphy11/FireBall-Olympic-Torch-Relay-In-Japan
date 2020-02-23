@@ -48,25 +48,21 @@ namespace Player
         }
         void OnCollisionEnter2D(Collision2D col)
         {
-            if (col.gameObject.tag == "Ground")
+            if (col.gameObject.tag == "Ground" || col.gameObject.tag == "TopCollider")
             {
-                if (!coreData.isGround)
-                {
-                    coreData.isGround = true;
-                    rig.velocity = Vector2.zero;
-                }
+                if (coreData.isGround) { return; }
+                coreData.isGround = true;
+                rig.velocity = Vector2.zero;
             }
         }
 
         void OnTriggerEnter2D(Collider2D col)
         {
-            if (col.gameObject.tag == "Ground")
+            if (col.gameObject.tag == "Ground" || col.gameObject.tag == "TopCollider")
             {
-                if (!coreData.isGround)
-                {
-                    coreData.isGround = true;
-                    rig.velocity = Vector2.zero;
-                }
+                if (coreData.isGround) { return; }
+                coreData.isGround = true;
+                rig.velocity = Vector2.zero;
             }
         }
         // The Setup
