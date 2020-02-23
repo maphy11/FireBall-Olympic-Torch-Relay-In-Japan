@@ -12,6 +12,7 @@ namespace Player
         public AK.Wwise.Event JumpEvent;
 
         //Inspecter data
+        [SerializeField] protected GameObject inputManager;
         [SerializeField] private float runMaxSpeed = 1.0f;
         [SerializeField] private float reachMaxSpeedTime = 1.0f;
         [SerializeField] private float reachRunStopTime = 1.0f;
@@ -20,6 +21,7 @@ namespace Player
         //Component instances
         protected Rigidbody2D rig;
         protected IinputObserver inputObserver;
+
         private PlayerCore coreData;
         // other data
         private Vector3 runVel;
@@ -75,14 +77,7 @@ namespace Player
         protected virtual void Setup()
         {
             coreData = GetComponent<PlayerCore>();
-            if (coreData.platform == Platform.PC)
-            {
-                inputObserver = gameObject.AddComponent<InputKeyboard>();
-            }
-            else if (coreData.platform == Platform.TabletSmartphone)
-            {
-                inputObserver = gameObject.AddComponent<InputTouchPanel>();
-            }
+            inputObserver = inputManager.GetComponent(typeof(IinputObserver)) as IinputObserver;
             rig = GetComponent<Rigidbody2D>();
             scale = transform.localScale;
             runVel = Vector3.zero;
@@ -155,13 +150,19 @@ namespace Player
         {
             if (input == Vector2.up)
             {
-                if (coreData.isGround)
+
+                if (!coreData.isGround)
                 {
-                    this.rig.AddForce(transform.up * jampForce);
-                    coreData.isGround = false;
-                    //jason
-                    JumpEvent.Post(gameObject);
+                    return;
                 }
+                if (coreData.speed != 0)
+                {
+                    rig.velocity = 0.5f * runVel;
+                }
+                this.rig.AddForce(transform.up * jampForce);
+                coreData.isGround = false;
+                //jason
+                JumpEvent.Post(gameObject);
             }
         }
 

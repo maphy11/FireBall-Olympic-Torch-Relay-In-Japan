@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8982dbbf9aad4648970e809e02526f1, type: 3}
   m_Name: FB69C6AA-88D0-4406-BE54-8530D0FF4ECC
   m_EditorClassIdentifier: 
-  objectName: BGM
-  id: 412724365
+  objectName: BGM_Start
+  id: 2985635692
   guid: FB69C6AA-88D0-4406-BE54-8530D0FF4ECC

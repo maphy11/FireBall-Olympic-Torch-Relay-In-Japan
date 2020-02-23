@@ -1,16 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using FireHolders;
 
 namespace Player
 {
-    public enum Platform
-    {
-        PC,
-        TabletSmartphone
-    };
-
     public enum PlayerState
     {
         Wait,
@@ -23,16 +18,16 @@ namespace Player
     };
     public class PlayerCore : MonoBehaviour, IPlayerState
     {
-
-        [SerializeField] private Platform _platform = Platform.TabletSmartphone;
         [SerializeField] private GameObject guiPanel;
-        public Platform platform { get { return _platform; } }
         public PlayerState state { get; private set; }
         private IPlayerFlame flameAttacher;
         private IPlayerGUIImage guiImage;
         public float speed { get; set; }
         public bool isGround { get; set; }
         public bool isGameOver { get; private set; }
+        bool isStageClear;
+        public AK.Wwise.Event FootstepsEvent;
+        public AK.Wwise.Event StadiumJumpEvent;
 
         void Start()
         {
@@ -42,6 +37,7 @@ namespace Player
             flameAttacher = GetComponent(typeof(IPlayerFlame)) as IPlayerFlame;
             guiImage = guiPanel.GetComponent(typeof(IPlayerGUIImage)) as IPlayerGUIImage;
             isGameOver = false;
+            isStageClear = false;
         }
 
         void Update()
@@ -51,9 +47,10 @@ namespace Player
                 ToDead();
             }
 
-            if (state == PlayerState.GameClear)
+            if (state == PlayerState.GameClear && !isStageClear)
             {
                 StartCoroutine("OnGoal");
+                isStageClear = true;
             }
         }
 
@@ -70,6 +67,7 @@ namespace Player
         }
         private void OnGameOver()
         {
+            // ゲームオーバー時の音はここです
             StartCoroutine("GameOver");
         }
         IEnumerator GameOver()
@@ -81,6 +79,8 @@ namespace Player
         {
             yield return new WaitForSeconds(1);
             guiImage.ActiveGameClearPanel();
+            StageClearManger stageClearManager = StageClearManger.GetStageClearManager();
+            stageClearManager.ToCleared(SceneManager.GetActiveScene().name);
         }
         public void ToWait() { state = PlayerState.Wait; }
         public void ToMove() { state = PlayerState.Move; }
@@ -89,6 +89,17 @@ namespace Player
         public void ToGameClear() { state = PlayerState.GameClear; }
         public void ToReachStadium() { state = PlayerState.ReachStadium; }
         public void ToStadiumJump() { state = PlayerState.StadiumJump; }
+
+
+        public void FootstepsSound()
+        {
+            FootstepsEvent.Post(gameObject);
+        }
+
+        public void StadiumJumpSound()
+        {
+            StadiumJumpEvent.Post(gameObject);
+        }
 
     }
 

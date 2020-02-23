@@ -7,6 +7,8 @@ public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel;
     [SerializeField] private PlayerCore coreData;
+    public AK.Wwise.Event UIPauseEvent;
+    public AK.Wwise.Event UIReturnEvent;
     private IPlayerState state;
     void Start()
     {
@@ -17,6 +19,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (!pausePanel.active)
         {
+            UIPauseEvent.Post(gameObject);
             state.ToPause();
             pausePanel.SetActive(true);
         }
@@ -25,6 +28,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (pausePanel.active)
         {
+            UIReturnEvent.Post(gameObject);
             state.ToMove();
             pausePanel.SetActive(false);
         }

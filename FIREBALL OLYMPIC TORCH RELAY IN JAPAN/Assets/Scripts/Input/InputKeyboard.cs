@@ -15,12 +15,6 @@ namespace InputSystem
             isRight = (Input.GetKey(KeyCode.RightArrow));
             isTap = (Input.GetMouseButtonDown(0));
         }
-        // float Up(bool inputUp)
-        // {
-        //     elapsedTime = inputUp ? elapsedTime + Time.deltaTime : 0;
-        //     return elapsedTime;
-        // }
-
     }
 
 }
