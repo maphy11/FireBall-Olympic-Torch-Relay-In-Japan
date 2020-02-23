@@ -9186,11 +9186,16 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6296099630580455708, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2583582029366179300, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 091569b03e12645dc9972676c251f9fa,
+      objectReference: {fileID: 21300000, guid: 76bb5a5bbf62443b8b5ec0beb6fb6ab7,
         type: 3}
     - target: {fileID: 8263042024886352024, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
