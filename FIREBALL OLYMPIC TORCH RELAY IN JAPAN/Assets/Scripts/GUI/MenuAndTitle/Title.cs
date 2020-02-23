@@ -21,7 +21,7 @@ namespace GUI
         {
             elapsedTime = 0;
             timeCycle = (timeCycle == 0) ? 1 : timeCycle;
-            sceneChanger.a += FontSizeChanger;
+            sceneChanger.delegateMethods += FontSizeChanger;
             sceneChanger.OnTapChange();
             defaultFontSize = text.fontSize;
         }

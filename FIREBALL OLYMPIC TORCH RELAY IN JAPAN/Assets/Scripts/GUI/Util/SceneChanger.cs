@@ -16,7 +16,7 @@ namespace GUI
         [SerializeField] private float fadeOutSpeed;
         private IinputTap input;
         private Image image;
-        public event OnSceneChangeDelegate a;
+        public event OnSceneChangeDelegate delegateMethods;
 
         // Start is called before the first frame update
         void Start()
@@ -74,7 +74,7 @@ namespace GUI
         }
         IEnumerator DelegateMethodsCoroutine()
         {
-            a?.Invoke();
+            delegateMethods?.Invoke();
             yield return null;
         }
         IEnumerator StartFadeOut()
