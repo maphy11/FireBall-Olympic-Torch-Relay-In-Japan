@@ -14,6 +14,7 @@ namespace GUI
         // [SerializeField] private Color textColorB;
         [SerializeField] private float timeCycle;
         [SerializeField] private float alphaMin;
+        private float defaultFontSize;
 
         // Start is called before the first frame update
         void Start()
@@ -22,6 +23,7 @@ namespace GUI
             timeCycle = (timeCycle == 0) ? 1 : timeCycle;
             sceneChanger.a += FontSizeChanger;
             sceneChanger.OnTapChange();
+            defaultFontSize = text.fontSize;
         }
 
         void Update()
@@ -52,13 +54,13 @@ namespace GUI
 
         private IEnumerator FontSizeChangerCoroutine()
         {
-            while (text.fontSize > 30)
+            while (text.fontSize > defaultFontSize * 0.85)
             {
                 FontSmaller();
                 yield return null;
             }
 
-            while (text.fontSize < 40)
+            while (text.fontSize < defaultFontSize * 1.15)
             {
                 FontBigger();
                 yield return null;

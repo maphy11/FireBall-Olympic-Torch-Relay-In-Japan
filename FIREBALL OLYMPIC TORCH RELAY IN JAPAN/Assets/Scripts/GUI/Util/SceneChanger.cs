@@ -72,9 +72,14 @@ namespace GUI
             yield return new WaitForSeconds(0.5f);
             Application.LoadLevel(SceneManager.GetActiveScene().name);
         }
-        IEnumerator StartFadeOut()
+        IEnumerator DelegateMethodsCoroutine()
         {
             a?.Invoke();
+            yield return null;
+        }
+        IEnumerator StartFadeOut()
+        {
+            yield return StartCoroutine("DelegateMethodsCoroutine");
             while (image.color.a < 1.0f)
             {
                 Color temp = image.color;
