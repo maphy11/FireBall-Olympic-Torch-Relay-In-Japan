@@ -172,7 +172,6 @@ namespace Player
                 {
                     return;
                 }
-                Debug.Log("Jump");
                 if (coreData.speed != 0)
                 {
                     rig.velocity = 0.5f * runVel;
