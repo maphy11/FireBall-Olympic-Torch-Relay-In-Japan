@@ -35,8 +35,11 @@ namespace Player
         {
             if (PossibleToMove())
             {
-
                 UpdateMethod();
+            }
+            else
+            {
+                coreData.speed = 0;
             }
             if (coreData.state == PlayerState.ReachStadium)
             {

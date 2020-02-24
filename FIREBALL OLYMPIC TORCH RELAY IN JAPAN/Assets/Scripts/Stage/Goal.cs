@@ -9,6 +9,7 @@ namespace Stage
     {
         [SerializeField] private GameObject touchFire;
         public AK.Wwise.Event GoalEvent;
+        private bool touched;
         // Start is called before the first frame update
         void Start()
         {
@@ -16,6 +17,7 @@ namespace Stage
             {
                 touchFire.SetActive(false);
             }
+            touched = false;
         }
 
         // Update is called once per frame
@@ -31,6 +33,11 @@ namespace Stage
             {
                 return;
             }
+            if (touched)
+            {
+                return;
+            }
+            touched = true;
             GoalEvent.Post(gameObject);
             touchFire.SetActive(true);
             playerState.ToGameClear();
