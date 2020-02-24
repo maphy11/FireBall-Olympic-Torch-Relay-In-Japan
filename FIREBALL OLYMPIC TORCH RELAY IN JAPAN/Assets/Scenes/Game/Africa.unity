@@ -1647,6 +1647,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8531387925796961994, guid: a25fbd83652c24d00bf04d9a8659f7ec,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a25fbd83652c24d00bf04d9a8659f7ec, type: 3}
 --- !u!4 &876357603 stripped
@@ -2521,7 +2526,7 @@ PrefabInstance:
     - target: {fileID: 6296099630580455708, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2583582029366179300, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
@@ -3861,7 +3866,7 @@ PrefabInstance:
     - target: {fileID: 9162044962824182210, guid: 82cbda4804eb24657b5c6cc6454b0899,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.1
+      value: -4.05
       objectReference: {fileID: 0}
     - target: {fileID: 9162044962824182210, guid: 82cbda4804eb24657b5c6cc6454b0899,
         type: 3}
@@ -3928,6 +3933,11 @@ PrefabInstance:
       propertyPath: inputManager
       value: 
       objectReference: {fileID: 1519462108}
+    - target: {fileID: 2292565134463459251, guid: 82cbda4804eb24657b5c6cc6454b0899,
+        type: 3}
+      propertyPath: jumpForce
+      value: 400
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82cbda4804eb24657b5c6cc6454b0899, type: 3}
 --- !u!1001 &1536992848
@@ -5558,7 +5568,7 @@ PrefabInstance:
     - target: {fileID: 7859680127079674030, guid: d5e71569e79984bc498430691cb83827,
         type: 3}
       propertyPath: platform
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5e71569e79984bc498430691cb83827, type: 3}
@@ -5633,6 +5643,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mass
       value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936988734598032710, guid: 434797b94cc464d448a7c3c02dc4ea97,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 434797b94cc464d448a7c3c02dc4ea97, type: 3}

@@ -137,11 +137,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8531387925796961993}
     m_Modifications:
-    - target: {fileID: 5785404701869401835, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
-        type: 3}
-      propertyPath: m_Name
-      value: TopCollider
-      objectReference: {fileID: 0}
     - target: {fileID: 5785404701869401832, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -212,20 +207,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5785404701869401833, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
+    - target: {fileID: 5785404701869401835, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
         type: 3}
-      propertyPath: m_Offset.y
-      value: 4.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5785404701869401833, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5785404701869401833, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.1
+      propertyPath: m_Name
+      value: TopCollider
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1c55d4fd73cb4ccb956a4cd66a591e3, type: 3}
