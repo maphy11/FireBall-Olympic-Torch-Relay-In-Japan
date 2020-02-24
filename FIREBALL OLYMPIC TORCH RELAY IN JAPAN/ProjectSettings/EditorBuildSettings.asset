@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/OpeningMove.unity
+    path: Assets/Scenes/OpeningMovie.unity
     guid: fa55d0e833bfc447e93f903b42d41785
   - enabled: 1
     path: Assets/Scenes/Title.unity
@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/Japan.unity
     guid: d8b3aa25035f6423199171a38164d8eb
+  - enabled: 1
+    path: Assets/Scenes/EndingMovie.unity
+    guid: e1752f585878842e983104cd04ca217e
   m_configObjects: {}

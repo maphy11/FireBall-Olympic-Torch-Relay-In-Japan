@@ -840,7 +840,7 @@ PrefabInstance:
     - target: {fileID: 4783489592496134957, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: targetSceneName
-      value: Menu
+      value: EndingMovie
       objectReference: {fileID: 0}
     - target: {fileID: 4783489592496134957, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
@@ -897,6 +897,17 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6296099630580455708, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583582029366179300, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e31a798b0c58b43c8a166654fd8a47cb,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20573aa75a59848f2805b42599e8743d, type: 3}
 --- !u!114 &811220192 stripped
@@ -1255,6 +1266,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7313110339129276078, guid: 36ad52bd3ccdd47009e566bfffa926b2,
+        type: 3}
+      propertyPath: GoalEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b84a83662ee8e4c77a79de5d2c8632b9,
+        type: 2}
     - target: {fileID: 7313110339129276066, guid: 36ad52bd3ccdd47009e566bfffa926b2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1361,12 +1378,6 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 3.368391
       objectReference: {fileID: 0}
-    - target: {fileID: 7313110339129276078, guid: 36ad52bd3ccdd47009e566bfffa926b2,
-        type: 3}
-      propertyPath: GoalEvent.WwiseObjectReference
-      value: 
-      objectReference: {fileID: 11400000, guid: b84a83662ee8e4c77a79de5d2c8632b9,
-        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36ad52bd3ccdd47009e566bfffa926b2, type: 3}
 --- !u!1 &994165881
@@ -1683,6 +1694,11 @@ PrefabInstance:
     - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674030, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: platform
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
