@@ -7,6 +7,7 @@ namespace Ice
 {
     public class IceCore : MonoBehaviour, IFireSever
     {
+        [SerializeField] private GameObject[] wallsGameObject;
         public AK.Wwise.Event MeltEvent;
         public bool isMelting { get; protected set; }
         void Start()
@@ -22,8 +23,24 @@ namespace Ice
 
         public void TouchFire(FireCore fire)
         {
+            if (isMelting)
+            {
+                return;
+            }
             MeltEvent.Post(gameObject);
             isMelting = true;
+        }
+        public bool HasWall()
+        {
+            return wallsGameObject[0] != null;
+        }
+
+        public void DestroyWall()
+        {
+            foreach (GameObject wall in wallsGameObject)
+            {
+                Destroy(wall);
+            }
         }
     }
 }

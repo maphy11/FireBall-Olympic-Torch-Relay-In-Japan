@@ -47,7 +47,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.2878833, y: -0.024339855}
+  m_Offset: {x: -2.0725439, y: -0.024339914}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -58,7 +58,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4158783, y: 3.6773076}
+  m_Size: {x: 0.1902833, y: 3.6773076}
   m_EdgeRadius: 0
 --- !u!61 &668340218142790291
 BoxCollider2D:
@@ -73,7 +73,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.1661859, y: -0.024340928}
+  m_Offset: {x: 1.950846, y: -0.024340868}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -84,7 +84,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.46452856, y: 3.5799499}
+  m_Size: {x: 0.23893309, y: 3.5799499}
   m_EdgeRadius: 0
 --- !u!50 &7799448762552530290
 Rigidbody2D:
@@ -184,6 +184,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.40000004
       objectReference: {fileID: 0}
+    - target: {fileID: 7542712915040906399, guid: 5c939609306354ab69833b34c5d60d11,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542712915040906399, guid: 5c939609306354ab69833b34c5d60d11,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7542712915040906398, guid: 5c939609306354ab69833b34c5d60d11,
         type: 3}
       propertyPath: m_Offset.x
@@ -198,6 +208,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131903994855141352, guid: 5c939609306354ab69833b34c5d60d11,
+        type: 3}
+      propertyPath: m_Points.Array.data[1].x
+      value: 3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131903994855141352, guid: 5c939609306354ab69833b34c5d60d11,
+        type: 3}
+      propertyPath: m_Points.Array.data[1].y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131903994855141352, guid: 5c939609306354ab69833b34c5d60d11,
+        type: 3}
+      propertyPath: m_Points.Array.data[0].x
+      value: -4.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c939609306354ab69833b34c5d60d11, type: 3}
