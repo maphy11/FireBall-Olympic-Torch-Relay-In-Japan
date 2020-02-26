@@ -41,13 +41,8 @@ public class RockCore : MonoBehaviour
 
     void makeTopCollider()
     {
-        // float theta = this.transform.localRotation.eulerAngles.z;
         GameObject collider = Instantiate(topColliderObject, this.transform.position + topColliderPosOffset, Quaternion.identity);
         collider.transform.parent = this.transform;
-        // float offsetLength = topColliderPosOffset;
-
-        // collider.transform.localPosition = collider.transform.localPosition;
-        // collider.transform.localScale = new Vector3(1, 1, 1);
         collider.transform.localScale = new Vector3(5, 5, 1);
     }
 }
