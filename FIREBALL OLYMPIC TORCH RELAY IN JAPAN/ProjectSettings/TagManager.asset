@@ -15,6 +15,7 @@ TagManager:
   - Particle
   - Rock
   - TopCollider
+  - Fountain
   layers:
   - Default
   - TransparentFX

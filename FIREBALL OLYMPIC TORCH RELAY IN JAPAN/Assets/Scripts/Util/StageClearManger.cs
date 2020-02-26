@@ -13,10 +13,14 @@ public class StageClearManger
 
     private StageClearManger()
     {
-        clearedGreeceStage = false;
-        clearedAlaskaStage = false;
-        clearedAfricaStage = false;
-        clearedJapanStage = false;
+        clearedGreeceStage = true;
+        clearedAlaskaStage = true;
+        clearedAfricaStage = true;
+        clearedJapanStage = true;
+        // clearedGreeceStage = false;
+        // clearedAlaskaStage = false;
+        // clearedAfricaStage = false;
+        // clearedJapanStage = false;
     }
 
     public static StageClearManger GetStageClearManager()
