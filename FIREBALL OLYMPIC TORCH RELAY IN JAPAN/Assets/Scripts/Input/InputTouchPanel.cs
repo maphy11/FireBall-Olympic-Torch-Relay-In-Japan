@@ -18,6 +18,11 @@ namespace InputSystem
         // Update is called once per frame
         void Update()
         {
+            isLeft = false;
+            isRight = false;
+            isUp = false;
+            isDown = false;
+
             isTap = (Input.touchCount > 0);
             if (Input.touchCount == 1)
             {
@@ -50,9 +55,6 @@ namespace InputSystem
                 }
                 return;
             }
-            isLeft = false;
-            isRight = false;
-            isUp = false;
             touchStartPos = null;
             touchEndPos = null;
         }
@@ -64,6 +66,11 @@ namespace InputSystem
             {
                 isUp = ((touchEndPos.Value - touchStartPos.Value).y > Screen.height / 5);
                 isDown = ((touchEndPos.Value - touchStartPos.Value).y < -Screen.height / 5);
+            }
+            if (isUp || isDown)
+            {
+                touchStartPos = null;
+                touchEndPos = null;
             }
         }
 
