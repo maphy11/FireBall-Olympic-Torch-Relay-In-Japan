@@ -38,6 +38,7 @@ public class PlayerSencerWithHowToPlay : MonoBehaviour
     }
     public IEnumerator TapCoroutine(IPlayerState state)
     {
+        yield return new WaitForSeconds(2);
         yield return new WaitUntil(() => input.OnTap());
         // The sound process when panel close.
         howToPlayPanel.SetActive(false);

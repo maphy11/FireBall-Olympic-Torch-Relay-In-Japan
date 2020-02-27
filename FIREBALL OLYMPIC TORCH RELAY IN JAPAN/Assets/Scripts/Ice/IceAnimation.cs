@@ -8,20 +8,10 @@ namespace Ice
     [RequireComponent(typeof(Animator))]
     public class IceAnimation : MonoBehaviour
     {
-        private List<IceCore> coreDatas = new List<IceCore>();
+        [SerializeField] private List<IceCore> coreDatas = new List<IceCore>();
         private Animator animator;
         void Start()
         {
-            IceCore parentCoreData = transform.parent.gameObject.GetComponent<IceCore>();
-            IceCore selfCoreData = GetComponent<IceCore>();
-            if (parentCoreData != null)
-            {
-                coreDatas.Add(parentCoreData);
-            }
-            if (selfCoreData != null)
-            {
-                coreDatas.Add(selfCoreData);
-            }
             animator = GetComponent<Animator>();
         }
 
@@ -38,7 +28,6 @@ namespace Ice
                     continue;
                 }
                 animator.SetBool("isMelting", coreData.isMelting);
-
             }
         }
         private void FinishMelt()

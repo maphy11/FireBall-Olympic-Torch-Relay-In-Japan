@@ -16,7 +16,7 @@ namespace Player
         [SerializeField] private float runMaxSpeed = 1.0f;
         [SerializeField] private float reachMaxSpeedTime = 1.0f;
         [SerializeField] private float reachRunStopTime = 1.0f;
-        [SerializeField] private float jampForce = 1.0f;
+        [SerializeField] private float jumpForce = 1.0f;
 
         //Component instances
         protected Rigidbody2D rig;
@@ -27,6 +27,8 @@ namespace Player
         private Vector3 runVel;
 
         private Vector3 scale;
+
+        private bool isStadiumJump;
         void Start()
         {
             Setup();
@@ -36,14 +38,49 @@ namespace Player
             if (PossibleToMove())
             {
                 UpdateMethod();
+                return;
             }
             if (coreData.state == PlayerState.ReachStadium)
             {
-                Walk(Vector2.right);
+                return;
             }
             if (coreData.state == PlayerState.StadiumJump)
             {
+                return;
+            }
+
+            coreData.speed = 0;
+        }
+        void Update()
+        {
+            if (coreData.state == PlayerState.ReachStadium)
+            {
+                if (coreData.isGround)
+                {
+                    Walk(Vector2.right);
+                    return;
+                }
+            }
+            if (coreData.state == PlayerState.StadiumJump)
+            {
+                if (isStadiumJump) { return; }
                 StartCoroutine("StadiumLastAnimationMove");
+                isStadiumJump = true;
+                return;
+            }
+        }
+        void OnCollisionExit2D(Collision2D col)
+        {
+            if (col.gameObject.tag == "Ground")
+            {
+                coreData.isGround = false;
+            }
+        }
+        void OnTriggerExit2D(Collider2D col)
+        {
+            if (col.gameObject.tag == "TopCollider")
+            {
+                coreData.isGround = false;
             }
         }
         void OnCollisionEnter2D(Collision2D col)
@@ -58,7 +95,7 @@ namespace Player
 
         void OnTriggerEnter2D(Collider2D col)
         {
-            if (col.gameObject.tag == "Ground" || col.gameObject.tag == "TopCollider")
+            if (col.gameObject.tag == "TopCollider")
             {
                 if (coreData.isGround) { return; }
                 coreData.isGround = true;
@@ -72,6 +109,7 @@ namespace Player
         // They need to inherit children class
         protected virtual void Setup()
         {
+            isStadiumJump = false;
             coreData = GetComponent<PlayerCore>();
             inputObserver = inputManager.GetComponent(typeof(IinputObserver)) as IinputObserver;
             rig = GetComponent<Rigidbody2D>();
@@ -90,7 +128,7 @@ namespace Player
 
         protected virtual void MoveVertical(Vector2 input)
         {
-            Jump(input);
+            StartCoroutine("MoveVerticalCoroutine", input);
         }
 
         protected virtual void MoveHorizontal(Vector2 input)
@@ -136,11 +174,9 @@ namespace Player
             if (input == Vector2.zero)
             {
                 DecreaseRunSpeed();
+                return;
             }
-            else
-            {
-                IncreaseRunSpeed(input);
-            }
+            IncreaseRunSpeed(input);
         }
         private void Jump(Vector2 input)
         {
@@ -153,10 +189,9 @@ namespace Player
                 }
                 if (coreData.speed != 0)
                 {
-                    rig.velocity = 0.5f * runVel;
+                    rig.velocity = new Vector3(0.5f * runVel.x, 0, 0);
                 }
-                this.rig.AddForce(transform.up * jampForce);
-                coreData.isGround = false;
+                this.rig.AddForce(transform.up * jumpForce);
                 //jason
                 JumpEvent.Post(gameObject);
             }
@@ -164,21 +199,32 @@ namespace Player
 
         private IEnumerator StadiumLastAnimationMove()
         {
-            for (int i = 0; i < 51; i++)
+            for (int i = 0; i < 47; i++)
             {
-                transform.position = transform.position + new Vector3(0.0015f, 0, 0);
+                transform.position = transform.position + new Vector3(0.1f, 0, 0);
                 yield return null;
             }
-            for (int i = 0; i < 39; i++)
+            for (int i = 0; i < 43; i++)
             {
                 yield return null;
             }
+            jumpForce = 700;
             Jump(Vector2.up);
             for (int i = 0; i < 90; i++)
             {
-                transform.position = transform.position + new Vector3(0.01f, 0, 0);
+                transform.position = transform.position + new Vector3(0.4f, 0, 0);
                 yield return null;
             }
+        }
+        private IEnumerator MoveVerticalCoroutine(Vector2 input)
+        {
+            var jumpCoroutine = StartCoroutine("JumpCoroutine", input);
+            yield return jumpCoroutine;
+        }
+        private IEnumerator JumpCoroutine(Vector2 input)
+        {
+            Jump(input);
+            yield return new WaitForSeconds(0.1f);
         }
         private bool PossibleToMove() { return coreData.state == PlayerState.Move; }
     }

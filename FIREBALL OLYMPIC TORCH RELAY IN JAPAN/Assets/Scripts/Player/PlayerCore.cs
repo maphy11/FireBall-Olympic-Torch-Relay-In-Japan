@@ -95,12 +95,6 @@ namespace Player
         {
             FootstepsEvent.Post(gameObject);
         }
-
-        public void StadiumJumpSound()
-        {
-            StadiumJumpEvent.Post(gameObject);
-        }
-
     }
 
 

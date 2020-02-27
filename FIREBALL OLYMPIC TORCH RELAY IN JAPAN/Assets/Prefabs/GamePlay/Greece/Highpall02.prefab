@@ -115,11 +115,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2520943209337663861}
     m_Modifications:
-    - target: {fileID: 5785404701869401835, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
-        type: 3}
-      propertyPath: m_Name
-      value: TopCollider
-      objectReference: {fileID: 0}
     - target: {fileID: 5785404701869401832, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -128,7 +123,7 @@ PrefabInstance:
     - target: {fileID: 5785404701869401832, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.652
       objectReference: {fileID: 0}
     - target: {fileID: 5785404701869401832, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
         type: 3}
@@ -175,6 +170,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5785404701869401835, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
+        type: 3}
+      propertyPath: m_Name
+      value: TopCollider
+      objectReference: {fileID: 0}
     - target: {fileID: 5785404701869401833, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
         type: 3}
       propertyPath: m_Offset.y
@@ -183,12 +183,27 @@ PrefabInstance:
     - target: {fileID: 5785404701869401833, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.6
+      value: 0.68865967
       objectReference: {fileID: 0}
     - target: {fileID: 5785404701869401833, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.025
+      value: -0.04864256
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785404701869401833, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.00999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986159756264924575, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
+        type: 3}
+      propertyPath: m_Points.Array.data[1].x
+      value: 0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986159756264924575, guid: f1c55d4fd73cb4ccb956a4cd66a591e3,
+        type: 3}
+      propertyPath: m_Points.Array.data[0].x
+      value: -0.48
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1c55d4fd73cb4ccb956a4cd66a591e3, type: 3}

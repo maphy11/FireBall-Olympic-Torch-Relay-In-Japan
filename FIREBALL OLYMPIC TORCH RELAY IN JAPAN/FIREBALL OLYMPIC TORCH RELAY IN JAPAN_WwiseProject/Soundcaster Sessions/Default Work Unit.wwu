@@ -6,12 +6,24 @@
 				<SoundcasterSession Name="test" ID="{F3B0925C-8C2C-4AF9-9D79-3BCB46FFFB59}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Beginning" ID="{268CA487-52F5-481B-93D4-C6DBEE492A33}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
-							<Position X="1" Y="2"/>
+							<ObjectRef Name="BGM_Africa" ID="{18AF5EE6-1379-457E-923D-983B2B036BAA}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}"/>
+							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="SE_Jump" ID="{F202B394-06BD-44B8-BFFE-068F6B09B017}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
-							<Position X="2" Y="2"/>
+							<ObjectRef Name="BGM_Greece" ID="{AD920AF0-DF01-4812-B497-4D0EE5417E50}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="BGM_Araska" ID="{4A034779-A33B-4AF2-9D45-3E63E24A3F78}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fox_Footsteps" ID="{12595E33-76D9-43A5-B7B0-A406D46E7495}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fox_Jump" ID="{B76E2D6B-CEF7-41B5-BC9B-15E123308879}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}"/>
+							<Position X="2" Y="3"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

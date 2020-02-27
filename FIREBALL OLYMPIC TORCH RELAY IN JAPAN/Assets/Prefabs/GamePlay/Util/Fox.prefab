@@ -356,7 +356,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db61116fc8a04871911e785fb159cfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _platform: 0
   guiPanel: {fileID: 0}
   FootstepsEvent:
     idInternal: 0
@@ -385,10 +384,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 92b4c7dd6208c4f0583a4d10c658cf21,
       type: 2}
+  inputManager: {fileID: 0}
   runMaxSpeed: 10
   reachMaxSpeedTime: 2
   reachRunStopTime: 1
-  jampForce: 400
+  jumpForce: 400
 --- !u!114 &1537546928522330726
 MonoBehaviour:
   m_ObjectHideFlags: 0
