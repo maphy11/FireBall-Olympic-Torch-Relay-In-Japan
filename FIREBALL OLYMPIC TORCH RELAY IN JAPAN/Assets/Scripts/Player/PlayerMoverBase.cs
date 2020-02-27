@@ -27,7 +27,7 @@ namespace Player
         private Vector3 runVel;
 
         private Vector3 scale;
-
+        private bool isGroundForLateJudge;
         private bool isStadiumJump;
         void Start()
         {
@@ -73,6 +73,7 @@ namespace Player
         {
             if (col.gameObject.tag == "Ground")
             {
+
                 coreData.isGround = false;
             }
         }
@@ -80,7 +81,9 @@ namespace Player
         {
             if (col.gameObject.tag == "TopCollider")
             {
-                coreData.isGround = false;
+                isGroundForLateJudge = false;
+                StartCoroutine("LateJudgmentExitTopCollider");
+                // coreData.isGround = false;
             }
         }
         void OnCollisionEnter2D(Collision2D col)
@@ -97,6 +100,7 @@ namespace Player
         {
             if (col.gameObject.tag == "TopCollider")
             {
+                isGroundForLateJudge = true;
                 if (coreData.isGround) { return; }
                 coreData.isGround = true;
                 rig.velocity = Vector2.zero;
@@ -110,6 +114,7 @@ namespace Player
         protected virtual void Setup()
         {
             isStadiumJump = false;
+            isGroundForLateJudge = true;
             coreData = GetComponent<PlayerCore>();
             inputObserver = inputManager.GetComponent(typeof(IinputObserver)) as IinputObserver;
             rig = GetComponent<Rigidbody2D>();
@@ -225,6 +230,13 @@ namespace Player
         {
             Jump(input);
             yield return new WaitForSeconds(0.1f);
+        }
+
+        private IEnumerator LateJudgmentExitTopCollider()
+        {
+            yield return new WaitForSeconds(0.1f);
+            if (isGroundForLateJudge == coreData.isGround) { yield break; }
+            coreData.isGround = false;
         }
         private bool PossibleToMove() { return coreData.state == PlayerState.Move; }
     }
