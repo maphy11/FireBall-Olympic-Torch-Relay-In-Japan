@@ -12,6 +12,7 @@ namespace Ice
         {
             if (ices.Count > 1)
             {
+                // here has error
                 ices.Sort((a, b) => a.transform.position.y.CompareTo(b.transform.position.y));
             }
             ices[ices.Count - 1].DestroyWall();
@@ -26,6 +27,7 @@ namespace Ice
             ices.RemoveAt(ices.Count - 1);
             if (ices.Count > 0)
             {
+                // here has error
                 ices[ices.Count - 1].DestroyWall();
             }
         }
