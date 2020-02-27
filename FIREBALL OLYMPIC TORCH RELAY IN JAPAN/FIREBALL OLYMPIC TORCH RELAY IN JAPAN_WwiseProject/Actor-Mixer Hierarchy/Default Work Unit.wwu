@@ -541,6 +541,132 @@
 								<ActiveSource Name="SE_Jump" ID="{3022F8F2-6BEB-4A28-824E-B5B1E2B817DF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Harz20_SE_Gameover" ID="{49D0617E-A796-4114-84A5-08303E9D8CF1}" ShortID="591543996">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_SE_Gameover" ID="{0434BEAA-09DD-4F04-9A04-27BB27D1DDD3}" ShortID="960092073">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_SE_Gameover.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Harz20_SE_Gameover" ID="{0434BEAA-09DD-4F04-9A04-27BB27D1DDD3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="BGM" ID="{5092A7CC-FFF1-4B34-9C9C-353814D009A0}" ShortID="749455641">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="BGM" ID="{7E3B4DE2-DB6A-4489-9CE5-F5E196527F8D}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="BGM_Opening" ID="{33420B6E-5FC0-446F-80D2-996863023E5C}" ShortID="458351700">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BGM_Opening" ID="{5A512604-2977-4005-A3B5-FF1C8007965E}" ShortID="701603292">
+									<Language>SFX</Language>
+									<AudioFile>BGM_Opening.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BGM_Opening" ID="{5A512604-2977-4005-A3B5-FF1C8007965E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Harz20_Full_Harz20_AfricaStage_Full" ID="{20A9898D-4F94-4C42-A291-B2E66DCCB06F}" ShortID="830641858">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_Full_Harz20_AfricaStage_Full" ID="{F15BB120-10AA-427B-A1D0-F2DDB93DE044}" ShortID="556261871">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_Full_Harz20_AfricaStage_Full.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Harz20_Full_Harz20_AfricaStage_Full" ID="{F15BB120-10AA-427B-A1D0-F2DDB93DE044}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Harz20_Full_Harz20_AlaskaStage_Fall" ID="{4693C1E6-4225-42E1-824A-58EDD77872C9}" ShortID="613636115">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_Full_Harz20_AlaskaStage_Fall" ID="{F1E52335-2F1E-4059-9FD8-F787D7D18E31}" ShortID="672770285">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_Full_Harz20_AlaskaStage_Fall.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Harz20_Full_Harz20_AlaskaStage_Fall" ID="{F1E52335-2F1E-4059-9FD8-F787D7D18E31}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Harz20_Full_Harz20_GreeceStage_Full" ID="{26F0400B-D3C1-4C6A-B4EB-F44F3FC186C2}" ShortID="918762006">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F423E0F2-3997-4CC7-985F-B8FDCD6079C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{06C5F1A1-AC5D-4C23-B1AC-69DBB03EDBCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Harz20_Full_Harz20_GreeceStage_Full" ID="{A45E19FE-B533-43F4-BBD8-876DD5673E8E}" ShortID="370572494">
+									<Language>SFX</Language>
+									<AudioFile>Harz20_Full_Harz20_GreeceStage_Full.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Harz20_Full_Harz20_GreeceStage_Full" ID="{A45E19FE-B533-43F4-BBD8-876DD5673E8E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

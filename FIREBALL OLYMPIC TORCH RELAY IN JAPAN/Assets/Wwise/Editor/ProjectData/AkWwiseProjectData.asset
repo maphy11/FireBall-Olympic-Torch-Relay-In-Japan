@@ -17,21 +17,21 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c8d9cc172152b54c8bde67d2b4a5ce49
     GuidInternal: 
-    m_lastTime: -8586193158894775808
+    m_lastTime: -8586191406174775808
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: a1f1c5065dac234cb1ac69dbb03edbcf
     GuidInternal: 
-    m_lastTime: -8586193158904775808
+    m_lastTime: -8586191406174775808
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: cdd1b5f763833842ba1ba378f40b8b3b
     GuidInternal: 
-    m_lastTime: -8586193158894775808
+    m_lastTime: -8586191406174775808
     List:
     - name: Main
       guid: be83ded290c0ad4a96850374e5bd3659
@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 249fbc4a6a445d4488bf8ab89a6df3c5
     GuidInternal: 
-    m_lastTime: -8586193158924775808
+    m_lastTime: -8586188002404775808
     List:
     - name: BGM_Africa
       guid: e65eaf1879137e45923d983b2b036baa
@@ -71,8 +71,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit/BGM_Araska
       maxAttenuation: 0
-      maxDuration: 80
-      minDuration: 80
+      maxDuration: -1
+      minDuration: -1
     - name: BGM_Clear
       guid: 9bd9a61e43325546ab6380f190f7022a
       id: 155738951
@@ -95,8 +95,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit/BGM_Greece
       maxAttenuation: 0
-      maxDuration: 80
-      minDuration: 80
+      maxDuration: -1
+      minDuration: -1
     - name: BGM_Start
       guid: aac669fbd0880644be548530d0ff4ecc
       id: 2985635692
@@ -145,6 +145,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.273937
       minDuration: 0.273937
+    - name: Gameover
+      guid: 9f227d4ecaeff04f81d2028b6eb38677
+      id: 4158285989
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gameover
+        ObjectType: 3
+      Path: Default Work Unit/Gameover
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Pause
       guid: d92d225c394f3949b0dda1062a2e166c
       id: 3092587493
@@ -246,28 +258,28 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: fe552895fa43254e9cb7a3f9e9e2d464
     GuidInternal: 
-    m_lastTime: -8586193158924775808
+    m_lastTime: -8586191406194775808
     List: []
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 590257c28313bf4da840583d51539632
     GuidInternal: 
-    m_lastTime: -8586193158894775808
+    m_lastTime: -8586191406174775808
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f70624f5fadc34478c992f6938e96d63
     GuidInternal: 
-    m_lastTime: -8586193158894775808
+    m_lastTime: -8586191406174775808
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 9bd56c724a28c649b2523bb1e20f19c2
     GuidInternal: 
-    m_lastTime: -8586193158894775808
+    m_lastTime: -8586191406174775808
     List: []
   ExpandedItems:
   - /FIREBALL OLYMPIC TORCH RELAY IN JAPAN_WwiseProject

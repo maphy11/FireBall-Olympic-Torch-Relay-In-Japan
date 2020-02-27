@@ -164,6 +164,15 @@ MonoBehaviour:
   imageObject: {fileID: 0}
   targetSceneName: 
   fadeOutSpeed: 0
+  SceneChangeEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fdbe5d7aa0dfc41e68fe041e3b5269f1,
+      type: 2}
+  ReloadEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &8263042024075273772
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +446,15 @@ MonoBehaviour:
   imageObject: {fileID: 6097855234539606757}
   targetSceneName: Menu
   fadeOutSpeed: 0.5
+  SceneChangeEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 09c93ff6f1baa49638abd43a0e5a3e69,
+      type: 2}
+  ReloadEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &8263042024243423159
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,6 +905,14 @@ MonoBehaviour:
   imageObject: {fileID: 0}
   targetSceneName: 
   fadeOutSpeed: 0
+  SceneChangeEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  ReloadEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &8263042025701341581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,6 +1204,16 @@ MonoBehaviour:
   imageObject: {fileID: 6097855234539606757}
   targetSceneName: 
   fadeOutSpeed: 0.5
+  SceneChangeEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 676fc004848cb4818bf65efdaf72bd06,
+      type: 2}
+  ReloadEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 676fc004848cb4818bf65efdaf72bd06,
+      type: 2}
 --- !u!1001 &4736714224905408804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1295,14 +1331,14 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1523306817826554823, guid: e04dd9bc02c04440284834522b6ec0be,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1523306817826554821, guid: e04dd9bc02c04440284834522b6ec0be,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554823, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

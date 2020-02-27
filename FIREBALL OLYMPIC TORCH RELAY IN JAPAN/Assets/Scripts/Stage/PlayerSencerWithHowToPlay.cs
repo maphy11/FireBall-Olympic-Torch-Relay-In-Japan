@@ -9,6 +9,8 @@ public class PlayerSencerWithHowToPlay : MonoBehaviour
     [SerializeField] GameObject inputManager;
     private IinputTap input;
     private bool isDesplayed;
+    public AK.Wwise.Event HowToPlayEvent;
+    public AK.Wwise.Event ReturnEvent;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,7 @@ public class PlayerSencerWithHowToPlay : MonoBehaviour
             state.ToPause();
             howToPlayPanel.SetActive(true);
             // the sound process when panel open
+            HowToPlayEvent.Post(gameObject);
             StartCoroutine("TapCoroutine", state);
         }
     }
@@ -41,6 +44,7 @@ public class PlayerSencerWithHowToPlay : MonoBehaviour
         yield return new WaitForSeconds(2);
         yield return new WaitUntil(() => input.OnTap());
         // The sound process when panel close.
+        ReturnEvent.Post(gameObject);
         howToPlayPanel.SetActive(false);
         state.ToMove();
         isDesplayed = true;

@@ -87,5 +87,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputManager: {fileID: 0}
+  imageObject: {fileID: 0}
   targetSceneName: 
   fadeOutSpeed: 0.5
+  SceneChangeEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e81c679fb27ee4d59a52ebc949a8e6d9,
+      type: 2}
+  ReloadEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e81c679fb27ee4d59a52ebc949a8e6d9,
+      type: 2}

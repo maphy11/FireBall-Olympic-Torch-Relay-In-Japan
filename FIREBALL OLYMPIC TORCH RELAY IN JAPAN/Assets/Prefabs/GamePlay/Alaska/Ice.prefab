@@ -386,6 +386,12 @@ PrefabInstance:
       propertyPath: wallsGameObject.Array.data[1]
       value: 
       objectReference: {fileID: 5396449966314433640}
+    - target: {fileID: 7002374128356033012, guid: 2275e55c21efc43b6ae82b3a53128fa1,
+        type: 3}
+      propertyPath: MeltEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 296817cb9eb674e45886e4c496ba879a,
+        type: 2}
     - target: {fileID: 2745064153969834301, guid: 2275e55c21efc43b6ae82b3a53128fa1,
         type: 3}
       propertyPath: m_Offset.x

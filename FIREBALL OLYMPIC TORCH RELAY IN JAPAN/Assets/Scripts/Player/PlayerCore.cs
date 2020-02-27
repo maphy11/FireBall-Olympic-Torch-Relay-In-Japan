@@ -28,6 +28,7 @@ namespace Player
         bool isStageClear;
         public AK.Wwise.Event FootstepsEvent;
         public AK.Wwise.Event StadiumJumpEvent;
+        public AK.Wwise.Event GameOverEvent;
 
         void Start()
         {
@@ -68,6 +69,7 @@ namespace Player
         private void OnGameOver()
         {
             // ゲームオーバー時の音はここです
+            
             StartCoroutine("GameOver");
         }
         IEnumerator GameOver()
@@ -95,6 +97,12 @@ namespace Player
         {
             FootstepsEvent.Post(gameObject);
         }
+
+        public void GameOverSound()
+        {
+            GameOverEvent.Post(gameObject);
+        }
+
     }
 
 
