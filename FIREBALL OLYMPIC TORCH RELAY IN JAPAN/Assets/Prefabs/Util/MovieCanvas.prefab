@@ -340,7 +340,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8860293619900551408}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: cd0e5060b06794e38b0782b37cdc3d2b, type: 3}
+  m_VideoClip: {fileID: 0}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -483,6 +483,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554821, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1523306817826554823, guid: e04dd9bc02c04440284834522b6ec0be,
         type: 3}
       propertyPath: m_Color.a
@@ -491,11 +496,6 @@ PrefabInstance:
     - target: {fileID: 1523306817826554823, guid: e04dd9bc02c04440284834522b6ec0be,
         type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1523306817826554821, guid: e04dd9bc02c04440284834522b6ec0be,
-        type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

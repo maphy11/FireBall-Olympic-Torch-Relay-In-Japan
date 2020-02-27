@@ -553,5 +553,11 @@ PrefabInstance:
       propertyPath: inputManager
       value: 
       objectReference: {fileID: 1205598576}
+    - target: {fileID: 8860293619900551412, guid: ddc02b45d0ce14022be2ab63e335f5a5,
+        type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: c062d273a3ece49a48109105091f7e5f,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddc02b45d0ce14022be2ab63e335f5a5, type: 3}
