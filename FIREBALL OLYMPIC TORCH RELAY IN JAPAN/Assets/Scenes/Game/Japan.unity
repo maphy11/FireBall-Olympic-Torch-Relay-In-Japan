@@ -385,7 +385,6 @@ PrefabInstance:
     - target: {fileID: 2009222672380628789, guid: 7079d79d9a5774e97a88beabc5f8dbf4,
         type: 3}
       propertyPath: m_TagString
-      value: Ice
       value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2009222672380628795, guid: 7079d79d9a5774e97a88beabc5f8dbf4,
