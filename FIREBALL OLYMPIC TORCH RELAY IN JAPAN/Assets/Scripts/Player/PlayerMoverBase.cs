@@ -88,7 +88,7 @@ namespace Player
         }
         void OnCollisionEnter2D(Collision2D col)
         {
-            if (col.gameObject.tag == "Ground" || col.gameObject.tag == "TopCollider")
+            if (col.gameObject.tag == "Ground")
             {
                 if (coreData.isGround) { return; }
                 coreData.isGround = true;
