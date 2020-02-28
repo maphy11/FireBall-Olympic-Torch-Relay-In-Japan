@@ -29,11 +29,12 @@
 				<Event Id="648125588" Name="Fox_Footsteps" ObjectPath="\Events\Default Work Unit\Fox_Footsteps" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
 				<Event Id="1783467547" Name="Fox_Jump" ObjectPath="\Events\Default Work Unit\Fox_Jump" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
 				<Event Id="3685664337" Name="Fox_Melt" ObjectPath="\Events\Default Work Unit\Fox_Melt" DurationType="OneShot" DurationMin="0.273937" DurationMax="0.273937"/>
+				<Event Id="4158285989" Name="Gameover" ObjectPath="\Events\Default Work Unit\Gameover" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000"/>
 				<Event Id="3092587493" Name="Pause" ObjectPath="\Events\Default Work Unit\Pause" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000"/>
 				<Event Id="3859834159" Name="Return" ObjectPath="\Events\Default Work Unit\Return" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000"/>
 				<Event Id="671713024" Name="Stage_Fountain" ObjectPath="\Events\Default Work Unit\Stage_Fountain" DurationType="Infinite"/>
 				<Event Id="990763382" Name="Stage_WaterDrop" ObjectPath="\Events\Default Work Unit\Stage_WaterDrop" DurationType="OneShot" DurationMin="1.012708" DurationMax="1.012708"/>
-				<Event Id="2024222415" Name="UI_Back" ObjectPath="\Events\Default Work Unit\UI_Back" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000"/>
+				<Event Id="2024222415" Name="UI_Back" ObjectPath="\Events\Default Work Unit\UI_Back" DurationType="Infinite"/>
 				<Event Id="3293696140" Name="UI_Retry" ObjectPath="\Events\Default Work Unit\UI_Retry" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000"/>
 				<Event Id="2774129122" Name="UI_Select" ObjectPath="\Events\Default Work Unit\UI_Select" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000"/>
 				<Event Id="1219048826" Name="UI_Start" ObjectPath="\Events\Default Work Unit\UI_Start" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000"/>
@@ -42,10 +43,6 @@
 				<File Id="5593724" Language="SFX">
 					<ShortName>SE_Move_Pop_01.wav</ShortName>
 					<Path>SFX/SE_Move_Pop_01_10C4C929.wem</Path>
-				</File>
-				<File Id="14499139" Language="SFX">
-					<ShortName>Harz20_AfricaStage_2.wav</ShortName>
-					<Path>SFX/Harz20_AfricaStage_2_D79FB2B7.wem</Path>
 				</File>
 				<File Id="24495802" Language="SFX">
 					<ShortName>Harz20_SE_Fountain.wav</ShortName>
@@ -67,25 +64,9 @@
 					<ShortName>SE_Move_Real_03.wav</ShortName>
 					<Path>SFX/SE_Move_Real_03_10C4C929.wem</Path>
 				</File>
-				<File Id="117082653" Language="SFX">
-					<ShortName>Harz20_GreeceStage_5.wav</ShortName>
-					<Path>SFX/Harz20_GreeceStage_5_D79FB2B7.wem</Path>
-				</File>
-				<File Id="122922713" Language="SFX">
-					<ShortName>Harz20_AfricaStage_3.wav</ShortName>
-					<Path>SFX/Harz20_AfricaStage_3_D79FB2B7.wem</Path>
-				</File>
 				<File Id="125627618" Language="SFX">
 					<ShortName>SE_Jump.wav</ShortName>
 					<Path>SFX/SE_Jump_10C4C929.wem</Path>
-				</File>
-				<File Id="170608700" Language="SFX">
-					<ShortName>Harz20_GreeceStage_4.wav</ShortName>
-					<Path>SFX/Harz20_GreeceStage_4_D79FB2B7.wem</Path>
-				</File>
-				<File Id="210470269" Language="SFX">
-					<ShortName>Harz20_GreeceStage_1.wav</ShortName>
-					<Path>SFX/Harz20_GreeceStage_1_D79FB2B7.wem</Path>
 				</File>
 				<File Id="217521045" Language="SFX">
 					<ShortName>Harz20_SE_Back.wav</ShortName>
@@ -95,17 +76,13 @@
 					<ShortName>Harz20_SE_WaterDrop.wav</ShortName>
 					<Path>SFX/Harz20_SE_WaterDrop_10C4C929.wem</Path>
 				</File>
-				<File Id="250969576" Language="SFX">
-					<ShortName>Harz20_AlskaStage_3.wav</ShortName>
-					<Path>SFX/Harz20_AlskaStage_3_D79FB2B7.wem</Path>
-				</File>
 				<File Id="288583490" Language="SFX">
 					<ShortName>Harz20_SE_Ice.wav</ShortName>
 					<Path>SFX/Harz20_SE_Ice_10C4C929.wem</Path>
 				</File>
-				<File Id="396953424" Language="SFX">
-					<ShortName>Harz20_AlskaStage_5.wav</ShortName>
-					<Path>SFX/Harz20_AlskaStage_5_D79FB2B7.wem</Path>
+				<File Id="370572494" Language="SFX">
+					<ShortName>Harz20_Full_Harz20_GreeceStage_Full.wav</ShortName>
+					<Path>SFX/Harz20_Full_Harz20_GreeceStage_Full_D79FB2B7.wem</Path>
 				</File>
 				<File Id="398021556" Language="SFX">
 					<ShortName>SE_Move_Real_01.wav</ShortName>
@@ -115,10 +92,6 @@
 					<ShortName>Harz20_SE_Pause.wav</ShortName>
 					<Path>SFX/Harz20_SE_Pause_10C4C929.wem</Path>
 				</File>
-				<File Id="432527656" Language="SFX">
-					<ShortName>Harz20_GreeceStage_2.wav</ShortName>
-					<Path>SFX/Harz20_GreeceStage_2_D79FB2B7.wem</Path>
-				</File>
 				<File Id="435531289" Language="SFX">
 					<ShortName>Harz20_Clear.wav</ShortName>
 					<Path>SFX/Harz20_Clear_D79FB2B7.wem</Path>
@@ -127,37 +100,25 @@
 					<ShortName>SE_Move_Pop_03.wav</ShortName>
 					<Path>SFX/SE_Move_Pop_03_10C4C929.wem</Path>
 				</File>
-				<File Id="471239341" Language="SFX">
-					<ShortName>Harz20_AfricaStage_4.wav</ShortName>
-					<Path>SFX/Harz20_AfricaStage_4_D79FB2B7.wem</Path>
-				</File>
-				<File Id="476729050" Language="SFX">
-					<ShortName>Harz20_AlskaStage_2.wav</ShortName>
-					<Path>SFX/Harz20_AlskaStage_2_D79FB2B7.wem</Path>
-				</File>
 				<File Id="505181645" Language="SFX">
 					<ShortName>SE_Move_Real_02.wav</ShortName>
 					<Path>SFX/SE_Move_Real_02_10C4C929.wem</Path>
 				</File>
-				<File Id="527038068" Language="SFX">
-					<ShortName>Harz20_GreeceStage_6.wav</ShortName>
-					<Path>SFX/Harz20_GreeceStage_6_D79FB2B7.wem</Path>
-				</File>
-				<File Id="559124012" Language="SFX">
-					<ShortName>Harz20_AfricaStage_6.wav</ShortName>
-					<Path>SFX/Harz20_AfricaStage_6_D79FB2B7.wem</Path>
-				</File>
-				<File Id="573157669" Language="SFX">
-					<ShortName>Harz20_AfricaStage_1.wav</ShortName>
-					<Path>SFX/Harz20_AfricaStage_1_D79FB2B7.wem</Path>
-				</File>
-				<File Id="595065468" Language="SFX">
-					<ShortName>Harz20_AlskaStage_6.wav</ShortName>
-					<Path>SFX/Harz20_AlskaStage_6_D79FB2B7.wem</Path>
+				<File Id="556261871" Language="SFX">
+					<ShortName>Harz20_Full_Harz20_AfricaStage_Full.wav</ShortName>
+					<Path>SFX/Harz20_Full_Harz20_AfricaStage_Full_D79FB2B7.wem</Path>
 				</File>
 				<File Id="613895491" Language="SFX">
 					<ShortName>Harz20_SE_Start.wav</ShortName>
 					<Path>SFX/Harz20_SE_Start_10C4C929.wem</Path>
+				</File>
+				<File Id="672770285" Language="SFX">
+					<ShortName>Harz20_Full_Harz20_AlaskaStage_Fall.wav</ShortName>
+					<Path>SFX/Harz20_Full_Harz20_AlaskaStage_Fall_D79FB2B7.wem</Path>
+				</File>
+				<File Id="701603292" Language="SFX">
+					<ShortName>BGM_Opening.wav</ShortName>
+					<Path>SFX/BGM_Opening_D79FB2B7.wem</Path>
 				</File>
 				<File Id="705410262" Language="SFX">
 					<ShortName>SE_Move_Real_04.wav</ShortName>
@@ -175,37 +136,21 @@
 					<ShortName>SE_Move_Pop_02.wav</ShortName>
 					<Path>SFX/SE_Move_Pop_02_10C4C929.wem</Path>
 				</File>
-				<File Id="880849281" Language="SFX">
-					<ShortName>Harz20_AlskaStage_4.wav</ShortName>
-					<Path>SFX/Harz20_AlskaStage_4_D79FB2B7.wem</Path>
-				</File>
-				<File Id="928275099" Language="SFX">
-					<ShortName>Harz20_AfricaStage_5.wav</ShortName>
-					<Path>SFX/Harz20_AfricaStage_5_D79FB2B7.wem</Path>
-				</File>
-				<File Id="945086080" Language="SFX">
-					<ShortName>Beginning.wav</ShortName>
-					<Path>SFX/Beginning_D79FB2B7.wem</Path>
-				</File>
 				<File Id="955590768" Language="SFX">
 					<ShortName>SE_Move_Pop_05.wav</ShortName>
 					<Path>SFX/SE_Move_Pop_05_10C4C929.wem</Path>
+				</File>
+				<File Id="960092073" Language="SFX">
+					<ShortName>Harz20_SE_Gameover.wav</ShortName>
+					<Path>SFX/Harz20_SE_Gameover_10C4C929.wem</Path>
 				</File>
 				<File Id="1013428265" Language="SFX">
 					<ShortName>Harz20_SE_Return.wav</ShortName>
 					<Path>SFX/Harz20_SE_Return_10C4C929.wem</Path>
 				</File>
-				<File Id="1019260747" Language="SFX">
-					<ShortName>Harz20_AlskaStage_1.wav</ShortName>
-					<Path>SFX/Harz20_AlskaStage_1_D79FB2B7.wem</Path>
-				</File>
 				<File Id="1030803109" Language="SFX">
 					<ShortName>SE_Move_Real_06.wav</ShortName>
 					<Path>SFX/SE_Move_Real_06_10C4C929.wem</Path>
-				</File>
-				<File Id="1068249601" Language="SFX">
-					<ShortName>Harz20_GreeceStage_3.wav</ShortName>
-					<Path>SFX/Harz20_GreeceStage_3_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

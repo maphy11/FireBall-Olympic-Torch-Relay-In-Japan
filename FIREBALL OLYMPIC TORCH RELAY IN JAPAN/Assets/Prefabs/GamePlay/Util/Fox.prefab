@@ -367,6 +367,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 92b4c7dd6208c4f0583a4d10c658cf21,
       type: 2}
+  GameOverEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7aa3fbb2da9d14d0ca402273a939d23e,
+      type: 2}
 --- !u!114 &2292565134463459251
 MonoBehaviour:
   m_ObjectHideFlags: 0

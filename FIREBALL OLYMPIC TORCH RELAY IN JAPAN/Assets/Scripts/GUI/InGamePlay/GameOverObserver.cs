@@ -20,6 +20,7 @@ namespace GUI
         {
             if (coreData.isGameOver && !gameOverView.active)
             {
+
                 gameOverView.SetActive(true);
                 StartCoroutine("OnTap");
             }

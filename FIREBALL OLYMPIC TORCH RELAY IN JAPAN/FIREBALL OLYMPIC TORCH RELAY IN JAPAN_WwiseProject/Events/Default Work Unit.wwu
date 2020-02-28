@@ -19,7 +19,7 @@
 						<Action Name="" ID="{B0B1545C-1D5C-43C2-A55A-385162580231}" ShortID="275435128">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Beginning" ID="{268CA487-52F5-481B-93D4-C6DBEE492A33}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+									<ObjectRef Name="BGM_Opening" ID="{33420B6E-5FC0-446F-80D2-996863023E5C}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -52,7 +52,7 @@
 						<Action Name="" ID="{8A4DE7CE-8D88-44D7-B1B1-6AC3EE3B8116}" ShortID="885364749">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Greece" ID="{4062CC23-E902-47B7-A8AB-B8575E75C819}" WorkUnitID="{3B7113FC-F530-4C03-84A9-5CE6AECDAC79}"/>
+									<ObjectRef Name="Harz20_Full_Harz20_GreeceStage_Full" ID="{26F0400B-D3C1-4C6A-B4EB-F44F3FC186C2}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -63,7 +63,7 @@
 						<Action Name="" ID="{D03631E5-366A-4523-B7D4-C40B857D8293}" ShortID="757824876">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Araska" ID="{36BCE790-6067-4D52-8484-2C355AC79419}" WorkUnitID="{3B7113FC-F530-4C03-84A9-5CE6AECDAC79}"/>
+									<ObjectRef Name="Harz20_Full_Harz20_AlaskaStage_Fall" ID="{4693C1E6-4225-42E1-824A-58EDD77872C9}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -74,7 +74,7 @@
 						<Action Name="" ID="{7055AAD2-EFB9-41EF-8F88-3958AAB316F0}" ShortID="481330582">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Africa" ID="{9459E25F-CF81-418F-9D34-C7D090B8A635}" WorkUnitID="{3B7113FC-F530-4C03-84A9-5CE6AECDAC79}"/>
+									<ObjectRef Name="Harz20_Full_Harz20_AfricaStage_Full" ID="{20A9898D-4F94-4C42-A291-B2E66DCCB06F}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -195,6 +195,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Harz20_SE_Back" ID="{1BC96E86-87DC-45F6-8A9E-B99B8413F43E}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3004D41C-9CAE-4F81-A62E-956C9AAB926D}" ShortID="26186909">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Opening" ID="{33420B6E-5FC0-446F-80D2-996863023E5C}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Gameover" ID="{4E7D229F-EFCA-4FF0-81D2-028B6EB38677}">
+					<ChildrenList>
+						<Action Name="" ID="{DBA14C15-BB24-4A95-A363-C4DDF37DD92A}" ShortID="798406195">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{2506F3AF-3149-4B12-A05E-22529B2248B8}" ShortID="810659227">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Harz20_SE_Gameover" ID="{49D0617E-A796-4114-84A5-08303E9D8CF1}" WorkUnitID="{E701B181-7167-4538-B1C5-0584FF093421}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

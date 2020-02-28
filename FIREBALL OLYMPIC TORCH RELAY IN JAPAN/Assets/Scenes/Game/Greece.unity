@@ -317,17 +317,17 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 81.200005
       objectReference: {fileID: 0}
-    - target: {fileID: 6398181516467696844, guid: df28077a5c2eb4a9c9b8d1a283e91444,
-        type: 3}
-      propertyPath: Speedrate
-      value: 0.75
-      objectReference: {fileID: 0}
     - target: {fileID: 1914306030322794375, guid: df28077a5c2eb4a9c9b8d1a283e91444,
         type: 3}
       propertyPath: Speedrate
       value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 1946644689814748827, guid: df28077a5c2eb4a9c9b8d1a283e91444,
+        type: 3}
+      propertyPath: Speedrate
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6398181516467696844, guid: df28077a5c2eb4a9c9b8d1a283e91444,
         type: 3}
       propertyPath: Speedrate
       value: 0.75
@@ -758,6 +758,18 @@ PrefabInstance:
       propertyPath: howToPlayPanel
       value: 
       objectReference: {fileID: 1087019333}
+    - target: {fileID: 5437899397275714929, guid: 2232bb7b4661e430d9622c7fce8689e5,
+        type: 3}
+      propertyPath: HowToPlayEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 4172a725ba00c4b6aa4df84c054c9859,
+        type: 2}
+    - target: {fileID: 5437899397275714929, guid: 2232bb7b4661e430d9622c7fce8689e5,
+        type: 3}
+      propertyPath: ReturnEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1de9eb3ea6bcd42d7b6903041a34ace2,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2232bb7b4661e430d9622c7fce8689e5, type: 3}
 --- !u!1001 &960383237
@@ -1090,6 +1102,12 @@ PrefabInstance:
       propertyPath: fadeOutSpeed
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4783489592496134957, guid: 20573aa75a59848f2805b42599e8743d,
+        type: 3}
+      propertyPath: SceneChangeEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: fdbe5d7aa0dfc41e68fe041e3b5269f1,
+        type: 2}
     - target: {fileID: 6426396670144685691, guid: 20573aa75a59848f2805b42599e8743d,
         type: 3}
       propertyPath: player
@@ -1493,6 +1511,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: InputManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674030, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: platform
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1823,6 +1846,11 @@ PrefabInstance:
       propertyPath: inputManager
       value: 
       objectReference: {fileID: 1775972038}
+    - target: {fileID: 1624396936974325140, guid: 82cbda4804eb24657b5c6cc6454b0899,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 78419d4497c864556842f7c8887c102d, type: 2}
     - target: {fileID: 9162044962824182223, guid: 82cbda4804eb24657b5c6cc6454b0899,
         type: 3}
       propertyPath: m_Constraints
@@ -1848,11 +1876,6 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: 0.080065474
       objectReference: {fileID: 0}
-    - target: {fileID: 1624396936974325140, guid: 82cbda4804eb24657b5c6cc6454b0899,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 78419d4497c864556842f7c8887c102d, type: 2}
     - target: {fileID: 2344909192834418817, guid: 82cbda4804eb24657b5c6cc6454b0899,
         type: 3}
       propertyPath: m_Enabled
@@ -2123,6 +2146,18 @@ PrefabInstance:
       propertyPath: howToPlayPanel
       value: 
       objectReference: {fileID: 559329954}
+    - target: {fileID: 5437899397275714929, guid: 2232bb7b4661e430d9622c7fce8689e5,
+        type: 3}
+      propertyPath: HowToPlayEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 4172a725ba00c4b6aa4df84c054c9859,
+        type: 2}
+    - target: {fileID: 5437899397275714929, guid: 2232bb7b4661e430d9622c7fce8689e5,
+        type: 3}
+      propertyPath: ReturnEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1de9eb3ea6bcd42d7b6903041a34ace2,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2232bb7b4661e430d9622c7fce8689e5, type: 3}
 --- !u!1001 &7081338643148221417

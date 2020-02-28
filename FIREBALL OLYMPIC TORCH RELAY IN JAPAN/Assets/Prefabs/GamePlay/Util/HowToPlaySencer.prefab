@@ -72,3 +72,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   howToPlayPanel: {fileID: 0}
   inputManager: {fileID: 0}
+  HowToPlayEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4172a725ba00c4b6aa4df84c054c9859,
+      type: 2}
+  ReturnEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1de9eb3ea6bcd42d7b6903041a34ace2,
+      type: 2}

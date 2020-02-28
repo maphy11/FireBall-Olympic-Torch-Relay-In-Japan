@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID FOX_FOOTSTEPS = 648125588U;
         static const AkUniqueID FOX_JUMP = 1783467547U;
         static const AkUniqueID FOX_MELT = 3685664337U;
+        static const AkUniqueID GAMEOVER = 4158285989U;
         static const AkUniqueID PAUSE = 3092587493U;
         static const AkUniqueID RETURN = 3859834159U;
         static const AkUniqueID STAGE_FOUNTAIN = 671713024U;

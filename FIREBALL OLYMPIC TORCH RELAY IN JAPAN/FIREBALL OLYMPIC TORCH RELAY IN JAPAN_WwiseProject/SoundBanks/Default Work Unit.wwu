@@ -21,6 +21,7 @@
 						<ObjectRef Name="Return" ID="{7D46F147-9214-4C55-9CA2-EBCF69EB0D81}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_Start" ID="{F5842F59-6C13-4F7E-90CB-EC0856EE436B}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stage_Fountain" ID="{8435AA81-0C21-4F99-ADDE-AAD2C07A6623}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Gameover" ID="{4E7D229F-EFCA-4FF0-81D2-028B6EB38677}" WorkUnitID="{4ABC9F24-446A-445D-88BF-8AB89A6DF3C5}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

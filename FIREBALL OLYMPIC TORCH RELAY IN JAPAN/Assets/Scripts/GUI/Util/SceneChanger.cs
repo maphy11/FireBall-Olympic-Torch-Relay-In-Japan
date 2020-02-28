@@ -17,6 +17,8 @@ namespace GUI
         private IinputTap input;
         private Image image;
         public event OnSceneChangeDelegate delegateMethods;
+        public AK.Wwise.Event SceneChangeEvent;
+        public AK.Wwise.Event ReloadEvent;
 
         // Start is called before the first frame update
         void Start()
@@ -32,6 +34,7 @@ namespace GUI
         public IEnumerator TapCoroutine()
         {
             yield return new WaitUntil(() => input.OnTap());
+            
             LoadScene();
         }
 
@@ -39,6 +42,7 @@ namespace GUI
         {
             // シーンが変わる際の音の実装はこの下に加えてください
             // シーンのリロード(Re-Start)もここです
+           
 
             if (targetSceneName != null)
             {
@@ -51,10 +55,12 @@ namespace GUI
         }
         public void ToDiffrentScene()
         {
+            SceneChangeEvent.Post(gameObject);
             StartCoroutine("ToDiffrentSceneCoroutine");
         }
         public void ReloadScene()
         {
+            ReloadEvent.Post(gameObject);
             StartCoroutine("ReloadSceneCoroutine");
         }
         IEnumerator ToDiffrentSceneCoroutine()

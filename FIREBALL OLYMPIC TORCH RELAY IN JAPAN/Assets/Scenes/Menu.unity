@@ -329,6 +329,14 @@ MonoBehaviour:
   imageObject: {fileID: 1515375615}
   targetSceneName: 
   fadeOutSpeed: 2
+  SceneChangeEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  ReloadEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &330894003
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,6 +548,15 @@ MonoBehaviour:
   imageObject: {fileID: 1515375615}
   targetSceneName: Africa
   fadeOutSpeed: 2
+  SceneChangeEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fdbe5d7aa0dfc41e68fe041e3b5269f1,
+      type: 2}
+  ReloadEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &736050995
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,6 +824,15 @@ MonoBehaviour:
   imageObject: {fileID: 1515375615}
   targetSceneName: Japan
   fadeOutSpeed: 2
+  SceneChangeEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fdbe5d7aa0dfc41e68fe041e3b5269f1,
+      type: 2}
+  ReloadEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1280738419
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,6 +843,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1280738421}
   - component: {fileID: 1280738420}
+  - component: {fileID: 1280738422}
+  - component: {fileID: 1280738424}
+  - component: {fileID: 1280738423}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -865,6 +894,87 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1280738422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280738419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4aac9de6ca09480fa603a9e4541090d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 645b31de9523e44c1a8b9d4472e28037,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &1280738423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280738419}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e207737af2f7845579fa36d196ae8c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f55fea682e04d43fb9cdc5c4ebcf3fae,
+      type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &1280738424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280738419}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bae5ac3cf44354f0b87fc70520329df3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1482322388
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,14 +1165,14 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1523306817826554823, guid: e04dd9bc02c04440284834522b6ec0be,
-        type: 3}
-      propertyPath: m_RaycastTarget
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1523306817826554821, guid: e04dd9bc02c04440284834522b6ec0be,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523306817826554823, guid: e04dd9bc02c04440284834522b6ec0be,
+        type: 3}
+      propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1224,6 +1334,15 @@ MonoBehaviour:
   imageObject: {fileID: 1515375615}
   targetSceneName: Alaska
   fadeOutSpeed: 2
+  SceneChangeEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fdbe5d7aa0dfc41e68fe041e3b5269f1,
+      type: 2}
+  ReloadEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1737742055
 GameObject:
   m_ObjectHideFlags: 0
@@ -1369,6 +1488,15 @@ MonoBehaviour:
   imageObject: {fileID: 1515375615}
   targetSceneName: Greece
   fadeOutSpeed: 2
+  SceneChangeEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fdbe5d7aa0dfc41e68fe041e3b5269f1,
+      type: 2}
+  ReloadEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1751445883
 GameObject:
   m_ObjectHideFlags: 0

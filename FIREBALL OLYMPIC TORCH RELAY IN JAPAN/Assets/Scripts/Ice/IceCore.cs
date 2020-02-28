@@ -27,7 +27,7 @@ namespace Ice
             {
                 return;
             }
-            MeltEvent.Post(gameObject);
+            
             isMelting = true;
         }
         public bool HasWall()
@@ -42,5 +42,12 @@ namespace Ice
                 Destroy(wall);
             }
         }
+
+        public void MeltSound()
+        {
+            MeltEvent.Post(gameObject);
+        }
+
+
     }
 }
