@@ -317,17 +317,17 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 81.200005
       objectReference: {fileID: 0}
+    - target: {fileID: 6398181516467696844, guid: df28077a5c2eb4a9c9b8d1a283e91444,
+        type: 3}
+      propertyPath: Speedrate
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 1914306030322794375, guid: df28077a5c2eb4a9c9b8d1a283e91444,
         type: 3}
       propertyPath: Speedrate
       value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 1946644689814748827, guid: df28077a5c2eb4a9c9b8d1a283e91444,
-        type: 3}
-      propertyPath: Speedrate
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 6398181516467696844, guid: df28077a5c2eb4a9c9b8d1a283e91444,
         type: 3}
       propertyPath: Speedrate
       value: 0.75
@@ -1511,11 +1511,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: InputManager
       objectReference: {fileID: 0}
-    - target: {fileID: 7859680127079674030, guid: d5e71569e79984bc498430691cb83827,
-        type: 3}
-      propertyPath: platform
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7859680127079674029, guid: d5e71569e79984bc498430691cb83827,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1570,6 +1565,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859680127079674030, guid: d5e71569e79984bc498430691cb83827,
+        type: 3}
+      propertyPath: platform
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5e71569e79984bc498430691cb83827, type: 3}
@@ -1846,11 +1846,6 @@ PrefabInstance:
       propertyPath: inputManager
       value: 
       objectReference: {fileID: 1775972038}
-    - target: {fileID: 1624396936974325140, guid: 82cbda4804eb24657b5c6cc6454b0899,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 78419d4497c864556842f7c8887c102d, type: 2}
     - target: {fileID: 9162044962824182223, guid: 82cbda4804eb24657b5c6cc6454b0899,
         type: 3}
       propertyPath: m_Constraints
@@ -1876,6 +1871,11 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: 0.080065474
       objectReference: {fileID: 0}
+    - target: {fileID: 1624396936974325140, guid: 82cbda4804eb24657b5c6cc6454b0899,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 78419d4497c864556842f7c8887c102d, type: 2}
     - target: {fileID: 2344909192834418817, guid: 82cbda4804eb24657b5c6cc6454b0899,
         type: 3}
       propertyPath: m_Enabled
